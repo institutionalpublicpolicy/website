@@ -1,0 +1,29 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: L
+permalink: "{{ L | langRoot }}catalogue.html"
+layout: base.njk
+eleventyComputed:
+  lang: "{{ L }}"
+  file: "catalogue.html"
+  title: "{{ site.labels.catalogue[L] }} — Institutional Public Policy Press"
+---
+<h1>{{ site.labels.catalogue | t(L) }}</h1>
+
+<ul class="shelf">
+{%- for t in collections.titles %}
+  <li class="shelf-item">
+    {%- if t.data.cover %}
+    <a class="shelf-cover" href="/{{ L | langRoot }}catalogue/{{ t.data.slug }}.html"><img src="/media/{{ t.data.cover }}" alt=""></a>
+    {%- endif %}
+    <div class="shelf-text">
+      <p class="shelf-status">{{ site.labels[t.data.status] | t(L) }}</p>
+      <h2 class="shelf-title"><a href="/{{ L | langRoot }}catalogue/{{ t.data.slug }}.html">{{ t.data.title | t(L) }}</a></h2>
+      <p class="book-subtitle">{{ t.data.subtitle | t(L) }}</p>
+      {%- if t.data.author %}<p class="book-author">{{ t.data.author }}</p>{% endif %}
+    </div>
+  </li>
+{%- endfor %}
+</ul>

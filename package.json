@@ -1,0 +1,14 @@
+{
+  "name": "institutionalpublicpolicy-site",
+  "private": true,
+  "description": "Website of Institutional Public Policy Press, New York",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.0",
+    "markdown-it": "^15.0.1"
+  }
+}

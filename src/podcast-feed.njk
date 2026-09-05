@@ -1,0 +1,26 @@
+---
+permalink: "podcast/feed.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{{ site.name }}</title>
+  <link>{{ site.url }}/podcast/</link>
+  <atom:link href="{{ site.url }}/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+  <language>en</language>
+  <description>{{ site.labels.podcast_intro.en }}</description>
+  <itunes:author>{{ site.name }}</itunes:author>
+  {%- for e in collections.episodes %}
+  <item>
+    <title>{{ e.data.title }}</title>
+    <link>{{ site.url }}/podcast/{{ e.fileSlug }}.html</link>
+    <guid isPermaLink="true">{{ site.url }}/podcast/{{ e.fileSlug }}.html</guid>
+    <pubDate>{{ e.date | dateToRfc822 }}</pubDate>
+    <description>{{ e.data.summary }}</description>
+    {%- if e.data.audio %}<enclosure url="{{ e.data.audio }}" type="audio/mpeg"{% if e.data.bytes %} length="{{ e.data.bytes }}"{% endif %}/>{% endif %}
+    {%- if e.data.duration %}<itunes:duration>{{ e.data.duration }}</itunes:duration>{% endif %}
+  </item>
+  {%- endfor %}
+</channel>
+</rss>

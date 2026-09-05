@@ -1,0 +1,43 @@
+---
+pagination:
+  data: collections.titleLangs
+  size: 1
+  alias: tl
+permalink: "{{ tl.lang | langRoot }}catalogue/{{ tl.title.data.slug }}.html"
+layout: base.njk
+eleventyComputed:
+  lang: "{{ tl.lang }}"
+  file: "catalogue/{{ tl.title.data.slug }}.html"
+  title: "{{ tl.title.data.title[tl.lang] }} — Institutional Public Policy Press"
+  description: "{{ tl.title.data.subtitle[tl.lang] }}"
+---
+{%- set L = tl.lang -%}
+{%- set d = tl.title.data -%}
+<h1>{{ d.title | t(L) }}</h1>
+<p class="book-subtitle lead-sub">{{ d.subtitle | t(L) }}</p>
+{%- if d.author %}<p class="book-author">{{ d.author }}</p>{% endif %}
+
+<p class="lede">
+{%- if d.status == "forthcoming" %}{{ site.labels.forthcoming | t(L) }}{% else %}{{ site.labels.published | t(L) }}{% endif %}.
+{%- if d.isbn and d.isbn[L] %} ISBN {{ d.isbn[L] }}.{% endif %}
+</p>
+
+{%- if d.description and d.description[L] %}
+{{ d.description[L] | md | safe }}
+{%- endif %}
+
+{%- if d.preface and d.preface[L] %}
+<h2>{{ d.preface_heading | t(L) or site.labels.preface | t(L) }}</h2>
+{{ d.preface[L] | md | safe }}
+{%- endif %}
+
+{%- if d.review_record and d.review_record[L] %}
+<h2>{{ site.labels.review | t(L) }}</h2>
+{{ d.review_record[L] | md | safe }}
+{%- endif %}
+
+<dl class="meta">
+  <div><dt>{{ site.labels.publisher | t(L) }}</dt><dd>{{ site.name }}, {{ site.place }}</dd></div>
+  <div><dt>{{ site.labels.languages | t(L) }}</dt><dd>{{ site.labels.lang_names | t(L) }}</dd></div>
+  <div><dt>{{ site.labels.status | t(L) }}</dt><dd>{% if d.status == "forthcoming" %}{{ site.labels.in_preparation | t(L) }}{% else %}{{ site.labels.published | t(L) }}{% endif %}</dd></div>
+</dl>

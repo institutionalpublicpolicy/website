@@ -1,0 +1,65 @@
+{#-
+  Base layout. Every page passes `lang` (en|fr|it), `file` (its filename,
+  used for the language switcher and the current-page marker) and `title`.
+-#}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+{%- if description %}
+<meta name="description" content="{{ description }}">
+{%- endif %}
+{%- if file %}
+{%- for L in langs %}
+<link rel="alternate" hreflang="{{ L }}" href="{{ site.url }}/{{ L | langRoot }}{{ file }}">
+{%- endfor %}
+{%- endif %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} podcast" href="{{ site.url }}/podcast/feed.xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="frame">
+
+<header class="masthead">
+  {%- if file == "index.html" %}
+  <h1 class="wordmark"><span>Institutional </span><span>Public Policy Press</span></h1>
+  {%- else %}
+  <a class="wordmark" href="/{{ lang | langRoot }}"><span>Institutional </span><span>Public Policy Press</span></a>
+  {%- endif %}
+  <p class="place">{{ site.place }}</p>
+  <nav aria-label="Main">
+    <ul>
+    {%- for item in site.nav[lang] %}
+      {%- set href = ("/" + item.href) if item.root else ("/" + (lang | langRoot) + item.href) %}
+      <li><a href="{{ href }}"{% if item.href == file or (item.root and section == item.href) %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+    {%- endfor %}
+    </ul>
+  </nav>
+  {%- if file %}
+  <nav class="langs" aria-label="Language">
+    <ul>
+    {%- for L in langs %}
+      <li><a href="/{{ L | langRoot }}{{ file }}" hreflang="{{ L }}"{% if L == lang %} aria-current="true"{% endif %}>{{ L | upper }}</a></li>
+    {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+</header>
+
+<main class="{{ width or 'column' }}">
+  <hr class="gold-rule">
+
+{{ content | safe }}
+
+</main>
+
+<footer>
+  <p>{{ site.name }}, {{ site.place }}</p>
+  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</footer>
+
+</div>
+</body>
+</html>

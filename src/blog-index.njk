@@ -1,0 +1,21 @@
+---
+permalink: "blog/index.html"
+layout: base.njk
+lang: en
+section: "blog/"
+title: "Blog — Institutional Public Policy Press"
+description: "Notes from Institutional Public Policy Press."
+---
+<h1>Blog</h1>
+<p class="lede">{{ site.labels.blog_intro.en }}</p>
+
+{%- if collections.posts | length == 0 %}
+<p class="quiet">Nothing published yet.</p>
+{%- endif %}
+{%- for p in collections.posts %}
+<article class="entry">
+  <p class="entry-date">{{ p.date | dateLong("en") }}</p>
+  <h2 class="entry-title"><a href="/blog/{{ p.fileSlug }}.html">{{ p.data.title }}</a></h2>
+  {%- if p.data.summary %}<p>{{ p.data.summary }}</p>{% endif %}
+</article>
+{%- endfor %}

@@ -1,0 +1,23 @@
+---
+permalink: "podcast/index.html"
+layout: base.njk
+lang: en
+section: "podcast/"
+title: "Podcast — Institutional Public Policy Press"
+description: "Conversations on the economics of state capacity."
+---
+<h1>Podcast</h1>
+<p class="lede">{{ site.labels.podcast_intro.en }}</p>
+<p class="quiet"><a href="/podcast/feed.xml">RSS feed</a></p>
+
+{%- if collections.episodes | length == 0 %}
+<p class="quiet">No episodes yet.</p>
+{%- endif %}
+{%- for e in collections.episodes %}
+<article class="entry">
+  <p class="entry-date">{{ e.date | dateLong("en") }}{% if e.data.duration %} · {{ e.data.duration }}{% endif %}</p>
+  <h2 class="entry-title"><a href="/podcast/{{ e.fileSlug }}.html">{{ e.data.title }}</a></h2>
+  {%- if e.data.summary %}<p>{{ e.data.summary }}</p>{% endif %}
+  {%- if e.data.audio %}<audio controls preload="none" src="{{ e.data.audio }}"></audio>{% endif %}
+</article>
+{%- endfor %}

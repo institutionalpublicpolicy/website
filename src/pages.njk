@@ -1,0 +1,36 @@
+---
+pagination:
+  data: collections.pageLangs
+  size: 1
+  alias: pl
+permalink: "{{ pl.lang | langRoot }}{{ pl.page.data.file }}"
+layout: base.njk
+eleventyComputed:
+  lang: "{{ pl.lang }}"
+  file: "{{ pl.page.data.file }}"
+  title: "{{ pl.page.data.title[pl.lang] }}{% if pl.page.data.key != 'about' %} — Institutional Public Policy Press{% endif %}"
+  description: "{{ pl.page.data.description[pl.lang] }}"
+---
+{%- set L = pl.lang -%}
+{%- set d = pl.page.data -%}
+{%- if d.key == "about" %}
+{{ d.body[L] | md | safe }}
+
+{%- set forthcoming = collections.titles | selectattr("data.status", "equalto", "forthcoming") | list %}
+{%- if forthcoming | length %}
+<h2>{{ site.labels.forthcoming | t(L) }}</h2>
+{%- for t in forthcoming %}
+<p><a href="/{{ L | langRoot }}catalogue/{{ t.data.slug }}.html"><cite>{{ t.data.title | t(L) }}</cite></a>. {{ t.data.subtitle | t(L) }}</p>
+{%- endfor %}
+{%- endif %}
+
+{%- elif d.key == "contact" %}
+<h1>{{ d.title[L] }}</h1>
+{{ d.body[L] | md | safe }}
+<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p class="quiet">{{ site.name }}<br>{{ site.address | t(L) | safe }}</p>
+
+{%- else %}
+<h1>{{ d.title[L] }}</h1>
+{{ d.body[L] | md | safe }}
+{%- endif %}

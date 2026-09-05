@@ -1,0 +1,54 @@
+{
+  "name": "Institutional Public Policy Press",
+  "place": "New York",
+  "url": "https://institutionalpublicpolicy.org",
+  "email": "info@institutionalpublicpolicy.org",
+  "address": {
+    "en": "100 United Nations Plaza<br>New York, NY 10017, USA",
+    "fr": "100 United Nations Plaza<br>New York, NY 10017, États-Unis",
+    "it": "100 United Nations Plaza<br>New York, NY 10017, Stati Uniti"
+  },
+  "nav": {
+    "en": [
+      { "href": "index.html",       "label": "About" },
+      { "href": "peer-review.html", "label": "Peer review" },
+      { "href": "catalogue.html",   "label": "Catalogue" },
+      { "href": "blog/",            "label": "Blog",    "root": true },
+      { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "contact.html",     "label": "Contact" }
+    ],
+    "fr": [
+      { "href": "index.html",       "label": "À propos" },
+      { "href": "peer-review.html", "label": "Évaluation par les pairs" },
+      { "href": "catalogue.html",   "label": "Catalogue" },
+      { "href": "blog/",            "label": "Blog",    "root": true },
+      { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "contact.html",     "label": "Contact" }
+    ],
+    "it": [
+      { "href": "index.html",       "label": "Chi siamo" },
+      { "href": "peer-review.html", "label": "Revisione paritaria" },
+      { "href": "catalogue.html",   "label": "Catalogo" },
+      { "href": "blog/",            "label": "Blog",    "root": true },
+      { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "contact.html",     "label": "Contatti" }
+    ]
+  },
+  "labels": {
+    "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
+    "published":   { "en": "Published",   "fr": "Paru",       "it": "Pubblicato" },
+    "catalogue":   { "en": "Catalogue",   "fr": "Catalogue",  "it": "Catalogo" },
+    "preface":     { "en": "Preface",     "fr": "Préface",    "it": "Prefazione" },
+    "review":      { "en": "Review record", "fr": "Dossier d'évaluation", "it": "Dossier di revisione" },
+    "publisher":   { "en": "Publisher",   "fr": "Éditeur",    "it": "Editore" },
+    "languages":   { "en": "Languages",   "fr": "Langues",    "it": "Lingue" },
+    "status":      { "en": "Status",      "fr": "État",       "it": "Stato" },
+    "in_preparation": { "en": "In preparation", "fr": "En préparation", "it": "In preparazione" },
+    "lang_names":  { "en": "English, French, Italian", "fr": "anglais, français, italien", "it": "inglese, francese, italiano" },
+    "blog_intro":  { "en": "Notes from the press.", "fr": "Notes de la maison.", "it": "Note dalla casa editrice." },
+    "podcast_intro": { "en": "Conversations on the economics of state capacity.", "fr": "Conversations sur l'économie de la capacité de l'État.", "it": "Conversazioni sull'economia della capacità dello Stato." },
+    "listen":      { "en": "Listen", "fr": "Écouter", "it": "Ascolta" },
+    "read_more":   { "en": "Read", "fr": "Lire", "it": "Leggi" },
+    "english_only": { "en": "", "fr": "Le blog et le podcast sont en anglais.", "it": "Il blog e il podcast sono in inglese." }
+  }
+}

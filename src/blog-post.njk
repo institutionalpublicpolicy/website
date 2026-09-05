@@ -1,0 +1,17 @@
+---
+pagination:
+  data: collections.posts
+  size: 1
+  alias: p
+permalink: "blog/{{ p.fileSlug }}.html"
+layout: base.njk
+lang: en
+section: "blog/"
+eleventyComputed:
+  title: "{{ p.data.title }} — Institutional Public Policy Press"
+  description: "{{ p.data.summary }}"
+---
+<p class="entry-date">{{ p.date | dateLong("en") }}</p>
+<h1>{{ p.data.title }}</h1>
+{{ p.templateContent | safe }}
+<p class="quiet"><a href="/blog/">&larr; Blog</a></p>
