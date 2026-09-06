@@ -8,8 +8,8 @@ layout: base.njk
 lang: en
 section: "blog/"
 eleventyComputed:
-  title: "{{ p.data.title }} — Institutional Public Policy Press"
-  description: "{{ p.data.summary }}"
+  title: "{{ p.data.title | safe }} — Institutional Public Policy Press"
+  description: "{{ p.data.summary | safe }}"
 ---
 <p class="entry-date">{{ p.date | dateLong("en") }}</p>
 <h1>{{ p.data.title }}</h1>
