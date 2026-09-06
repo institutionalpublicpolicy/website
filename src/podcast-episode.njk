@@ -8,8 +8,8 @@ layout: base.njk
 lang: en
 section: "podcast/"
 eleventyComputed:
-  title: "{{ e.data.title }} — Institutional Public Policy Press"
-  description: "{{ e.data.summary }}"
+   title: "{{ e.data.title | safe }} — Institutional Public Policy Press"
+   description: "{{ e.data.summary | safe }}"
 ---
 <p class="entry-date">{{ e.date | dateLong("en") }}{% if e.data.duration %} · {{ e.data.duration }}{% endif %}</p>
 <h1>{{ e.data.title }}</h1>
