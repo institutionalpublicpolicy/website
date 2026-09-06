@@ -43,3 +43,5 @@ If institutional capability is capital, it should be appraised like capital. Min
 The short version fits on one line. Outcomes are not determined by spending, laws or governance alone. They are determined by the services that institutional capital generates. Invest in it, build it, maintain it, use it well, measure it. That is how states deliver.
 
 The full argument, with the stock-and-flow model, the measurement architecture, and the empirical tests, is set out in [Institutional Capital Theory](/catalogue/institutional-capital-theory.html), forthcoming from Institutional Public Policy Press.
+
+[Read the working paper (PDF)](/media/The_Hidden_Source_of_State_Performance.pdf)
