@@ -13,6 +13,7 @@ content:
     path: src/content/catalogue
     filename: "{fields.slug}.md"
     view:
+      primary: title.en
       fields: [title.en, status, year]
     fields:
       - { name: slug, label: Address slug, type: string, required: true, description: "Used in the page address, e.g. institutional-capital-theory" }
