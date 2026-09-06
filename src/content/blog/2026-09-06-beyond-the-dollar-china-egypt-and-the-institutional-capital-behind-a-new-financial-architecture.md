@@ -2,7 +2,7 @@
 title: "Beyond the Dollar: China, Egypt and the Institutional Capital Behind a
   New Financial Architecture"
 date: 2026-09-06
-draft: true
+draft: false
 summary: China and Egypt are not leaving the dollar; they are building the
   institutional capital that makes it optional.
 ---
