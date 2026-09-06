@@ -1,8 +1,9 @@
 ---
 pagination:
-  data: collections.titleLangs
+  data: collections.pageLangs
   size: 1
-  alias: tl
+  alias: pl
+  addAllPagesToCollections: true
 permalink: "{{ tl.lang | langRoot }}catalogue/{{ tl.title.data.slug }}.html"
 layout: base.njk
 eleventyComputed:
