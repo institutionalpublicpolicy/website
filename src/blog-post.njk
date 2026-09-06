@@ -1,8 +1,9 @@
 ---
 pagination:
-  data: collections.posts
+  data: collections.pageLangs
   size: 1
-  alias: p
+  alias: pl
+  addAllPagesToCollections: true
 permalink: "blog/{{ p.fileSlug }}.html"
 layout: base.njk
 lang: en
