@@ -3,6 +3,7 @@ pagination:
   data: collections.pageLangs
   size: 1
   alias: pl
+  addAllPagesToCollections: true
 permalink: "{{ pl.lang | langRoot }}{{ pl.page.data.file }}"
 layout: base.njk
 eleventyComputed:
