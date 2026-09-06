@@ -8,8 +8,8 @@ layout: base.njk
 eleventyComputed:
   lang: "{{ pl.lang }}"
   file: "{{ pl.page.data.file }}"
-  title: "{{ pl.page.data.title[pl.lang] }}{% if pl.page.data.key != 'about' %} — Institutional Public Policy Press{% endif %}"
-  description: "{{ pl.page.data.description[pl.lang] }}"
+  title: "{{ pl.page.data.title[pl.lang] | safe }}{% if pl.page.data.key != 'about' %} — Institutional Public Policy Press{% endif %}"
+  description: "{{ pl.page.data.description[pl.lang] | safe }}"
 ---
 {%- set L = pl.lang -%}
 {%- set d = pl.page.data -%}
