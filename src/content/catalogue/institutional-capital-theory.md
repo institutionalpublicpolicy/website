@@ -2,223 +2,376 @@
 slug: institutional-capital-theory
 status: forthcoming
 year: 2026
-languages: [en, fr, it]
 title:
-  en: "Institutional Capital Theory"
-  fr: "Théorie du capital institutionnel"
-  it: "Teoria del capitale istituzionale"
+  en: Institutional Capital Theory
+  fr: Théorie du capital institutionnel
+  it: Teoria del capitale istituzionale
 subtitle:
-  en: "An Economic Theory of Institutional Assets, State Capacity and Public Value"
-  fr: "Une théorie économique des actifs institutionnels, de la capacité de l'État et de la valeur publique"
-  it: "Una teoria economica degli asset istituzionali, della capacità dello Stato e del valore pubblico"
+  en: An Economic Theory of Institutional Assets, State Capacity and Public Value
+  fr: Une théorie économique des actifs institutionnels, de la capacité de l'État
+    et de la valeur publique
+  it: Una teoria economica degli asset istituzionali, della capacità dello Stato e
+    del valore pubblico
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
   it: "Prefazione: Due problemi nella vita delle capacità pubbliche"
 preface:
-  en: |
-    This book addresses two problems that conventional institutional analysis does not adequately capture.
+  en: >-
+    This book addresses two problems that conventional institutional analysis
+    does not adequately capture.
 
-    The first is the silent deterioration of public capabilities. Institutions may continue to exist, be funded, and perform their formal functions while the capabilities that make them effective progressively weaken. A statistical office continues to publish while the reliability of what it publishes declines. A registry remains operational while the share of the population it covers erodes. A payment platform continues to run while the software beneath it goes out of support. Because institutional analysis observes institutions rather than capabilities, these losses usually become visible only once performance has already deteriorated, by which point the remedy is reconstruction rather than maintenance, at several times the cost. Governments do not budget for this decay, and the reason is an accounting one. It must be stated precisely, because the broad formulation would be false. Existing statistical and accounting frameworks already capitalise part of these assets: the System of National Accounts treats software, databases and research and development as fixed capital formation, including in general government, and IPSAS 31 governs public-sector intangible assets. What is missing is therefore not every category, but two precise things: the organisational, legal and human component of the institutional asset, which is nowhere recorded as an asset, and the maintenance obligation attached to it. Maintenance of a physical asset is capital preservation. Maintenance of an administrative capability is overhead. Overhead is what a finance ministry cuts first.
 
-    The second concerns financing. Institutional capabilities require long-term investment, and their returns arrive over decades. That combination makes their creation and renewal acutely sensitive to the cost of capital. An asset with a twenty-year productive life can be well worth building at one borrowing cost and not worth building at another, with nothing about the asset, the administration or the reform strategy having changed. Two governments pursuing similar reforms under different financing conditions are not making equivalent investments, and comparisons that treat their plans as equivalent mistake intention for capability.
+    The first is the silent deterioration of public capabilities. Institutions
+    may continue to exist, be funded, and perform their formal functions while
+    the capabilities that make them effective progressively weaken. A
+    statistical office continues to publish while the reliability of what it
+    publishes declines. A registry remains operational while the share of the
+    population it covers erodes. A payment platform continues to run while the
+    software beneath it goes out of support. Because institutional analysis
+    observes institutions rather than capabilities, these losses usually become
+    visible only once performance has already deteriorated, by which point the
+    remedy is reconstruction rather than maintenance, at several times the cost.
+    Governments do not budget for this decay, and the reason is an accounting
+    one. It must be stated precisely, because the broad formulation would be
+    false. Existing statistical and accounting frameworks already capitalise
+    part of these assets: the System of National Accounts treats software,
+    databases and research and development as fixed capital formation, including
+    in general government, and IPSAS 31 governs public-sector intangible assets.
+    What is missing is therefore not every category, but two precise things: the
+    organisational, legal and human component of the institutional asset, which
+    is nowhere recorded as an asset, and the maintenance obligation attached to
+    it. Maintenance of a physical asset is capital preservation. Maintenance of
+    an administrative capability is overhead. Overhead is what a finance
+    ministry cuts first.
 
-    Neither problem is visible without a particular analytical move, and supplying that move is what the rest of this book does.
 
-    The move is simple but consequential: a defined subset of institutional capabilities should be analysed as capital. Where such capabilities show the defining characteristics of productive capital (accumulation through investment, durability, maintenance requirements, depreciation, complementarity, and the recurring generation of services), the analytical apparatus of capital theory applies to them.
+    The second concerns financing. Institutional capabilities require long-term
+    investment, and their returns arrive over decades. That combination makes
+    their creation and renewal acutely sensitive to the cost of capital. An
+    asset with a twenty-year productive life can be well worth building at one
+    borrowing cost and not worth building at another, with nothing about the
+    asset, the administration or the reform strategy having changed. Two
+    governments pursuing similar reforms under different financing conditions
+    are not making equivalent investments, and comparisons that treat their
+    plans as equivalent mistake intention for capability.
 
-    That apparatus is the instrument, not the thesis. The claim that public capabilities are built through investment is not itself novel, and Chapter 4 states plainly where it has been made before. What the capital framing supplies is a way of seeing the two problems above. Silent decay becomes depreciation with a rate that could in principle be estimated, and the financing constraint becomes a determinant of the feasible rate of formation rather than an unrelated fact about bond markets.
 
-    The purpose is therefore not to replace institutional economics, public administration or state capacity research, but to complement them by introducing Institutional Capital as a distinct analytical category, one that can explain how productive institutional capabilities are created, accumulated, maintained, measured, and converted into institutional services, state capacity and ultimately public value.
+    Neither problem is visible without a particular analytical move, and
+    supplying that move is what the rest of this book does.
 
-    Two features of the construction are worth flagging at the outset. The theory states its assumptions as explicit axioms and derives propositions from them, so that a reader who rejects a conclusion can find the assumption responsible. And it generates empirical hypotheses stated so that they can be tested. Chapter 9 sets out how the capital stock might be observed independently of the performance it is supposed to explain, which is the condition under which those hypotheses can fail. Whether they do is not something this book can settle.
 
-    The theory is also intentionally modest in scope. Institutional Capital does not explain development on its own. Economic performance reflects the interaction of many forms of capital with political choices, historical trajectories, technological change and external conditions, and Institutional Capital is one essential component within that wider system rather than a master variable. A framework that claimed more would be easier to dismiss and less useful to apply.
+    The move is simple but consequential: a defined subset of institutional
+    capabilities should be analysed as capital. Where such capabilities show the
+    defining characteristics of productive capital (accumulation through
+    investment, durability, maintenance requirements, depreciation,
+    complementarity, and the recurring generation of services), the analytical
+    apparatus of capital theory applies to them.
 
-    The chapters develop the argument cumulatively. Part I establishes the analytical foundations of capital. Part II defines Institutional Capital and shows why a subset of institutional capabilities qualifies, including, in Chapter 4, which do not. Part III explains formation, dynamics and production. Part IV develops the measurement framework, examines evidence drawn from five regions, sets out the financing constraint and derives the policy implications, before the Conclusion integrates these elements into a general theory.
-  fr: |
-    Cet ouvrage traite deux problèmes que l'analyse institutionnelle traditionnelle ne saisit pas de manière satisfaisante.
 
-    Le premier est celui de la détérioration silencieuse des capacités publiques. Les institutions peuvent continuer d'exister, d'être financées et d'exercer leurs fonctions formelles alors même que les capacités qui fondent leur efficacité s'affaiblissent peu à peu. Un institut national de statistique continue de publier des données alors que leur fiabilité se dégrade. Un registre reste opérationnel alors que la part de la population qu'il couvre diminue. Une plateforme de paiement continue de fonctionner tandis que les logiciels qui la sous-tendent ne sont plus maintenus. Parce que l'analyse institutionnelle observe les institutions plus que les capacités qu'elles mobilisent, ces pertes ne deviennent généralement visibles qu'au moment où la performance s'est déjà dégradée. À ce stade, la reconstruction coûte beaucoup plus cher que la maintenance. Les gouvernements ne budgétisent généralement pas cette érosion, et la raison en est comptable. Elle doit être énoncée avec précision, car la formulation large serait fausse. Les cadres statistiques et comptables existants capitalisent déjà une partie de ces actifs : le Système de comptabilité nationale traite les logiciels, les bases de données et la recherche-développement comme de la formation de capital fixe, y compris dans les administrations publiques, et la norme IPSAS 31 régit les immobilisations incorporelles du secteur public. Ce qui manque n'est donc pas toute catégorie, mais deux choses précises : la composante organisationnelle, juridique et humaine de l'actif institutionnel, qui n'est nulle part enregistrée comme un actif, et l'obligation de maintenance qui s'y attache. La maintenance d'un actif physique est considérée comme une préservation du capital. Celle d'une capacité administrative est classée parmi les dépenses de fonctionnement. Or ce sont précisément ces dépenses que les ministères des finances réduisent en premier.
+    That apparatus is the instrument, not the thesis. The claim that public
+    capabilities are built through investment is not itself novel, and Chapter 4
+    states plainly where it has been made before. What the capital framing
+    supplies is a way of seeing the two problems above. Silent decay becomes
+    depreciation with a rate that could in principle be estimated, and the
+    financing constraint becomes a determinant of the feasible rate of formation
+    rather than an unrelated fact about bond markets.
 
-    Le second problème concerne le financement. Les capacités institutionnelles exigent des investissements de long terme, et les bénéfices qu'elles procurent arrivent souvent sur plusieurs décennies. Cette combinaison rend leur création et leur renouvellement particulièrement sensibles au coût du capital. Un actif dont la durée de vie productive est de vingt ans peut être un excellent investissement à un certain coût de financement et ne plus l'être à un autre, sans que rien ait changé quant à l'actif lui-même, à l'administration concernée ou à la stratégie de réforme poursuivie. Deux gouvernements qui mettent en œuvre des réformes comparables dans des conditions de financement différentes ne réalisent donc pas des investissements équivalents, et les comparer comme s'ils l'étaient revient à confondre l'intention de réforme avec la capacité effectivement créée.
 
-    Aucun de ces deux problèmes n'apparaît tant qu'un changement d'analyse n'est pas opéré. C'est ce changement que propose cet ouvrage.
+    The purpose is therefore not to replace institutional economics, public
+    administration or state capacity research, but to complement them by
+    introducing Institutional Capital as a distinct analytical category, one
+    that can explain how productive institutional capabilities are created,
+    accumulated, maintained, measured, and converted into institutional
+    services, state capacity and ultimately public value.
 
-    L'idée est simple, mais ses implications sont profondes : un sous-ensemble clairement défini des capacités institutionnelles doit être analysé comme une forme de capital. Dès lors que ces capacités présentent les caractéristiques fondamentales du capital productif (accumulation par l'investissement, durabilité, exigences de maintenance, dépréciation, complémentarité et production récurrente de services), l'appareil analytique de la théorie du capital s'applique à leur étude.
 
-    Cet appareil analytique est l'instrument, et non la thèse elle-même. L'idée selon laquelle les capacités publiques sont construites par l'investissement n'est pas nouvelle ; le chapitre 4 indique clairement où elle a déjà été formulée dans la littérature. Ce que l'approche par le capital apporte, en revanche, est une nouvelle manière de rendre visibles les deux problèmes évoqués plus haut. La détérioration silencieuse devient une dépréciation dont le taux peut, en principe, être estimé. La contrainte financière cesse d'être un simple fait des marchés obligataires pour devenir un déterminant direct du rythme soutenable de formation du capital institutionnel.
+    Two features of the construction are worth flagging at the outset. The
+    theory states its assumptions as explicit axioms and derives propositions
+    from them, so that a reader who rejects a conclusion can find the assumption
+    responsible. And it generates empirical hypotheses stated so that they can
+    be tested. Chapter 9 sets out how the capital stock might be observed
+    independently of the performance it is supposed to explain, which is the
+    condition under which those hypotheses can fail. Whether they do is not
+    something this book can settle.
 
-    L'objectif n'est donc pas de remplacer l'économie institutionnelle, l'administration publique ou les travaux consacrés à la capacité de l'État. Il est de les compléter en introduisant le capital institutionnel comme une catégorie analytique distincte, capable d'expliquer comment des capacités institutionnelles productives sont créées, accumulées, entretenues, mesurées puis transformées en services institutionnels, en capacité de l'État et, en définitive, en valeur publique.
-  it: |
-    Quest'opera affronta due problemi che l'analisi istituzionale tradizionale non coglie in modo soddisfacente.
 
-    Il primo è il deterioramento silenzioso delle capacità pubbliche. Le istituzioni possono continuare a esistere, a essere finanziate e a esercitare le loro funzioni formali anche quando le capacità che ne fondano l'efficacia si indeboliscono a poco a poco. Un istituto nazionale di statistica continua a pubblicare dati mentre la loro affidabilità si degrada. Un registro resta operativo mentre la quota di popolazione che copre diminuisce. Una piattaforma di pagamento continua a funzionare mentre il software che la sostiene non riceve più manutenzione. Poiché l'analisi istituzionale osserva le istituzioni più delle capacità che esse mobilitano, queste perdite diventano di norma visibili solo nel momento in cui la prestazione si è già degradata. A quel punto la ricostruzione costa molto più della manutenzione. I governi in genere non mettono a bilancio questa erosione, e la ragione è contabile. Va enunciata con precisione, perché la formulazione ampia sarebbe falsa. I quadri statistici e contabili esistenti capitalizzano già una parte di questi asset: il Sistema dei conti nazionali tratta il software, le banche dati e la ricerca e sviluppo come formazione di capitale fisso, anche nelle amministrazioni pubbliche, e il principio IPSAS 31 disciplina le immobilizzazioni immateriali del settore pubblico. Ciò che manca non è dunque ogni categoria, ma due cose precise: la componente organizzativa, giuridica e umana dell'asset istituzionale, che non è registrata come asset in nessun luogo, e l'obbligo di manutenzione che vi si accompagna. La manutenzione di un asset fisico è considerata conservazione del capitale. Quella di una capacità amministrativa è classificata tra le spese di funzionamento. Ed è precisamente questa la spesa che i ministeri delle finanze riducono per prima.
+    The theory is also intentionally modest in scope. Institutional Capital does
+    not explain development on its own. Economic performance reflects the
+    interaction of many forms of capital with political choices, historical
+    trajectories, technological change and external conditions, and
+    Institutional Capital is one essential component within that wider system
+    rather than a master variable. A framework that claimed more would be easier
+    to dismiss and less useful to apply.
 
-    Il secondo problema riguarda il finanziamento. Le capacità istituzionali richiedono investimenti di lungo periodo, e i benefici che procurano arrivano spesso nell'arco di più decenni. Questa combinazione rende la loro creazione e il loro rinnovo particolarmente sensibili al costo del capitale. Un asset la cui vita produttiva è di vent'anni può essere un ottimo investimento a un certo costo di finanziamento e non esserlo più a un altro, senza che nulla sia cambiato quanto all'asset stesso, all'amministrazione interessata o alla strategia di riforma perseguita. Due governi che attuano riforme comparabili in condizioni di finanziamento diverse non realizzano dunque investimenti equivalenti, e confrontarli come se lo fossero significa confondere l'intenzione di riforma con la capacità effettivamente creata.
 
-    Nessuno di questi due problemi emerge finché non si compie un cambiamento di analisi. È questo cambiamento che l'opera propone.
+    The chapters develop the argument cumulatively. Part I establishes the
+    analytical foundations of capital. Part II defines Institutional Capital and
+    shows why a subset of institutional capabilities qualifies, including, in
+    Chapter 4, which do not. Part III explains formation, dynamics and
+    production. Part IV develops the measurement framework, examines evidence
+    drawn from five regions, sets out the financing constraint and derives the
+    policy implications, before the Conclusion integrates these elements into a
+    general theory.
+  fr: >-
+    Cet ouvrage traite deux problèmes que l'analyse institutionnelle
+    traditionnelle ne saisit pas de manière satisfaisante.
 
-    L'idea è semplice, ma le sue implicazioni sono profonde: un sottoinsieme chiaramente definito delle capacità istituzionali va analizzato come una forma di capitale. Dal momento in cui queste capacità presentano le caratteristiche fondamentali del capitale produttivo (accumulazione tramite investimento, durabilità, esigenze di manutenzione, deprezzamento, complementarità e produzione ricorrente di servizi), l'apparato analitico della teoria del capitale si applica al loro studio.
 
-    Questo apparato analitico è lo strumento, non la tesi. L'idea secondo cui le capacità pubbliche si costruiscono tramite investimento non è nuova; il capitolo 4 indica con chiarezza dove essa sia già stata formulata in letteratura. Ciò che l'approccio per il capitale apporta è invece un modo nuovo di rendere visibili i due problemi appena richiamati. Il deterioramento silenzioso diventa un deprezzamento il cui tasso può, in linea di principio, essere stimato. Il vincolo finanziario cessa di essere un semplice dato dei mercati obbligazionari per diventare un determinante diretto del ritmo sostenibile di formazione del capitale istituzionale.
+    Le premier est celui de la détérioration silencieuse des capacités
+    publiques. Les institutions peuvent continuer d'exister, d'être financées et
+    d'exercer leurs fonctions formelles alors même que les capacités qui fondent
+    leur efficacité s'affaiblissent peu à peu. Un institut national de
+    statistique continue de publier des données alors que leur fiabilité se
+    dégrade. Un registre reste opérationnel alors que la part de la population
+    qu'il couvre diminue. Une plateforme de paiement continue de fonctionner
+    tandis que les logiciels qui la sous-tendent ne sont plus maintenus. Parce
+    que l'analyse institutionnelle observe les institutions plus que les
+    capacités qu'elles mobilisent, ces pertes ne deviennent généralement
+    visibles qu'au moment où la performance s'est déjà dégradée. À ce stade, la
+    reconstruction coûte beaucoup plus cher que la maintenance. Les
+    gouvernements ne budgétisent généralement pas cette érosion, et la raison en
+    est comptable. Elle doit être énoncée avec précision, car la formulation
+    large serait fausse. Les cadres statistiques et comptables existants
+    capitalisent déjà une partie de ces actifs : le Système de comptabilité
+    nationale traite les logiciels, les bases de données et la
+    recherche-développement comme de la formation de capital fixe, y compris
+    dans les administrations publiques, et la norme IPSAS 31 régit les
+    immobilisations incorporelles du secteur public. Ce qui manque n'est donc
+    pas toute catégorie, mais deux choses précises : la composante
+    organisationnelle, juridique et humaine de l'actif institutionnel, qui n'est
+    nulle part enregistrée comme un actif, et l'obligation de maintenance qui
+    s'y attache. La maintenance d'un actif physique est considérée comme une
+    préservation du capital. Celle d'une capacité administrative est classée
+    parmi les dépenses de fonctionnement. Or ce sont précisément ces dépenses
+    que les ministères des finances réduisent en premier.
 
-    L'obiettivo non è dunque sostituire l'economia istituzionale, l'amministrazione pubblica o gli studi dedicati alla capacità dello Stato. È integrarli introducendo il capitale istituzionale come categoria analitica distinta, capace di spiegare come capacità istituzionali produttive vengano create, accumulate, mantenute, misurate e poi trasformate in servizi istituzionali, in capacità dello Stato e, in ultima istanza, in valore pubblico.
+
+    Le second problème concerne le financement. Les capacités institutionnelles
+    exigent des investissements de long terme, et les bénéfices qu'elles
+    procurent arrivent souvent sur plusieurs décennies. Cette combinaison rend
+    leur création et leur renouvellement particulièrement sensibles au coût du
+    capital. Un actif dont la durée de vie productive est de vingt ans peut être
+    un excellent investissement à un certain coût de financement et ne plus
+    l'être à un autre, sans que rien ait changé quant à l'actif lui-même, à
+    l'administration concernée ou à la stratégie de réforme poursuivie. Deux
+    gouvernements qui mettent en œuvre des réformes comparables dans des
+    conditions de financement différentes ne réalisent donc pas des
+    investissements équivalents, et les comparer comme s'ils l'étaient revient à
+    confondre l'intention de réforme avec la capacité effectivement créée.
+
+
+    Aucun de ces deux problèmes n'apparaît tant qu'un changement d'analyse n'est
+    pas opéré. C'est ce changement que propose cet ouvrage.
+
+
+    L'idée est simple, mais ses implications sont profondes : un sous-ensemble
+    clairement défini des capacités institutionnelles doit être analysé comme
+    une forme de capital. Dès lors que ces capacités présentent les
+    caractéristiques fondamentales du capital productif (accumulation par
+    l'investissement, durabilité, exigences de maintenance, dépréciation,
+    complémentarité et production récurrente de services), l'appareil analytique
+    de la théorie du capital s'applique à leur étude.
+
+
+    Cet appareil analytique est l'instrument, et non la thèse elle-même. L'idée
+    selon laquelle les capacités publiques sont construites par l'investissement
+    n'est pas nouvelle ; le chapitre 4 indique clairement où elle a déjà été
+    formulée dans la littérature. Ce que l'approche par le capital apporte, en
+    revanche, est une nouvelle manière de rendre visibles les deux problèmes
+    évoqués plus haut. La détérioration silencieuse devient une dépréciation
+    dont le taux peut, en principe, être estimé. La contrainte financière cesse
+    d'être un simple fait des marchés obligataires pour devenir un déterminant
+    direct du rythme soutenable de formation du capital institutionnel.
+
+
+    L'objectif n'est donc pas de remplacer l'économie institutionnelle,
+    l'administration publique ou les travaux consacrés à la capacité de l'État.
+    Il est de les compléter en introduisant le capital institutionnel comme une
+    catégorie analytique distincte, capable d'expliquer comment des capacités
+    institutionnelles productives sont créées, accumulées, entretenues, mesurées
+    puis transformées en services institutionnels, en capacité de l'État et, en
+    définitive, en valeur publique.
+  it: >-
+    Quest'opera affronta due problemi che l'analisi istituzionale tradizionale
+    non coglie in modo soddisfacente.
+
+
+    Il primo è il deterioramento silenzioso delle capacità pubbliche. Le
+    istituzioni possono continuare a esistere, a essere finanziate e a
+    esercitare le loro funzioni formali anche quando le capacità che ne fondano
+    l'efficacia si indeboliscono a poco a poco. Un istituto nazionale di
+    statistica continua a pubblicare dati mentre la loro affidabilità si
+    degrada. Un registro resta operativo mentre la quota di popolazione che
+    copre diminuisce. Una piattaforma di pagamento continua a funzionare mentre
+    il software che la sostiene non riceve più manutenzione. Poiché l'analisi
+    istituzionale osserva le istituzioni più delle capacità che esse mobilitano,
+    queste perdite diventano di norma visibili solo nel momento in cui la
+    prestazione si è già degradata. A quel punto la ricostruzione costa molto
+    più della manutenzione. I governi in genere non mettono a bilancio questa
+    erosione, e la ragione è contabile. Va enunciata con precisione, perché la
+    formulazione ampia sarebbe falsa. I quadri statistici e contabili esistenti
+    capitalizzano già una parte di questi asset: il Sistema dei conti nazionali
+    tratta il software, le banche dati e la ricerca e sviluppo come formazione
+    di capitale fisso, anche nelle amministrazioni pubbliche, e il principio
+    IPSAS 31 disciplina le immobilizzazioni immateriali del settore pubblico.
+    Ciò che manca non è dunque ogni categoria, ma due cose precise: la
+    componente organizzativa, giuridica e umana dell'asset istituzionale, che
+    non è registrata come asset in nessun luogo, e l'obbligo di manutenzione che
+    vi si accompagna. La manutenzione di un asset fisico è considerata
+    conservazione del capitale. Quella di una capacità amministrativa è
+    classificata tra le spese di funzionamento. Ed è precisamente questa la
+    spesa che i ministeri delle finanze riducono per prima.
+
+
+    Il secondo problema riguarda il finanziamento. Le capacità istituzionali
+    richiedono investimenti di lungo periodo, e i benefici che procurano
+    arrivano spesso nell'arco di più decenni. Questa combinazione rende la loro
+    creazione e il loro rinnovo particolarmente sensibili al costo del capitale.
+    Un asset la cui vita produttiva è di vent'anni può essere un ottimo
+    investimento a un certo costo di finanziamento e non esserlo più a un altro,
+    senza che nulla sia cambiato quanto all'asset stesso, all'amministrazione
+    interessata o alla strategia di riforma perseguita. Due governi che attuano
+    riforme comparabili in condizioni di finanziamento diverse non realizzano
+    dunque investimenti equivalenti, e confrontarli come se lo fossero significa
+    confondere l'intenzione di riforma con la capacità effettivamente creata.
+
+
+    Nessuno di questi due problemi emerge finché non si compie un cambiamento di
+    analisi. È questo cambiamento che l'opera propone.
+
+
+    L'idea è semplice, ma le sue implicazioni sono profonde: un sottoinsieme
+    chiaramente definito delle capacità istituzionali va analizzato come una
+    forma di capitale. Dal momento in cui queste capacità presentano le
+    caratteristiche fondamentali del capitale produttivo (accumulazione tramite
+    investimento, durabilità, esigenze di manutenzione, deprezzamento,
+    complementarità e produzione ricorrente di servizi), l'apparato analitico
+    della teoria del capitale si applica al loro studio.
+
+
+    Questo apparato analitico è lo strumento, non la tesi. L'idea secondo cui le
+    capacità pubbliche si costruiscono tramite investimento non è nuova; il
+    capitolo 4 indica con chiarezza dove essa sia già stata formulata in
+    letteratura. Ciò che l'approccio per il capitale apporta è invece un modo
+    nuovo di rendere visibili i due problemi appena richiamati. Il
+    deterioramento silenzioso diventa un deprezzamento il cui tasso può, in
+    linea di principio, essere stimato. Il vincolo finanziario cessa di essere
+    un semplice dato dei mercati obbligazionari per diventare un determinante
+    diretto del ritmo sostenibile di formazione del capitale istituzionale.
+
+
+    L'obiettivo non è dunque sostituire l'economia istituzionale,
+    l'amministrazione pubblica o gli studi dedicati alla capacità dello Stato. È
+    integrarli introducendo il capitale istituzionale come categoria analitica
+    distinta, capace di spiegare come capacità istituzionali produttive vengano
+    create, accumulate, mantenute, misurate e poi trasformate in servizi
+    istituzionali, in capacità dello Stato e, in ultima istanza, in valore
+    pubblico.
 review_record:
-  en: |
-    This book addresses two problems that conventional institutional analysis does not adequately capture.
+  en: >-
+    The manuscript was read by an independent panel of economists and social
+    scientists, which returned a written report and a verdict of acceptance
+    subject to moderate revision. The panel raised no objection to the central
+    thesis. Its reservations concerned how the thesis was established,
+    referenced and summarised, and it verified the book's figures against
+    primary sources.
 
-    The first is the silent deterioration of public capabilities. Institutions may continue to exist, be funded, and perform their formal functions while the capabilities that make them effective progressively weaken. A statistical office continues to publish while the reliability of what it publishes declines. A registry remains operational while the share of the population it covers erodes. A payment platform continues to run while the software beneath it goes out of support. Because institutional analysis observes institutions rather than capabilities, these losses usually become visible only once performance has already deteriorated, by which point the remedy is reconstruction rather than maintenance, at several times the cost. Governments do not budget for this decay, and the reason is an accounting one. It must be stated precisely, because the broad formulation would be false. Existing statistical and accounting frameworks already capitalise part of these assets: the System of National Accounts treats software, databases and research and development as fixed capital formation, including in general government, and IPSAS 31 governs public-sector intangible assets. What is missing is therefore not every category, but two precise things: the organisational, legal and human component of the institutional asset, which is nowhere recorded as an asset, and the maintenance obligation attached to it. Maintenance of a physical asset is capital preservation. Maintenance of an administrative capability is overhead. Overhead is what a finance ministry cuts first.
 
-    The second concerns financing. Institutional capabilities require long-term investment, and their returns arrive over decades. That combination makes their creation and renewal acutely sensitive to the cost of capital. An asset with a twenty-year productive life can be well worth building at one borrowing cost and not worth building at another, with nothing about the asset, the administration or the reform strategy having changed. Two governments pursuing similar reforms under different financing conditions are not making equivalent investments, and comparisons that treat their plans as equivalent mistake intention for capability.
+    The report made ten recommendations. All ten were implemented. Among the
+    substantive consequences:
 
-    Neither problem is visible without a particular analytical move, and supplying that move is what the rest of this book does.
 
-    The move is simple but consequential: a defined subset of institutional capabilities should be analysed as capital. Where such capabilities show the defining characteristics of productive capital (accumulation through investment, durability, maintenance requirements, depreciation, complementarity, and the recurring generation of services), the analytical apparatus of capital theory applies to them.
+    - the general theorem was requalified as a general proposition, and the
+    claim of derivation from axioms was redefined as dependence; 
 
-    That apparatus is the instrument, not the thesis. The claim that public capabilities are built through investment is not itself novel, and Chapter 4 states plainly where it has been made before. What the capital framing supplies is a way of seeing the two problems above. Silent decay becomes depreciation with a rate that could in principle be estimated, and the financing constraint becomes a determinant of the feasible rate of formation rather than an unrelated fact about bond markets.
+    - a redescription rule was written, fixing three cumulative conditions under
+    which an external shock counts as an internal channel of depreciation rather
+    than a confounder. The rule removed one of the book's own cases; 
 
-    The purpose is therefore not to replace institutional economics, public administration or state capacity research, but to complement them by introducing Institutional Capital as a distinct analytical category, one that can explain how productive institutional capabilities are created, accumulated, maintained, measured, and converted into institutional services, state capacity and ultimately public value.
+    - the free multipliers were audited and reduced from six to four, each
+    bounded and sign-restricted in advance, with a rule fixing which
+    observations permit which coefficient to be invoked; 
 
-    Two features of the construction are worth flagging at the outset. The theory states its assumptions as explicit axioms and derives propositions from them, so that a reader who rejects a conclusion can find the assumption responsible. And it generates empirical hypotheses stated so that they can be tested. Chapter 9 sets out how the capital stock might be observed independently of the performance it is supposed to explain, which is the condition under which those hypotheses can fail. Whether they do is not something this book can settle.
+    - the bibliography was extended from seventeen works to sixty-one numbered
+    references; 
 
-    The theory is also intentionally modest in scope. Institutional Capital does not explain development on its own. Economic performance reflects the interaction of many forms of capital with political choices, historical trajectories, technological change and external conditions, and Institutional Capital is one essential component within that wider system rather than a master variable. A framework that claimed more would be easier to dismiss and less useful to apply.
+    - the case selection rule was written out, including the admission that it
+    was reconstructed after the fact.
 
-    The chapters develop the argument cumulatively. Part I establishes the analytical foundations of capital. Part II defines Institutional Capital and shows why a subset of institutional capabilities qualifies, including, in Chapter 4, which do not. Part III explains formation, dynamics and production. Part IV develops the measurement framework, examines evidence drawn from five regions, sets out the financing constraint and derives the policy implications, before the Conclusion integrates these elements into a general theory.
 
-    ## Institutional Capital Theory
+    A second panel, constituted independently of the first and not informed of
+    it, subsequently received the complete manuscript in both the French and
+    English editions.
+  fr: >-
+    Le manuscrit a été lu par un panel indépendant d'économistes et de
+    chercheurs en sciences sociales, qui a remis un rapport écrit et un verdict
+    d'acceptation sous réserve de révisions modérées. Le panel n'a élevé aucune
+    objection contre la thèse centrale. Ses réserves portaient sur la manière
+    dont la thèse était établie, référencée et récapitulée, et il a vérifié les
+    chiffres de l'ouvrage aux sources primaires.
 
-    An Economic Theory of Institutional Assets, State Capacity and Public Value
 
-     Preface: Two Problems in the Life of Public Capabilities 
+    Le rapport formulait dix recommandations. Les dix ont été mises en œuvre.
+    Parmi les conséquences de fond :
 
-    This book addresses two problems that conventional institutional analysis does not adequately capture.
 
-    The first is the silent deterioration of public capabilities. Institutions may continue to exist, be funded, and perform their formal functions while the capabilities that make them effective progressively weaken. A statistical office continues to publish while the reliability of what it publishes declines. A registry remains operational while the share of the population it covers erodes. A payment platform continues to run while the software beneath it goes out of support. Because institutional analysis observes institutions rather than capabilities, these losses usually become visible only once performance has already deteriorated, by which point the remedy is reconstruction rather than maintenance, at several times the cost. Governments do not budget for this decay, and the reason is an accounting one. It must be stated precisely, because the broad formulation would be false. Existing statistical and accounting frameworks already capitalise part of these assets: the System of National Accounts treats software, databases and research and development as fixed capital formation, including in general government, and IPSAS 31 governs public-sector intangible assets. What is missing is therefore not every category, but two precise things: the organisational, legal and human component of the institutional asset, which is nowhere recorded as an asset, and the maintenance obligation attached to it. Maintenance of a physical asset is capital preservation. Maintenance of an administrative capability is overhead. Overhead is what a finance ministry cuts first.
+    - le théorème général a été requalifié en proposition générale, et la
+    revendication de dérivation à partir des axiomes redéfinie comme une
+    dépendance ; 
 
-    The second concerns financing. Institutional capabilities require long-term investment, and their returns arrive over decades. That combination makes their creation and renewal acutely sensitive to the cost of capital. An asset with a twenty-year productive life can be well worth building at one borrowing cost and not worth building at another, with nothing about the asset, the administration or the reform strategy having changed. Two governments pursuing similar reforms under different financing conditions are not making equivalent investments, and comparisons that treat their plans as equivalent mistake intention for capability.
+    - une règle de redescription a été écrite, fixant trois conditions
+    cumulatives sous lesquelles un choc extérieur compte comme canal interne de
+    dépréciation plutôt que comme confondant. La règle a fait perdre à l'ouvrage
+    l'un de ses propres cas ; 
 
-    Neither problem is visible without a particular analytical move, and supplying that move is what the rest of this book does.
+    - les multiplicateurs libres ont été audités et ramenés de six à quatre,
+    chacun borné et de signe fixé d'avance, avec une règle établissant quelles
+    observations autorisent quel coefficient ; 
 
-    The move is simple but consequential: a defined subset of institutional capabilities should be analysed as capital. Where such capabilities show the defining characteristics of productive capital (accumulation through investment, durability, maintenance requirements, depreciation, complementarity, and the recurring generation of services), the analytical apparatus of capital theory applies to them.
+    - la bibliographie est passée de dix-sept travaux à soixante et une
+    références numérotées ; 
 
-    That apparatus is the instrument, not the thesis. The claim that public capabilities are built through investment is not itself novel, and Chapter 4 states plainly where it has been made before. What the capital framing supplies is a way of seeing the two problems above. Silent decay becomes depreciation with a rate that could in principle be estimated, and the financing constraint becomes a determinant of the feasible rate of formation rather than an unrelated fact about bond markets.
+    - la règle de sélection des cas a été explicitée, y compris l'aveu qu'elle a
+    été reconstruite après coup.
 
-    The purpose is therefore not to replace institutional economics, public administration or state capacity research, but to complement them by introducing Institutional Capital as a distinct analytical category, one that can explain how productive institutional capabilities are created, accumulated, maintained, measured, and converted into institutional services, state capacity and ultimately public value.
 
-    Two features of the construction are worth flagging at the outset. The theory states its assumptions as explicit axioms and derives propositions from them, so that a reader who rejects a conclusion can find the assumption responsible. And it generates empirical hypotheses stated so that they can be tested. Chapter 9 sets out how the capital stock might be observed independently of the performance it is supposed to explain, which is the condition under which those hypotheses can fail. Whether they do is not something this book can settle.
+    Un second panel, constitué indépendamment du premier et non informé de son
+    existence, a ensuite reçu le manuscrit complet dans les éditions française
+    et anglaise.
+  it: >-
+    Il manoscritto è stato letto da un panel indipendente di economisti e
+    studiosi di scienze sociali, che ha consegnato una relazione scritta e un
+    verdetto di accettazione con revisioni moderate. Il panel non ha sollevato
+    alcuna obiezione alla tesi centrale. Le sue riserve riguardavano il modo in
+    cui la tesi era stabilita, referenziata e riassunta, e ha verificato i dati
+    del volume rispetto alle fonti primarie.
 
-    The theory is also intentionally modest in scope. Institutional Capital does not explain development on its own. Economic performance reflects the interaction of many forms of capital with political choices, historical trajectories, technological change and external conditions, and Institutional Capital is one essential component within that wider system rather than a master variable. A framework that claimed more would be easier to dismiss and less useful to apply.
 
-    The chapters develop the argument cumulatively. Part I establishes the analytical foundations of capital. Part II defines Institutional Capital and shows why a subset of institutional capabilities qualifies, including, in Chapter 4, which do not. Part III explains formation, dynamics and production. Part IV develops the measurement framework, examines evidence drawn from five regions, sets out the financing constraint and derives the policy implications, before the Conclusion integrates these elements into a general theory.
+    La relazione formulava dieci raccomandazioni. Tutte e dieci sono state
+    attuate. Fra le conseguenze sostanziali:
 
-    ## Review record
 
-    The manuscript was read by an independent panel of economists and social scientists, which returned a written report and a verdict of acceptance subject to moderate revision. The panel raised no objection to the central thesis. Its reservations concerned how the thesis was established, referenced and summarised, and it verified the book's figures against primary sources.
+    - il teorema generale è stato riqualificato come proposizione generale, e la
+    pretesa di derivazione dagli assiomi ridefinita come dipendenza; 
 
-    The report made ten recommendations. All ten were implemented. Among the substantive consequences:
+    - è stata scritta una regola di ridescrizione, che fissa tre condizioni
+    cumulative sotto le quali uno shock esterno conta come canale interno di
+    deprezzamento anziché come fattore confondente. La regola ha fatto perdere
+    al volume uno dei suoi stessi casi; 
 
-    - the general theorem was requalified as a general proposition, and the claim of derivation from axioms was redefined as dependence; 
-    - a redescription rule was written, fixing three cumulative conditions under which an external shock counts as an internal channel of depreciation rather than a confounder. The rule removed one of the book's own cases; 
-    - the free multipliers were audited and reduced from six to four, each bounded and sign-restricted in advance, with a rule fixing which observations permit which coefficient to be invoked; 
-    - the bibliography was extended from seventeen works to sixty-one numbered references; 
-    - the case selection rule was written out, including the admission that it was reconstructed after the fact. 
+    - i moltiplicatori liberi sono stati sottoposti ad audit e ridotti da sei a
+    quattro, ciascuno limitato e con segno fissato in anticipo, con una regola
+    che stabilisce quali osservazioni autorizzano quale coefficiente; 
 
-    A second panel, constituted independently of the first and not informed of it, subsequently received the complete manuscript in both the French and English editions.
-  fr: |
-    Cet ouvrage traite deux problèmes que l'analyse institutionnelle traditionnelle ne saisit pas de manière satisfaisante.
+    - la bibliografia è passata da diciassette lavori a sessantuno riferimenti
+    numerati; 
 
-    Le premier est celui de la détérioration silencieuse des capacités publiques. Les institutions peuvent continuer d'exister, d'être financées et d'exercer leurs fonctions formelles alors même que les capacités qui fondent leur efficacité s'affaiblissent peu à peu. Un institut national de statistique continue de publier des données alors que leur fiabilité se dégrade. Un registre reste opérationnel alors que la part de la population qu'il couvre diminue. Une plateforme de paiement continue de fonctionner tandis que les logiciels qui la sous-tendent ne sont plus maintenus. Parce que l'analyse institutionnelle observe les institutions plus que les capacités qu'elles mobilisent, ces pertes ne deviennent généralement visibles qu'au moment où la performance s'est déjà dégradée. À ce stade, la reconstruction coûte beaucoup plus cher que la maintenance. Les gouvernements ne budgétisent généralement pas cette érosion, et la raison en est comptable. Elle doit être énoncée avec précision, car la formulation large serait fausse. Les cadres statistiques et comptables existants capitalisent déjà une partie de ces actifs : le Système de comptabilité nationale traite les logiciels, les bases de données et la recherche-développement comme de la formation de capital fixe, y compris dans les administrations publiques, et la norme IPSAS 31 régit les immobilisations incorporelles du secteur public. Ce qui manque n'est donc pas toute catégorie, mais deux choses précises : la composante organisationnelle, juridique et humaine de l'actif institutionnel, qui n'est nulle part enregistrée comme un actif, et l'obligation de maintenance qui s'y attache. La maintenance d'un actif physique est considérée comme une préservation du capital. Celle d'une capacité administrative est classée parmi les dépenses de fonctionnement. Or ce sont précisément ces dépenses que les ministères des finances réduisent en premier.
+    - la regola di selezione dei casi è stata esplicitata, compresa l'ammissione
+    che è stata ricostruita a posteriori.
 
-    Le second problème concerne le financement. Les capacités institutionnelles exigent des investissements de long terme, et les bénéfices qu'elles procurent arrivent souvent sur plusieurs décennies. Cette combinaison rend leur création et leur renouvellement particulièrement sensibles au coût du capital. Un actif dont la durée de vie productive est de vingt ans peut être un excellent investissement à un certain coût de financement et ne plus l'être à un autre, sans que rien ait changé quant à l'actif lui-même, à l'administration concernée ou à la stratégie de réforme poursuivie. Deux gouvernements qui mettent en œuvre des réformes comparables dans des conditions de financement différentes ne réalisent donc pas des investissements équivalents, et les comparer comme s'ils l'étaient revient à confondre l'intention de réforme avec la capacité effectivement créée.
 
-    Aucun de ces deux problèmes n'apparaît tant qu'un changement d'analyse n'est pas opéré. C'est ce changement que propose cet ouvrage.
-
-    L'idée est simple, mais ses implications sont profondes : un sous-ensemble clairement défini des capacités institutionnelles doit être analysé comme une forme de capital. Dès lors que ces capacités présentent les caractéristiques fondamentales du capital productif (accumulation par l'investissement, durabilité, exigences de maintenance, dépréciation, complémentarité et production récurrente de services), l'appareil analytique de la théorie du capital s'applique à leur étude.
-
-    Cet appareil analytique est l'instrument, et non la thèse elle-même. L'idée selon laquelle les capacités publiques sont construites par l'investissement n'est pas nouvelle ; le chapitre 4 indique clairement où elle a déjà été formulée dans la littérature. Ce que l'approche par le capital apporte, en revanche, est une nouvelle manière de rendre visibles les deux problèmes évoqués plus haut. La détérioration silencieuse devient une dépréciation dont le taux peut, en principe, être estimé. La contrainte financière cesse d'être un simple fait des marchés obligataires pour devenir un déterminant direct du rythme soutenable de formation du capital institutionnel.
-
-    L'objectif n'est donc pas de remplacer l'économie institutionnelle, l'administration publique ou les travaux consacrés à la capacité de l'État. Il est de les compléter en introduisant le capital institutionnel comme une catégorie analytique distincte, capable d'expliquer comment des capacités institutionnelles productives sont créées, accumulées, entretenues, mesurées puis transformées en services institutionnels, en capacité de l'État et, en définitive, en valeur publique.
-
-    ## Théorie du capital institutionnel
-
-    Une théorie économique des actifs institutionnels, de la capacité de l'État et de la valeur publique
-
-     Préface : Deux problèmes dans la vie des capacités publiques 
-
-    Cet ouvrage traite deux problèmes que l'analyse institutionnelle traditionnelle ne saisit pas de manière satisfaisante.
-
-    Le premier est celui de la détérioration silencieuse des capacités publiques. Les institutions peuvent continuer d'exister, d'être financées et d'exercer leurs fonctions formelles alors même que les capacités qui fondent leur efficacité s'affaiblissent peu à peu. Un institut national de statistique continue de publier des données alors que leur fiabilité se dégrade. Un registre reste opérationnel alors que la part de la population qu'il couvre diminue. Une plateforme de paiement continue de fonctionner tandis que les logiciels qui la sous-tendent ne sont plus maintenus. Parce que l'analyse institutionnelle observe les institutions plus que les capacités qu'elles mobilisent, ces pertes ne deviennent généralement visibles qu'au moment où la performance s'est déjà dégradée. À ce stade, la reconstruction coûte beaucoup plus cher que la maintenance. Les gouvernements ne budgétisent généralement pas cette érosion, et la raison en est comptable. Elle doit être énoncée avec précision, car la formulation large serait fausse. Les cadres statistiques et comptables existants capitalisent déjà une partie de ces actifs : le Système de comptabilité nationale traite les logiciels, les bases de données et la recherche-développement comme de la formation de capital fixe, y compris dans les administrations publiques, et la norme IPSAS 31 régit les immobilisations incorporelles du secteur public. Ce qui manque n'est donc pas toute catégorie, mais deux choses précises : la composante organisationnelle, juridique et humaine de l'actif institutionnel, qui n'est nulle part enregistrée comme un actif, et l'obligation de maintenance qui s'y attache. La maintenance d'un actif physique est considérée comme une préservation du capital. Celle d'une capacité administrative est classée parmi les dépenses de fonctionnement. Or ce sont précisément ces dépenses que les ministères des finances réduisent en premier.
-
-    Le second problème concerne le financement. Les capacités institutionnelles exigent des investissements de long terme, et les bénéfices qu'elles procurent arrivent souvent sur plusieurs décennies. Cette combinaison rend leur création et leur renouvellement particulièrement sensibles au coût du capital. Un actif dont la durée de vie productive est de vingt ans peut être un excellent investissement à un certain coût de financement et ne plus l'être à un autre, sans que rien ait changé quant à l'actif lui-même, à l'administration concernée ou à la stratégie de réforme poursuivie. Deux gouvernements qui mettent en œuvre des réformes comparables dans des conditions de financement différentes ne réalisent donc pas des investissements équivalents, et les comparer comme s'ils l'étaient revient à confondre l'intention de réforme avec la capacité effectivement créée.
-
-    Aucun de ces deux problèmes n'apparaît tant qu'un changement d'analyse n'est pas opéré. C'est ce changement que propose cet ouvrage.
-
-    L'idée est simple, mais ses implications sont profondes : un sous-ensemble clairement défini des capacités institutionnelles doit être analysé comme une forme de capital. Dès lors que ces capacités présentent les caractéristiques fondamentales du capital productif (accumulation par l'investissement, durabilité, exigences de maintenance, dépréciation, complémentarité et production récurrente de services), l'appareil analytique de la théorie du capital s'applique à leur étude.
-
-    Cet appareil analytique est l'instrument, et non la thèse elle-même. L'idée selon laquelle les capacités publiques sont construites par l'investissement n'est pas nouvelle ; le chapitre 4 indique clairement où elle a déjà été formulée dans la littérature. Ce que l'approche par le capital apporte, en revanche, est une nouvelle manière de rendre visibles les deux problèmes évoqués plus haut. La détérioration silencieuse devient une dépréciation dont le taux peut, en principe, être estimé. La contrainte financière cesse d'être un simple fait des marchés obligataires pour devenir un déterminant direct du rythme soutenable de formation du capital institutionnel.
-
-    L'objectif n'est donc pas de remplacer l'économie institutionnelle, l'administration publique ou les travaux consacrés à la capacité de l'État. Il est de les compléter en introduisant le capital institutionnel comme une catégorie analytique distincte, capable d'expliquer comment des capacités institutionnelles productives sont créées, accumulées, entretenues, mesurées puis transformées en services institutionnels, en capacité de l'État et, en définitive, en valeur publique.
-
-    ## Dossier d'évaluation
-
-    Le manuscrit a été lu par un panel indépendant d'économistes et de chercheurs en sciences sociales, qui a remis un rapport écrit et un verdict d'acceptation sous réserve de révisions modérées. Le panel n'a élevé aucune objection contre la thèse centrale. Ses réserves portaient sur la manière dont la thèse était établie, référencée et récapitulée, et il a vérifié les chiffres de l'ouvrage aux sources primaires.
-
-    Le rapport formulait dix recommandations. Les dix ont été mises en œuvre. Parmi les conséquences de fond :
-
-    - le théorème général a été requalifié en proposition générale, et la revendication de dérivation à partir des axiomes redéfinie comme une dépendance ; 
-    - une règle de redescription a été écrite, fixant trois conditions cumulatives sous lesquelles un choc extérieur compte comme canal interne de dépréciation plutôt que comme confondant. La règle a fait perdre à l'ouvrage l'un de ses propres cas ; 
-    - les multiplicateurs libres ont été audités et ramenés de six à quatre, chacun borné et de signe fixé d'avance, avec une règle établissant quelles observations autorisent quel coefficient ; 
-    - la bibliographie est passée de dix-sept travaux à soixante et une références numérotées ; 
-    - la règle de sélection des cas a été explicitée, y compris l'aveu qu'elle a été reconstruite après coup. 
-
-    Un second panel, constitué indépendamment du premier et non informé de son existence, a ensuite reçu le manuscrit complet dans les éditions française et anglaise.
-  it: |
-    Quest'opera affronta due problemi che l'analisi istituzionale tradizionale non coglie in modo soddisfacente.
-
-    Il primo è il deterioramento silenzioso delle capacità pubbliche. Le istituzioni possono continuare a esistere, a essere finanziate e a esercitare le loro funzioni formali anche quando le capacità che ne fondano l'efficacia si indeboliscono a poco a poco. Un istituto nazionale di statistica continua a pubblicare dati mentre la loro affidabilità si degrada. Un registro resta operativo mentre la quota di popolazione che copre diminuisce. Una piattaforma di pagamento continua a funzionare mentre il software che la sostiene non riceve più manutenzione. Poiché l'analisi istituzionale osserva le istituzioni più delle capacità che esse mobilitano, queste perdite diventano di norma visibili solo nel momento in cui la prestazione si è già degradata. A quel punto la ricostruzione costa molto più della manutenzione. I governi in genere non mettono a bilancio questa erosione, e la ragione è contabile. Va enunciata con precisione, perché la formulazione ampia sarebbe falsa. I quadri statistici e contabili esistenti capitalizzano già una parte di questi asset: il Sistema dei conti nazionali tratta il software, le banche dati e la ricerca e sviluppo come formazione di capitale fisso, anche nelle amministrazioni pubbliche, e il principio IPSAS 31 disciplina le immobilizzazioni immateriali del settore pubblico. Ciò che manca non è dunque ogni categoria, ma due cose precise: la componente organizzativa, giuridica e umana dell'asset istituzionale, che non è registrata come asset in nessun luogo, e l'obbligo di manutenzione che vi si accompagna. La manutenzione di un asset fisico è considerata conservazione del capitale. Quella di una capacità amministrativa è classificata tra le spese di funzionamento. Ed è precisamente questa la spesa che i ministeri delle finanze riducono per prima.
-
-    Il secondo problema riguarda il finanziamento. Le capacità istituzionali richiedono investimenti di lungo periodo, e i benefici che procurano arrivano spesso nell'arco di più decenni. Questa combinazione rende la loro creazione e il loro rinnovo particolarmente sensibili al costo del capitale. Un asset la cui vita produttiva è di vent'anni può essere un ottimo investimento a un certo costo di finanziamento e non esserlo più a un altro, senza che nulla sia cambiato quanto all'asset stesso, all'amministrazione interessata o alla strategia di riforma perseguita. Due governi che attuano riforme comparabili in condizioni di finanziamento diverse non realizzano dunque investimenti equivalenti, e confrontarli come se lo fossero significa confondere l'intenzione di riforma con la capacità effettivamente creata.
-
-    Nessuno di questi due problemi emerge finché non si compie un cambiamento di analisi. È questo cambiamento che l'opera propone.
-
-    L'idea è semplice, ma le sue implicazioni sono profonde: un sottoinsieme chiaramente definito delle capacità istituzionali va analizzato come una forma di capitale. Dal momento in cui queste capacità presentano le caratteristiche fondamentali del capitale produttivo (accumulazione tramite investimento, durabilità, esigenze di manutenzione, deprezzamento, complementarità e produzione ricorrente di servizi), l'apparato analitico della teoria del capitale si applica al loro studio.
-
-    Questo apparato analitico è lo strumento, non la tesi. L'idea secondo cui le capacità pubbliche si costruiscono tramite investimento non è nuova; il capitolo 4 indica con chiarezza dove essa sia già stata formulata in letteratura. Ciò che l'approccio per il capitale apporta è invece un modo nuovo di rendere visibili i due problemi appena richiamati. Il deterioramento silenzioso diventa un deprezzamento il cui tasso può, in linea di principio, essere stimato. Il vincolo finanziario cessa di essere un semplice dato dei mercati obbligazionari per diventare un determinante diretto del ritmo sostenibile di formazione del capitale istituzionale.
-
-    L'obiettivo non è dunque sostituire l'economia istituzionale, l'amministrazione pubblica o gli studi dedicati alla capacità dello Stato. È integrarli introducendo il capitale istituzionale come categoria analitica distinta, capace di spiegare come capacità istituzionali produttive vengano create, accumulate, mantenute, misurate e poi trasformate in servizi istituzionali, in capacità dello Stato e, in ultima istanza, in valore pubblico.
-
-    ## Teoria del capitale istituzionale
-
-    Una teoria economica degli asset istituzionali, della capacità dello Stato e del valore pubblico
-
-     Prefazione: Due problemi nella vita delle capacità pubbliche 
-
-    Quest'opera affronta due problemi che l'analisi istituzionale tradizionale non coglie in modo soddisfacente.
-
-    Il primo è il deterioramento silenzioso delle capacità pubbliche. Le istituzioni possono continuare a esistere, a essere finanziate e a esercitare le loro funzioni formali anche quando le capacità che ne fondano l'efficacia si indeboliscono a poco a poco. Un istituto nazionale di statistica continua a pubblicare dati mentre la loro affidabilità si degrada. Un registro resta operativo mentre la quota di popolazione che copre diminuisce. Una piattaforma di pagamento continua a funzionare mentre il software che la sostiene non riceve più manutenzione. Poiché l'analisi istituzionale osserva le istituzioni più delle capacità che esse mobilitano, queste perdite diventano di norma visibili solo nel momento in cui la prestazione si è già degradata. A quel punto la ricostruzione costa molto più della manutenzione. I governi in genere non mettono a bilancio questa erosione, e la ragione è contabile. Va enunciata con precisione, perché la formulazione ampia sarebbe falsa. I quadri statistici e contabili esistenti capitalizzano già una parte di questi asset: il Sistema dei conti nazionali tratta il software, le banche dati e la ricerca e sviluppo come formazione di capitale fisso, anche nelle amministrazioni pubbliche, e il principio IPSAS 31 disciplina le immobilizzazioni immateriali del settore pubblico. Ciò che manca non è dunque ogni categoria, ma due cose precise: la componente organizzativa, giuridica e umana dell'asset istituzionale, che non è registrata come asset in nessun luogo, e l'obbligo di manutenzione che vi si accompagna. La manutenzione di un asset fisico è considerata conservazione del capitale. Quella di una capacità amministrativa è classificata tra le spese di funzionamento. Ed è precisamente questa la spesa che i ministeri delle finanze riducono per prima.
-
-    Il secondo problema riguarda il finanziamento. Le capacità istituzionali richiedono investimenti di lungo periodo, e i benefici che procurano arrivano spesso nell'arco di più decenni. Questa combinazione rende la loro creazione e il loro rinnovo particolarmente sensibili al costo del capitale. Un asset la cui vita produttiva è di vent'anni può essere un ottimo investimento a un certo costo di finanziamento e non esserlo più a un altro, senza che nulla sia cambiato quanto all'asset stesso, all'amministrazione interessata o alla strategia di riforma perseguita. Due governi che attuano riforme comparabili in condizioni di finanziamento diverse non realizzano dunque investimenti equivalenti, e confrontarli come se lo fossero significa confondere l'intenzione di riforma con la capacità effettivamente creata.
-
-    Nessuno di questi due problemi emerge finché non si compie un cambiamento di analisi. È questo cambiamento che l'opera propone.
-
-    L'idea è semplice, ma le sue implicazioni sono profonde: un sottoinsieme chiaramente definito delle capacità istituzionali va analizzato come una forma di capitale. Dal momento in cui queste capacità presentano le caratteristiche fondamentali del capitale produttivo (accumulazione tramite investimento, durabilità, esigenze di manutenzione, deprezzamento, complementarità e produzione ricorrente di servizi), l'apparato analitico della teoria del capitale si applica al loro studio.
-
-    Questo apparato analitico è lo strumento, non la tesi. L'idea secondo cui le capacità pubbliche si costruiscono tramite investimento non è nuova; il capitolo 4 indica con chiarezza dove essa sia già stata formulata in letteratura. Ciò che l'approccio per il capitale apporta è invece un modo nuovo di rendere visibili i due problemi appena richiamati. Il deterioramento silenzioso diventa un deprezzamento il cui tasso può, in linea di principio, essere stimato. Il vincolo finanziario cessa di essere un semplice dato dei mercati obbligazionari per diventare un determinante diretto del ritmo sostenibile di formazione del capitale istituzionale.
-
-    L'obiettivo non è dunque sostituire l'economia istituzionale, l'amministrazione pubblica o gli studi dedicati alla capacità dello Stato. È integrarli introducendo il capitale istituzionale come categoria analitica distinta, capace di spiegare come capacità istituzionali produttive vengano create, accumulate, mantenute, misurate e poi trasformate in servizi istituzionali, in capacità dello Stato e, in ultima istanza, in valore pubblico.
-
-    ## Dossier di revisione
-
-    Il manoscritto è stato letto da un panel indipendente di economisti e studiosi di scienze sociali, che ha consegnato una relazione scritta e un verdetto di accettazione con revisioni moderate. Il panel non ha sollevato alcuna obiezione alla tesi centrale. Le sue riserve riguardavano il modo in cui la tesi era stabilita, referenziata e riassunta, e ha verificato i dati del volume rispetto alle fonti primarie.
-
-    La relazione formulava dieci raccomandazioni. Tutte e dieci sono state attuate. Fra le conseguenze sostanziali:
-
-    - il teorema generale è stato riqualificato come proposizione generale, e la pretesa di derivazione dagli assiomi ridefinita come dipendenza; 
-    - è stata scritta una regola di ridescrizione, che fissa tre condizioni cumulative sotto le quali uno shock esterno conta come canale interno di deprezzamento anziché come fattore confondente. La regola ha fatto perdere al volume uno dei suoi stessi casi; 
-    - i moltiplicatori liberi sono stati sottoposti ad audit e ridotti da sei a quattro, ciascuno limitato e con segno fissato in anticipo, con una regola che stabilisce quali osservazioni autorizzano quale coefficiente; 
-    - la bibliografia è passata da diciassette lavori a sessantuno riferimenti numerati; 
-    - la regola di selezione dei casi è stata esplicitata, compresa l'ammissione che è stata ricostruita a posteriori. 
-
-    Un secondo panel, costituito indipendentemente dal primo e non informato della sua esistenza, ha successivamente ricevuto il manoscritto completo nelle edizioni francese e inglese.
+    Un secondo panel, costituito indipendentemente dal primo e non informato
+    della sua esistenza, ha successivamente ricevuto il manoscritto completo
+    nelle edizioni francese e inglese.
 ---
