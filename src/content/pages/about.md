@@ -9,7 +9,7 @@ description:
   en: "Institutional Public Policy Press (IPP Press) publishes work on the economics of state capacity. New York."
   fr: "Institutional Public Policy Press (IPP Press) publie des travaux sur l'économie de la capacité de l'État. New York."
   it: "Institutional Public Policy Press (IPP Press) pubblica lavori sull'economia della capacità dello Stato. New York."
-body:
+text:
   en: |
     Institutional Public Policy Press, known as IPP Press, is an independent imprint based in New York.
 
