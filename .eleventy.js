@@ -9,7 +9,8 @@ const rss = require("@11ty/eleventy-plugin-rss");
 const LANGS = ["en", "fr", "it"];
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(rss);eleventyConfig.addGlobalData("buildStamp", () => Date.now().toString(36));
+  eleventyConfig.addPlugin(rss);
+eleventyConfig.addGlobalData("buildStamp", () => Date.now().toString(36));
 
   // static assets copied through untouched
   eleventyConfig.addPassthroughCopy({ "src/style.css": "style.css" });
