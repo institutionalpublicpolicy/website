@@ -17,6 +17,25 @@
 {%- endfor %}
 {%- endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} podcast" href="{{ site.url }}/podcast/feed.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Institutional Public Policy Press",
+  "alternateName": "IPP Press",
+  "url": "{{ site.url }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 United Nations Plaza",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10017",
+    "addressCountry": "US"
+  }
+}
+</script>
+
 <link rel="stylesheet" href="/style.css?v={{ buildStamp }}">
 </head>
 <body>
