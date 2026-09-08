@@ -9,7 +9,7 @@ description:
   en: "How Institutional Public Policy Press reviews the manuscripts it publishes."
   fr: "Comment Institutional Public Policy Press évalue les manuscrits qu'elle publie."
   it: "Come Institutional Public Policy Press valuta i manoscritti che pubblica."
-body:
+text:
   en: |
     Every title published by Institutional Public Policy Press is read by an independent panel before publication.
 
