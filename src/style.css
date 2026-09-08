@@ -37,8 +37,8 @@ body {
   min-height: calc(100vh - clamp(28px, 6vw, 80px));
 }
 
-.column { max-width: 34em; }
-.wide   { max-width: 46em; }
+.column { max-width: 34em; margin-left: auto; margin-right: auto; }
+.wide   { max-width: 46em; margin-left: auto; margin-right: auto; }
 
 /* masthead */
 .masthead { margin-bottom: clamp(40px, 7vw, 92px); }
