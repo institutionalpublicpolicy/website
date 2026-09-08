@@ -110,7 +110,8 @@ content:
     type: collection
     path: src/content/pages
     view:
-      fields: [key]
+      primary: title.en
+      fields: [key, title.en]
     fields:
       - { name: key, label: Page, type: string, readonly: true }
       - { name: file, label: File name, type: string, readonly: true }
@@ -128,7 +129,7 @@ content:
           - { name: en, label: English, type: string }
           - { name: fr, label: Français, type: string }
           - { name: it, label: Italiano, type: string }
-      - name: body
+      - name: text
         label: Text
         type: object
         fields:
