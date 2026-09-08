@@ -14,8 +14,9 @@ eleventyComputed:
 ---
 {%- set L = pl.lang -%}
 {%- set d = pl.page.data -%}
+{%- set txt = d.text or d.body -%}
 {%- if d.key == "about" %}
-{{ d.body[L] | md | safe }}
+{{ txt[L] | md | safe }}
 <a class="ring" href="/{{ L | langRoot }}catalogue.html" aria-label="{{ site.labels.forthcoming | t(L) }}: Institutional Capital Theory">
   <svg viewBox="0 0 300 300" aria-hidden="true">
     <defs><path id="ring-path" d="M150,150 m-118,0 a118,118 0 1,1 236,0 a118,118 0 1,1 -236,0"/></defs>
@@ -34,11 +35,11 @@ eleventyComputed:
 
 {%- elif d.key == "contact" %}
 <h1>{{ d.title[L] }}</h1>
-{{ d.body[L] | md | safe }}
+{{ txt[L] | md | safe }}
 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 <p class="quiet">{{ site.name }}<br>{{ site.address | t(L) | safe }}</p>
 
 {%- else %}
 <h1>{{ d.title[L] }}</h1>
-{{ d.body[L] | md | safe }}
+{{ txt[L] | md | safe }}
 {%- endif %}
