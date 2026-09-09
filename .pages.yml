@@ -21,7 +21,7 @@ content:
       - { name: year, label: Year, type: number }
       - { name: author, label: Author, type: string, description: "Leave empty to withhold" }
       - { name: cover, label: Cover image, type: image, description: "Optional. Leave empty for no cover" }
-      - { name: pubdate, label: Publication date, type: date, description: "Leave empty while forthcoming" }
+      - { name: pubdate, label: Publication date, type: string, description: "As it should appear, e.g. March 2027. Leave empty while forthcoming" }
       - { name: pages, label: Extent (pages), type: number }
       - { name: doi, label: DOI, type: string, description: "e.g. 10.xxxxx/xxxxx, once registered" }
       - name: subjects
