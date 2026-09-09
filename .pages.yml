@@ -21,6 +21,17 @@ content:
       - { name: year, label: Year, type: number }
       - { name: author, label: Author, type: string, description: "Leave empty to withhold" }
       - { name: cover, label: Cover image, type: image, description: "Optional. Leave empty for no cover" }
+      - { name: pubdate, label: Publication date, type: date, description: "Leave empty while forthcoming" }
+      - { name: pages, label: Extent (pages), type: number }
+      - { name: doi, label: DOI, type: string, description: "e.g. 10.xxxxx/xxxxx, once registered" }
+      - name: subjects
+        label: Subjects
+        type: object
+        fields:
+          - { name: en, label: English, type: string, description: "Comma separated" }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+
       - name: title
         label: Title
         type: object
