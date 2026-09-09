@@ -61,6 +61,64 @@ description:
     politiche pubbliche. L’argomento è formulato in assunti espliciti e
     proposizioni verificabili, così che un lettore che respinga una conclusione
     possa individuare la premessa responsabile.**"
+contents:
+  en: |+
+    - **Front matter**
+
+      - Note
+
+      - Preface
+
+      - Introduction
+
+      - The Architecture of Institutional Capital Theory
+
+    - **Part I. Foundations**
+
+      - 1. Two Traditions That Did Not Meet
+
+      - 2. What Makes Capital Capital?
+
+    - **Part II. Conceptual Framework**
+
+      - 3. Institutional Capital: A New Analytical Category
+
+      - 4. Why Institutional Capital Qualifies as Capital
+
+    - **Part III. Economic Dynamics**
+
+      - 5. The Formation and Accumulation of Institutional Capital
+
+      - 6. Maintenance, Depreciation, and Renewal of Institutional Capital
+
+      - 7. The Production Function of Institutional Capital
+
+      - 8. The Returns to Institutional Capital
+
+    - **Part IV. Measurement and Applications**
+
+      - 9. Measuring Institutional Capital
+
+      - 10. Digital Public Infrastructure as Institutional Capital
+
+      - 11. Institutional Capital and State Capacity
+
+      - 12. Divergence: Institutional Capital in Comparative Perspective
+
+      - 13. The Financing Constraint on Institutional Capital
+
+      - 14. Policy Implications of Institutional Capital
+
+      - 15. Conclusion
+
+    - **Appendices**
+
+      - A. The Analytical Structure of Institutional Capital Theory
+
+      - B. The Empirical Protocol
+
+      - References
+
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
