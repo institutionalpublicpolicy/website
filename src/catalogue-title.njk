@@ -53,6 +53,10 @@ eleventyComputed:
   {%- if d.subjects and d.subjects[L] %}
   <div><dt>{{ site.labels.subjects | t(L) }}</dt><dd>{{ d.subjects[L] }}</dd></div>
   {%- endif %}
+  {%- if d.sample and d.sample[L] %}
+  <p class="sample"><a href="{{ d.sample[L] }}" download>{{ d.sample_label[L] or site.labels.sample | t(L) }} (PDF)</a></p>
+  {%- endif %}
+
 </dl>
 
 {%- if d.description and d.description[L] %}
