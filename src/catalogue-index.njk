@@ -17,7 +17,7 @@ eleventyComputed:
 {%- for t in collections.titles %}
   <li class="shelf-item">
     {%- if t.data.cover %}
-    <a class="shelf-cover" href="/{{ L | langRoot }}catalogue/{{ t.data.slug }}.html"><img src="/media/{{ t.data.cover }}" alt=""></a>
+    <a class="shelf-cover" href="/{{ L | langRoot }}catalogue/{{ t.data.slug }}.html"><img src="{{ t.data.cover }}" alt=""></a>
     {%- endif %}
     <div class="shelf-text">
       <p class="shelf-status">{{ site.labels[t.data.status] | t(L) }}</p>
