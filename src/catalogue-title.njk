@@ -21,7 +21,9 @@ eleventyComputed:
 {%- if cov %}
 <figure class="book-cover">
   <img src="{{ cov }}" alt="{{ d.title | t(L) }}">
-
+  {%- if d.status == "forthcoming" %}<figcaption>{{ site.labels.forthcoming | t(L) }}</figcaption>{% endif %}
+</figure>
+{%- endif %}
 
 <h1>{{ d.title | t(L) }}</h1>
 <p class="book-subtitle lead-sub">{{ d.subtitle | t(L) }}</p>
@@ -41,12 +43,12 @@ eleventyComputed:
   {%- if d.pages %}
   <div><dt>{{ site.labels.pages | t(L) }}</dt><dd>{{ d.pages }} {{ site.labels.pp | t(L) }}</dd></div>
   {%- endif %}
-  <div><dt>{{ site.labels.editions | t(L) }}</dt><dd>
-    {{- site.labels.lang_en | t(L) }}{% if d.isbn and d.isbn.en %} (ISBN {{ d.isbn.en }}){% endif %},
-    {{ site.labels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
+  bels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
     {{ site.labels.lang_it | t(L) }}{% if d.isbn and d.isbn.it %} (ISBN {{ d.isbn.it }}){% endif %}
   </dd></div>
-  {%- if d.doi %}
+  {%<div><dt>{{ site.labels.editions | t(L) }}</dt><dd>
+    {{- site.labels.lang_en | t(L) }}{% if d.isbn and d.isbn.en %} (ISBN {{ d.isbn.en }}){% endif %},
+    {{ site.la- if d.doi %}
   <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ d.doi }}">{{ d.doi }}</a></dd></div>
   {%- endif %}
   {%- if d.subjects and d.subjects[L] %}
