@@ -47,6 +47,7 @@
     "lang_fr":  { "en": "French",           "fr": "Français",            "it": "Francese" },
     "lang_it":  { "en": "Italian",          "fr": "Italien",             "it": "Italiano" },
     "contents": { "en": "Contents", "fr": "Table des matières", "it": "Indice" },
+    "sample":   { "en": "Read a sample",   "fr": "Lire un extrait",     "it": "Leggi un estratto" },
 
     "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
     "published":   { "en": "Published",   "fr": "Paru",       "it": "Pubblicato" },
