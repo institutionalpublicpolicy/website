@@ -61,7 +61,7 @@ content:
           - { name: en, label: English, type: rich-text }
           - { name: fr, label: Français, type: rich-text }
           - { name: it, label: Italiano, type: rich-text }
-                - name: contents
+      - name: contents
         label: Table of contents
         type: object
         description: "Parts and chapters only; sections are too long for the page"
