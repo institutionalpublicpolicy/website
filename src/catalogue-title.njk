@@ -59,6 +59,13 @@ eleventyComputed:
 {{ d.description[L] | md | safe }}
 {%- endif %}
 
+{%- if d.contents and d.contents[L] %}
+<h2>{{ site.labels.contents | t(L) }}</h2>
+<div class="toc">
+{{ d.contents[L] | md | safe }}
+</div>
+{%- endif %}
+
 {%- if d.preface and d.preface[L] %}
 <h2>{{ d.preface_heading | t(L) or site.labels.preface | t(L) }}</h2>
 {{ d.preface[L] | md | safe }}
