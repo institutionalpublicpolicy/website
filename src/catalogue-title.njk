@@ -43,22 +43,21 @@ eleventyComputed:
   {%- if d.pages %}
   <div><dt>{{ site.labels.pages | t(L) }}</dt><dd>{{ d.pages }} {{ site.labels.pp | t(L) }}</dd></div>
   {%- endif %}
-  bels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
+  <div><dt>{{ site.labels.editions | t(L) }}</dt><dd>
+    {{- site.labels.lang_en | t(L) }}{% if d.isbn and d.isbn.en %} (ISBN {{ d.isbn.en }}){% endif %},
+    {{ site.labels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
     {{ site.labels.lang_it | t(L) }}{% if d.isbn and d.isbn.it %} (ISBN {{ d.isbn.it }}){% endif %}
   </dd></div>
-  {%<div><dt>{{ site.labels.editions | t(L) }}</dt><dd>
-    {{- site.labels.lang_en | t(L) }}{% if d.isbn and d.isbn.en %} (ISBN {{ d.isbn.en }}){% endif %},
-    {{ site.la- if d.doi %}
+  {%- if d.doi %}
   <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ d.doi }}">{{ d.doi }}</a></dd></div>
   {%- endif %}
   {%- if d.subjects and d.subjects[L] %}
   <div><dt>{{ site.labels.subjects | t(L) }}</dt><dd>{{ d.subjects[L] }}</dd></div>
   {%- endif %}
-  {%- if d.sample and d.sample[L] %}
-  <p class="sample"><a href="{{ d.sample[L] }}" download>{{ d.sample_label[L] or site.labels.sample | t(L) }} (PDF)</a></p>
-  {%- endif %}
-
 </dl>
+{%- if d.sample and d.sample[L] %}
+<p class="sample"><a href="{{ d.sample[L] }}" download>{{ d.sample_label[L] or site.labels.sample | t(L) }} (PDF)</a></p>
+{%- endif %}
 
 {%- if d.description and d.description[L] %}
 {{ d.description[L] | md | safe }}
