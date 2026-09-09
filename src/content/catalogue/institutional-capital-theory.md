@@ -2,6 +2,14 @@
 slug: institutional-capital-theory
 status: forthcoming
 year: 2026
+cover: /media/Cover-1.png
+subjects:
+  en: Public economics, State capacity, Institutional economics, Public finance,
+    Development economics
+  fr: Économie publique, Capacité de l'État, Économie institutionnelle, Finances
+    publiques, Économie du développement
+  it: Economia pubblica, Capacità dello Stato, Economia istituzionale, Finanza
+    pubblica, Economia dello sviluppo
 title:
   en: Institutional Capital Theory
   fr: Théorie du capital institutionnel
