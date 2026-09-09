@@ -69,7 +69,7 @@ content:
           - { name: en, label: English, type: rich-text }
           - { name: fr, label: Français, type: rich-text }
           - { name: it, label: Italiano, type: rich-text }
-            - name: sample
+      - name: sample
         label: Sample chapters (PDF)
         type: object
         fields:
