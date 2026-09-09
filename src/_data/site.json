@@ -43,6 +43,9 @@
     "subjects": { "en": "Subjects",         "fr": "Thèmes",              "it": "Temi" },
     "editions": { "en": "Editions",         "fr": "Éditions",            "it": "Edizioni" },
     "pp":       { "en": "pages",            "fr": "pages",               "it": "pagine" },
+    "lang_en":  { "en": "English",          "fr": "Anglais",             "it": "Inglese" },
+    "lang_fr":  { "en": "French",           "fr": "Français",            "it": "Francese" },
+    "lang_it":  { "en": "Italian",          "fr": "Italien",             "it": "Italiano" },
 
     "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
     "published":   { "en": "Published",   "fr": "Paru",       "it": "Pubblicato" },
