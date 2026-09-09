@@ -152,6 +152,9 @@ contents:
       - B. Il protocollo empirico
       - Riferimenti bibliografici
 
+sample:
+  en: /media/Sample-chapters-2-and-4-2.pdf
+  fr: /media/Sample-chapters-2-and-4-fr-1.pdf
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
