@@ -35,6 +35,15 @@
     ]
   },
   "labels": {
+    "author":   { "en": "Author",           "fr": "Auteur",              "it": "Autore" },
+    "pubdate":  { "en": "Publication date", "fr": "Date de publication", "it": "Data di pubblicazione" },
+    "pages":    { "en": "Extent",           "fr": "Pagination",          "it": "Pagine" },
+    "isbn":     { "en": "ISBN",             "fr": "ISBN",                "it": "ISBN" },
+    "doi":      { "en": "DOI",              "fr": "DOI",                 "it": "DOI" },
+    "subjects": { "en": "Subjects",         "fr": "Thèmes",              "it": "Temi" },
+    "editions": { "en": "Editions",         "fr": "Éditions",            "it": "Edizioni" },
+    "pp":       { "en": "pages",            "fr": "pages",               "it": "pagine" },
+
     "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
     "published":   { "en": "Published",   "fr": "Paru",       "it": "Pubblicato" },
     "catalogue":   { "en": "Catalogue",   "fr": "Catalogue",  "it": "Catalogo" },
