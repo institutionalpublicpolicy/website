@@ -6,6 +6,7 @@ pagination:
   addAllPagesToCollections: true
 permalink: "{{ tl.lang | langRoot }}catalogue/{{ tl.title.data.slug }}.html"
 layout: base.njk
+width: wide
 eleventyComputed:
   lang: "{{ tl.lang }}"
   file: "catalogue/{{ tl.title.data.slug }}.html"
