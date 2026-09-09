@@ -17,12 +17,11 @@ eleventyComputed:
 {%- set d = tl.title.data -%}
 <article class="book">
 
-{%- if d.cover %}
+{%- set cov = d.cover[L] or d.cover.en or d.cover -%}
+{%- if cov %}
 <figure class="book-cover">
-  <img src="{{ d.cover }}" alt="{{ d.title | t(L) }}">
-  {%- if d.status == "forthcoming" %}<figcaption>{{ site.labels.forthcoming | t(L) }}</figcaption>{% endif %}
-</figure>
-{%- endif %}
+  <img src="{{ cov }}" alt="{{ d.title | t(L) }}">
+
 
 <h1>{{ d.title | t(L) }}</h1>
 <p class="book-subtitle lead-sub">{{ d.subtitle | t(L) }}</p>
