@@ -69,6 +69,21 @@ content:
           - { name: en, label: English, type: rich-text }
           - { name: fr, label: Français, type: rich-text }
           - { name: it, label: Italiano, type: rich-text }
+            - name: sample
+        label: Sample chapters (PDF)
+        type: object
+        fields:
+          - { name: en, label: English, type: file }
+          - { name: fr, label: Français, type: file }
+          - { name: it, label: Italiano, type: file }
+      - name: sample_label
+        label: Sample link text
+        type: object
+        description: "e.g. Read chapters 2 and 4"
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
       - name: preface_heading
         label: Preface heading
         type: object
