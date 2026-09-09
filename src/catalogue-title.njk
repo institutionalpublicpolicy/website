@@ -18,7 +18,7 @@ eleventyComputed:
 
 {%- if d.cover %}
 <figure class="book-cover">
-  <img src="/media/{{ d.cover }}" alt="{{ d.title | t(L) }}">
+  <img src="{{ d.cover }}" alt="{{ d.title | t(L) }}">
   {%- if d.status == "forthcoming" %}<figcaption>{{ site.labels.forthcoming | t(L) }}</figcaption>{% endif %}
 </figure>
 {%- endif %}
