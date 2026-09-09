@@ -246,6 +246,6 @@ main img {
   .book::after { content: ""; display: block; clear: both; }
 }
 .meta { margin: 2rem 0; padding: 1.25rem 0; border-top: 1px solid rgba(92, 122, 158, 0.35); border-bottom: 1px solid rgba(92, 122, 158, 0.35); }
-.meta div { display: grid; grid-template-columns: 11em 1fr; gap: 0.75rem; padding: 0.3rem 0; }
+.meta div { display: grid; grid-template-columns: 9em 1fr; gap: 0.75rem; padding: 0.3rem 0; }
 .meta dt { color: var(--pale); font-size: 0.86rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .meta dd { margin: 0; }
