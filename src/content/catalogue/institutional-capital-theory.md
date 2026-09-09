@@ -20,6 +20,19 @@ subtitle:
     et de la valeur publique
   it: Una teoria economica degli asset istituzionali, della capacità dello Stato e
     del valore pubblico
+description:
+  en: "**Institutions can go on existing, being funded and performing their formal
+    functions while the capabilities that make them effective quietly decay.
+    Governments do not budget for this, because the capability is nowhere
+    recorded as an asset and its upkeep is booked as overhead. This book
+    proposes that a defined subset of public capabilities be analysed as
+    capital: built through investment, durable, in need of maintenance, subject
+    to depreciation, and productive of services over time. From that starting
+    point it derives a measurement framework, examines evidence from five
+    regions, sets out the financing constraint that governs how fast such
+    capital can be formed, and draws the implications for policy. The argument
+    is stated as explicit assumptions and testable propositions, so that a
+    reader who rejects a conclusion can locate the premise responsible.**"
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
