@@ -33,6 +33,34 @@ description:
     capital can be formed, and draws the implications for policy. The argument
     is stated as explicit assumptions and testable propositions, so that a
     reader who rejects a conclusion can locate the premise responsible.**"
+  fr: "**Des institutions peuvent continuer d’exister, d’être financées et
+    d’exercer leurs fonctions formelles pendant que les capacités qui les
+    rendent efficaces se dégradent en silence. Les gouvernements ne le
+    budgétisent pas, parce que la capacité n’est enregistrée nulle part comme un
+    actif et que son entretien est comptabilisé en frais de fonctionnement. Ce
+    livre propose d’analyser comme du capital un sous-ensemble défini des
+    capacités publiques : constitué par l’investissement, durable, exigeant un
+    entretien, soumis à la dépréciation et producteur de services dans le temps.
+    À partir de là, il construit un cadre de mesure, examine des éléments tirés
+    de cinq régions, expose la contrainte de financement qui gouverne la vitesse
+    à laquelle ce capital peut se former et en tire les conséquences pour
+    l’action publique. L’argument est formulé en hypothèses explicites et en
+    propositions vérifiables, de sorte qu’un lecteur qui rejette une conclusion
+    puisse identifier la prémisse en cause.**"
+  it: "**Le istituzioni possono continuare a esistere, a essere finanziate e a
+    svolgere le loro funzioni formali mentre le capacità che le rendono efficaci
+    si deteriorano in silenzio. I governi non lo mettono a bilancio, perché la
+    capacità non è registrata da nessuna parte come un’attività e la sua
+    manutenzione è contabilizzata come spesa corrente. Questo libro propone di
+    analizzare come capitale un sottoinsieme definito delle capacità pubbliche:
+    costruito attraverso l’investimento, durevole, bisognoso di manutenzione,
+    soggetto a deprezzamento e produttivo di servizi nel tempo. Da questo punto
+    di partenza ricava un quadro di misurazione, esamina evidenze tratte da
+    cinque regioni, espone il vincolo di finanziamento che governa la velocità
+    con cui tale capitale può formarsi e ne trae le implicazioni per le
+    politiche pubbliche. L’argomento è formulato in assunti espliciti e
+    proposizioni verificabili, così che un lettore che respinga una conclusione
+    possa individuare la premessa responsabile.**"
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
