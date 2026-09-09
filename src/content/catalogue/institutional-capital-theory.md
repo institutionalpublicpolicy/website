@@ -119,6 +119,120 @@ contents:
 
       - References
 
+  fr: |+
+    - **Préliminaires**
+
+      - Note
+
+      - Préface
+
+      - Introduction
+
+      - L'architecture de la Théorie du capital institutionnel
+
+    - **Partie I. Fondements**
+
+      - 1. Deux traditions qui ne se sont pas rencontrées
+
+      - 2. Qu'est-ce qui fait du capital un capital ?
+
+    - **Partie II. Cadre conceptuel**
+
+      - 3. Le capital institutionnel : une nouvelle catégorie analytique
+
+      - 4. Pourquoi le capital institutionnel est bien du capital
+
+    - **Partie III. Dynamiques économiques**
+
+      - 5. Formation et accumulation du capital institutionnel
+
+      - 6. Entretien, dépréciation et renouvellement du capital institutionnel
+
+      - 7. La fonction de production du capital institutionnel
+
+      - 8. Les rendements du capital institutionnel
+
+    - **Partie IV. Mesure et applications**
+
+      - 9. Mesurer le capital institutionnel
+
+      - 10. L'infrastructure publique numérique comme capital institutionnel
+
+      - 11. Capital institutionnel et capacité de l'État
+
+      - 12. Divergence : le capital institutionnel en perspective comparée
+
+      - 13. La contrainte de financement du capital institutionnel
+
+      - 14. Implications de politique publique du capital institutionnel
+
+      - 15. Conclusion
+
+    - **Annexes**
+
+      - A. La structure analytique de la Théorie du capital institutionnel
+
+      - B. Le protocole empirique
+
+      - Références
+
+  it: |+
+    - **Parti introduttive**
+
+      - Nota
+
+      - Prefazione
+
+      - Introduzione
+
+      - L'architettura della Teoria del capitale istituzionale
+
+    - **Parte I. Fondamenti**
+
+      - 1. Due tradizioni che non si sono incontrate
+
+      - 2. Che cosa rende capitale il capitale?
+
+    - **Parte II. Quadro concettuale**
+
+      - 3. Il capitale istituzionale: una nuova categoria analitica
+
+      - 4. Perché il capitale istituzionale è capitale
+
+    - **Parte III. Dinamiche economiche**
+
+      - 5. Formazione e accumulazione del capitale istituzionale
+
+      - 6. Manutenzione, deprezzamento e rinnovamento del capitale istituzionale
+
+      - 7. La funzione di produzione del capitale istituzionale
+
+      - 8. I rendimenti del capitale istituzionale
+
+    - **Parte IV. Misurazione e applicazioni**
+
+      - 9. Misurare il capitale istituzionale
+
+      - 10. L'infrastruttura pubblica digitale come capitale istituzionale
+
+      - 11. Capitale istituzionale e capacità dello Stato
+
+      - 12. Divergenza: il capitale istituzionale in prospettiva comparata
+
+      - 13. Il vincolo di finanziamento del capitale istituzionale
+
+      - 14. Implicazioni di policy del capitale istituzionale
+
+      - 15. Conclusione
+
+    - **Appendici**
+
+      - A. La struttura analitica della Teoria del capitale istituzionale
+
+      - B. Il protocollo empirico
+
+      - Riferimenti bibliografici
+
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
