@@ -24,9 +24,9 @@ content:
         label: Cover
         type: object
         fields:
-        - { name: en, label: English, type: image }
-        - { name: fr, label: Français, type: image }
-        - { name: it, label: Italiano, type: image }
+          - { name: en, label: English, type: image }
+          - { name: fr, label: Français, type: image }
+          - { name: it, label: Italiano, type: image }
 
       - { name: pubdate, label: Publication date, type: string, description: "As it should appear, e.g. March 2027. Leave empty while forthcoming" }
       - { name: pages, label: Extent (pages), type: number }
