@@ -257,4 +257,10 @@ main img {
 .meta dd { margin: 0; }
 .sample a { display: inline-block; padding: 0.55rem 1.1rem; border: 1px solid var(--gold); color: var(--gold); text-decoration: none; letter-spacing: 0.08em; }
 .sample a:hover { background: var(--gold); color: var(--navy); }
+.cite { margin-top: 2.5rem; border-top: 1px solid var(--gold, #b8933f); padding-top: 1rem; }
+.cite summary { cursor: pointer; font-weight: 600; }
+.cite-item { display: grid; grid-template-columns: 5em 1fr auto; gap: .75rem; align-items: start; margin-top: 1rem; }
+.cite-style { font-size: .85em; opacity: .7; padding-top: .3rem; }
+.cite pre { margin: 0; white-space: pre-wrap; font-family: inherit; font-size: .95em; line-height: 1.45; }
+.cite button { font: inherit; font-size: .85em; padding: .25rem .6rem; border: 1px solid currentColor; border-radius: 3px; background: none; cursor: pointer; }
 
