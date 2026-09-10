@@ -15,7 +15,26 @@
 {%- for L in langs %}
 <link rel="alternate" hreflang="{{ L }}" href="{{ site.url }}/{{ L | langRoot }}{{ file }}">
 {%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ file }}">
 {%- endif %}
+{%- set ogimg = image or site.og_image -%}
+{%- set locales = { "en": "en_US", "fr": "fr_FR", "it": "it_IT" } -%}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{{ 'book' if image else 'website' }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ locales[lang] }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ title }}">
+{%- if description %}
+<meta property="og:description" content="{{ description }}">
+{%- endif %}
+<meta property="og:image" content="{{ site.url }}{{ ogimg }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+{%- if description %}
+<meta name="twitter:description" content="{{ description }}">
+{%- endif %}
+<meta name="twitter:image" content="{{ site.url }}{{ ogimg }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} podcast" href="{{ site.url }}/podcast/feed.xml">
 <script type="application/ld+json">
 {
