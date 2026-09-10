@@ -2,7 +2,10 @@
 slug: institutional-capital-theory
 status: forthcoming
 year: 2026
-cover: /media/Cover-1.png
+cover:
+  en: /media/Cover-2.png
+  fr: /media/Cover_fr-1.png
+  it: /media/Cover_it-1.png
 subjects:
   en: Public economics, State capacity, Institutional economics, Public finance,
     Development economics
