@@ -86,6 +86,8 @@ eleventyComputed:
 <summary>{{ site.labels.cite | t(L) }}</summary>
 <div class="cite-item"><span class="cite-style">APA</span><pre>{{ auth }} ({{ d.year }}). <em>{{ fulltitle }}</em>. {{ site.name }}.{% if d.doi %} https://doi.org/{{ d.doi }}{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
 <div class="cite-item"><span class="cite-style">Chicago</span><pre>{{ auth }}. <em>{{ fulltitle }}</em>. {{ site.place }}: {{ site.name }}, {{ d.year }}.{% if d.doi %} https://doi.org/{{ d.doi }}.{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<details class="cite-bibtex">
+<summary>{{ site.labels.bibtex | t(L) }}</summary>
 <div class="cite-item"><span class="cite-style">BibTeX</span><pre>@book{{ "{" }}{{ d.slug }}{{ d.year }},
   author    = {{ "{" }}{{ auth }}},
   title     = {{ "{" }}{{ fulltitle }}},
@@ -95,6 +97,7 @@ eleventyComputed:
   isbn      = {{ "{" }}{{ isbn }}}{% endif %}{% if d.doi %},
   doi       = {{ "{" }}{{ d.doi }}}{% endif %}
 }</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+</details>
 </details>
 <script>
 document.querySelectorAll('.cite [data-copy]').forEach(function (b) {
