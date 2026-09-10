@@ -158,6 +158,11 @@ contents:
 sample:
   en: /media/Sample-chapters-2-and-4-2.pdf
   fr: /media/Sample-chapters-2-and-4-fr-1.pdf
+  it: /media/Sample-chapters-2-and-4-it.pdf
+sample_label:
+  en: Read chapters 2 and 4
+  fr: Lire les chapitres 2 et 4
+  it: Leggi i capitoli 2 e 4
 preface_heading:
   en: "Preface: Two Problems in the Life of Public Capabilities"
   fr: "Préface : Deux problèmes dans la vie des capacités publiques"
