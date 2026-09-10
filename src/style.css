@@ -265,3 +265,5 @@ main img {
 .cite button { font: inherit; font-size: .85em; padding: .25rem .6rem; border: 1px solid currentColor; border-radius: 3px; background: none; cursor: pointer; }
 .cite-bibtex { margin-top: 1rem; }
 .cite-bibtex summary { font-size: .85em; opacity: .7; cursor: pointer; }
+.cta { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 2rem; }
+.cta a { display: inline-block; padding: .4rem .9rem; border: 1px solid currentColor; border-radius: 3px; text-decoration: none; font-size: .95em; }
