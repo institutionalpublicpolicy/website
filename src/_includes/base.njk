@@ -16,6 +16,7 @@
 <link rel="alternate" hreflang="{{ L }}" href="{{ site.url }}/{{ L | langRoot }}{{ file }}">
 {%- endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ file }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} blog" href="{{ site.url }}/blog/feed.xml">
 {%- endif %}
 {%- set ogimg = image or site.og_image -%}
 {%- set locales = { "en": "en_US", "fr": "fr_FR", "it": "it_IT" } -%}
