@@ -44,4 +44,139 @@ eleventyComputed:
   {%- if d.pages %}
   <div><dt>{{ site.labels.pages | t(L) }}</dt><dd>{{ d.pages }} {{ site.labels.pp | t(L) }}</dd></div>
   {%- endif %}
-  <div><dt>{{ site.labels.editions | t(L) }}</dt>
+  <div><dt>{{ site.labels.editions | t(L) }}</dt><dd>
+    {{- site.labels.lang_en | t(L) }}{% if d.isbn and d.isbn.en %} (ISBN {{ d.isbn.en }}){% endif %},
+    {{ site.labels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
+    {{ site.labels.lang_it | t(L) }}{% if d.isbn and d.isbn.it %} (ISBN {{ d.isbn.it }}){% endif %}
+  </dd></div>
+  {%- if d.doi %}
+  <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ d.doi }}">{{ d.doi }}</a></dd></div>
+  {%- endif %}
+  {%- if d.subjects and d.subjects[L] %}
+  <div><dt>{{ site.labels.subjects | t(L) }}</dt><dd>{{ d.subjects[L] }}</dd></div>
+  {%- endif %}
+</dl>
+{%- if d.sample and d.sample[L] %}
+<p class="sample"><a href="{{ d.sample[L] }}" download>{{ d.sample_label[L] or site.labels.sample | t(L) }} (PDF)</a></p>
+{%- endif %}
+{%- set mailbase = "mailto:" + site.email + "?body=" + (site.labels.cta_body | t(L) | urlencode) + "&subject=" -%}
+{%- set booktag = " — " + (d.title | t(L)) + " (" + (L | upper) + ")" -%}
+<p class="cta">
+  {%- if d.status == "forthcoming" %}
+  <a href="{{ mailbase }}{{ ((site.labels.notify | t(L)) + booktag) | urlencode }}">{{ site.labels.notify | t(L) }}</a>
+  {%- endif %}
+  <a href="{{ mailbase }}{{ ((site.labels.review_copy | t(L)) + booktag) | urlencode }}">{{ site.labels.review_copy | t(L) }}</a>
+  <a href="{{ mailbase }}{{ ((site.labels.inspection | t(L)) + booktag) | urlencode }}">{{ site.labels.inspection | t(L) }}</a>
+</p>
+
+{%- if d.description and d.description[L] %}
+{{ d.description[L] | md | safe }}
+{%- endif %}
+
+{%- if d.contents and d.contents[L] %}
+<h2>{{ site.labels.contents | t(L) }}</h2>
+<div class="toc">
+{{ d.contents[L] | md | safe }}
+</div>
+{%- endif %}
+
+{%- if d.preface and d.preface[L] %}
+<h2>{{ d.preface_heading | t(L) or site.labels.preface | t(L) }}</h2>
+{{ d.preface[L] | md | safe }}
+{%- endif %}
+
+{%- if d.review_record and d.review_record[L] %}
+<h2>{{ site.labels.review | t(L) }}</h2>
+{{ d.review_record[L] | md | safe }}
+{%- endif %}
+{%- set fulltitle %}{{ d.title | t(L) }}{% if d.subtitle | t(L) %}: {{ d.subtitle | t(L) }}{% endif %}{% endset -%}
+{%- set auth = (d.author.split(" ") | last) + ", " + (d.author.split(" ") | first) if d.author else site.name -%}
+{%- set isbn = d.isbn[L] if d.isbn else "" -%}
+<details class="cite">
+<summary>{{ site.labels.cite | t(L) }}</summary>
+<div class="cite-item"><span class="cite-style">APA</span><pre>{{ auth }} ({{ d.year }}). <em>{{ fulltitle }}</em>. {{ site.name }}.{% if d.doi %} https://doi.org/{{ d.doi }}{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<div class="cite-item"><span class="cite-style">Chicago</span><pre>{{ auth }}. <em>{{ fulltitle }}</em>. {{ site.place }}: {{ site.name }}, {{ d.year }}.{% if d.doi %} https://doi.org/{{ d.doi }}.{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<details class="cite-bibtex">
+<summary>{{ site.labels.bibtex | t(L) }}</summary>
+<div class="cite-item"><span class="cite-style">BibTeX</span><pre>@book{{ "{" }}{{ d.slug }}{{ d.year }},
+  author    = {{ "{" }}{{ auth }}},
+  title     = {{ "{" }}{{ fulltitle }}},
+  publisher = {{ "{" }}{{ site.name }}},
+  address   = {{ "{" }}{{ site.place }}},
+  year      = {{ "{" }}{{ d.year }}}{% if isbn %},
+  isbn      = {{ "{" }}{{ isbn }}}{% endif %}{% if d.doi %},
+  doi       = {{ "{" }}{{ d.doi }}}{% endif %}
+}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+</details>
+</details>
+<script>
+document.querySelectorAll('.cite [data-copy]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    navigator.clipboard.writeText(b.previousElementSibling.innerText).then(function () {
+      b.textContent = '{{ site.labels.copied | t(L) }}';
+      setTimeout(function () { b.textContent = '{{ site.labels.copy | t(L) }}'; }, 1500);
+    });
+  });
+});
+</script>
+{%- set editions = [
+  { "l": "en", "n": "English" },
+  { "l": "fr", "n": "French" },
+  { "l": "it", "n": "Italian" }
+] -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "{{ site.url }}/{{ L | langRoot }}catalogue/{{ d.slug }}.html",
+  "url": "{{ site.url }}/{{ L | langRoot }}catalogue/{{ d.slug }}.html",
+  "name": {{ (d.title | t(L)) | dump | safe }},
+  "alternativeHeadline": {{ (d.subtitle | t(L)) | dump | safe }},
+  "description": {{ (d.subtitle | t(L)) | dump | safe }},
+  "inLanguage": "{{ L }}",
+  "datePublished": "{{ d.year }}",
+  "creativeWorkStatus": "{{ 'Published' if d.status == 'published' else 'Forthcoming' }}",
+  {%- if cov %}
+  "image": "{{ site.url }}{{ cov }}",
+  {%- endif %}
+  {%- if d.pages %}
+  "numberOfPages": {{ d.pages }},
+  {%- endif %}
+  {%- if d.doi %}
+  "sameAs": "https://doi.org/{{ d.doi }}",
+  {%- endif %}
+  {%- if d.isbn and d.isbn[L] %}
+  "isbn": "{{ d.isbn[L] }}",
+  {%- endif %}
+  "author": {
+    {%- if d.author %}
+    "@type": "Person",
+    "name": {{ d.author | dump | safe }}
+    {%- else %}
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }}
+    {%- endif %}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }},
+    "url": "{{ site.url }}"
+  },
+  "workExample": [
+    {%- for e in editions %}
+    {
+      "@type": "Book",
+      "bookFormat": "https://schema.org/Paperback",
+      "inLanguage": "{{ e.l }}",
+      "name": {{ (d.title[e.l] or d.title.en) | dump | safe }},
+      "url": "{{ site.url }}/{{ e.l | langRoot }}catalogue/{{ d.slug }}.html"
+      {%- if d.isbn and d.isbn[e.l] %},
+      "isbn": "{{ d.isbn[e.l] }}"
+      {%- endif %}
+    }{% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ]
+}
+</script>
+
+</article>
