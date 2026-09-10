@@ -8,11 +8,11 @@ permalink: "{{ tl.lang | langRoot }}catalogue/{{ tl.title.data.slug }}.html"
 layout: base.njk
 width: wide
 eleventyComputed:
-  image: "{{ tl.title.data.cover[tl.lang] or tl.title.data.cover.en or tl.title.data.cover }}"
+  image: "/media/og-{{ tl.title.data.slug }}-{{ tl.lang }}.png"
   lang: "{{ tl.lang }}"
   file: "catalogue/{{ tl.title.data.slug }}.html"
   title: "{{ tl.title.data.title[tl.lang] | safe }} — Institutional Public Policy Press"
-  description: "{{ tl.title.data.subtitle[tl.lang] | safe }}"
+  description: "{{ (tl.title.data.description[tl.lang] | md | striptags | truncate(220)) if tl.title.data.description and tl.title.data.description[tl.lang] else tl.title.data.subtitle[tl.lang] | safe }}"
 ---
 {%- set L = tl.lang -%}
 {%- set d = tl.title.data -%}
