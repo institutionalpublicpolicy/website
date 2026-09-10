@@ -52,7 +52,10 @@
     "copy": { "en": "Copy", "fr": "Copier", "it": "Copia" },
     "copied": { "en": "Copied", "fr": "Copié", "it": "Copiato" },
     "bibtex": { "en": "Show BibTeX", "fr": "Afficher le BibTeX", "it": "Mostra BibTeX" },
-
+    "notify":     { "en": "Notify me at publication",     "fr": "M'avertir à la parution",              "it": "Avvisami alla pubblicazione" },
+    "review_copy": { "en": "Request a review copy",       "fr": "Demander un exemplaire de recension",   "it": "Richiedi una copia per recensione" },
+    "inspection": { "en": "Request an inspection copy",   "fr": "Demander un exemplaire d'examen",       "it": "Richiedi una copia saggio" },
+    "cta_body":   { "en": "Name:\nInstitution:\nPostal address:\nJournal or course (for review and inspection copies):\n", "fr": "Nom :\nInstitution :\nAdresse postale :\nRevue ou cours (pour les exemplaires de recension ou d'examen) :\n", "it": "Nome:\nIstituzione:\nIndirizzo postale:\nRivista o corso (per copie recensione o saggio):\n" },
 
     "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
     "published":   { "en": "Published",   "fr": "Paru",       "it": "Pubblicato" },
