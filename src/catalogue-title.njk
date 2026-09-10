@@ -57,6 +57,16 @@ eleventyComputed:
 </dl>
 {%- if d.sample and d.sample[L] %}
 <p class="sample"><a href="{{ d.sample[L] }}" download>{{ d.sample_label[L] or site.labels.sample | t(L) }} (PDF)</a></p>
+{%- set mailbase = "mailto:" + site.email + "?body=" + (site.labels.cta_body | t(L) | urlencode) + "&subject=" -%}
+{%- set booktag = " — " + (d.title | t(L)) + " (" + L | upper + ")" -%}
+<p class="cta">
+  {%- if d.status == "forthcoming" %}
+  <a href="{{ mailbase }}{{ (site.labels.notify | t(L)) + booktag | urlencode }}">{{ site.labels.notify | t(L) }}</a>
+  {%- endif %}
+  <a href="{{ mailbase }}{{ (site.labels.review_copy | t(L)) + booktag | urlencode }}">{{ site.labels.review_copy | t(L) }}</a>
+  <a href="{{ mailbase }}{{ (site.labels.inspection | t(L)) + booktag | urlencode }}">{{ site.labels.inspection | t(L) }}</a>
+</p>
+
 {%- endif %}
 
 {%- if d.description and d.description[L] %}
