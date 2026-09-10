@@ -51,6 +51,7 @@
     "cite": { "en": "Cite this book", "fr": "Citer ce livre", "it": "Citare questo libro" },
     "copy": { "en": "Copy", "fr": "Copier", "it": "Copia" },
     "copied": { "en": "Copied", "fr": "Copié", "it": "Copiato" },
+    "bibtex": { "en": "Show BibTeX", "fr": "Afficher le BibTeX", "it": "Mostra BibTeX" },
 
 
     "forthcoming": { "en": "Forthcoming", "fr": "À paraître", "it": "Di prossima pubblicazione" },
