@@ -1,0 +1,195 @@
+# Pages CMS configuration — https://pagescms.org
+# This file tells the editing screen what content exists and what fields each
+# piece has. Nothing here affects the built site directly.
+
+media:
+  input: src/content/media
+  output: /media
+
+content:
+  - name: catalogue
+    label: Catalogue
+    type: collection
+    path: src/content/catalogue
+    filename: "{fields.slug}.md"
+    view:
+      primary: title.en
+      fields: [title.en, status, year]
+    fields:
+      - { name: slug, label: Address slug, type: string, required: true, description: "Used in the page address, e.g. institutional-capital-theory" }
+      - { name: status, label: Status, type: select, options: { values: [forthcoming, published] }, default: forthcoming }
+      - { name: year, label: Year, type: number }
+      - { name: author, label: Author, type: string, description: "Leave empty to withhold" }
+      - name: cover
+        label: Cover
+        type: object
+        fields:
+          - { name: en, label: English, type: image }
+          - { name: fr, label: Français, type: image }
+          - { name: it, label: Italiano, type: image }
+
+      - { name: pubdate, label: Publication date, type: string, description: "As it should appear, e.g. March 2027. Leave empty while forthcoming" }
+      - { name: pages, label: Extent (pages), type: number }
+      - name: doi
+        label: DOI
+        type: object
+        fields:
+          - { name: en, label: English, type: string, description: "e.g. 10.5281/zenodo.xxxxxxxx, once registered" }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: subjects
+        label: Subjects
+        type: object
+        fields:
+          - { name: en, label: English, type: string, description: "Comma separated" }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string, required: true }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: subtitle
+        label: Subtitle
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: isbn
+        label: ISBN
+        type: object
+        description: "Fill in at publication, not before"
+        fields:
+          - { name: en, label: English edition, type: string }
+          - { name: fr, label: French edition, type: string }
+          - { name: it, label: Italian edition, type: string }
+      - name: description
+        label: Description
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+      - name: contents
+        label: Table of contents
+        type: object
+        description: "Parts and chapters only; sections are too long for the page"
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+      - name: sample
+        label: Sample chapters (PDF)
+        type: object
+        fields:
+          - { name: en, label: English, type: file }
+          - { name: fr, label: Français, type: file }
+          - { name: it, label: Italiano, type: file }
+      - name: sample_label
+        label: Sample link text
+        type: object
+        description: "e.g. Read chapters 2 and 4"
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: preface_heading
+        label: Preface heading
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: preface
+        label: Preface
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+      - name: review_record
+        label: Review record
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+
+  - name: blog
+    label: Blog
+    type: collection
+    path: src/content/blog
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, draft]
+      sort: [date]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: draft, label: Draft, type: boolean, default: true, description: "Drafts are not published" }
+      - { name: summary, label: One-line summary, type: string }
+      - { name: body, label: Post, type: rich-text }
+
+  - name: podcast
+    label: Podcast
+    type: collection
+    path: src/content/podcast
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, draft]
+      sort: [date]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: summary, label: One-line summary, type: string }
+      - { name: audio, label: Audio file address, type: string, description: "Public URL of the MP3" }
+      - { name: duration, label: Duration, type: string, description: "e.g. 32:10" }
+      - { name: bytes, label: File size in bytes, type: number }
+      - { name: body, label: Show notes, type: rich-text }
+
+  - name: pages
+    label: Site pages
+    type: collection
+    path: src/content/pages
+    view:
+      primary: title.en
+      fields: [key, title.en]
+    fields:
+      - { name: key, label: Page, type: string, readonly: true }
+      - { name: file, label: File name, type: string, readonly: true }
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: description
+        label: Search description
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: text
+        label: Text
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+
+  - name: settings
+    label: Press details
+    type: file
+    path: src/_data/site.json
+    fields:
+      - { name: name, label: Press name, type: string }
+      - { name: place, label: City, type: string }
+      - { name: url, label: Site address, type: string }
+      - { name: email, label: Contact email, type: string }
