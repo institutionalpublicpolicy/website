@@ -16,6 +16,7 @@ eleventyComputed:
 ---
 {%- set L = tl.lang -%}
 {%- set d = tl.title.data -%}
+{%- set doi = d.doi[L] if (d.doi and d.doi[L]) else "" -%}
 <article class="book">
 
 {%- set cov = d.cover[L] or d.cover.en or d.cover -%}
@@ -49,8 +50,8 @@ eleventyComputed:
     {{ site.labels.lang_fr | t(L) }}{% if d.isbn and d.isbn.fr %} (ISBN {{ d.isbn.fr }}){% endif %},
     {{ site.labels.lang_it | t(L) }}{% if d.isbn and d.isbn.it %} (ISBN {{ d.isbn.it }}){% endif %}
   </dd></div>
-  {%- if d.doi %}
-  <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ d.doi }}">{{ d.doi }}</a></dd></div>
+  {%- if doi %}
+  <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ doi }}">{{ doi }}</a></dd></div>
   {%- endif %}
   {%- if d.subjects and d.subjects[L] %}
   <div><dt>{{ site.labels.subjects | t(L) }}</dt><dd>{{ d.subjects[L] }}</dd></div>
@@ -94,8 +95,8 @@ eleventyComputed:
 {%- set isbn = d.isbn[L] if d.isbn else "" -%}
 <details class="cite">
 <summary>{{ site.labels.cite | t(L) }}</summary>
-<div class="cite-item"><span class="cite-style">APA</span><pre>{{ auth }} ({{ d.year }}). <em>{{ fulltitle }}</em>. {{ site.name }}.{% if d.doi %} https://doi.org/{{ d.doi }}{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
-<div class="cite-item"><span class="cite-style">Chicago</span><pre>{{ auth }}. <em>{{ fulltitle }}</em>. {{ site.place }}: {{ site.name }}, {{ d.year }}.{% if d.doi %} https://doi.org/{{ d.doi }}.{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<div class="cite-item"><span class="cite-style">APA</span><pre>{{ auth }} ({{ d.year }}). <em>{{ fulltitle }}</em>. {{ site.name }}.{% if doi %} https://doi.org/{{ doi }}{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<div class="cite-item"><span class="cite-style">Chicago</span><pre>{{ auth }}. <em>{{ fulltitle }}</em>. {{ site.place }}: {{ site.name }}, {{ d.year }}.{% if doi %} https://doi.org/{{ doi }}.{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
 <details class="cite-bibtex">
 <summary>{{ site.labels.bibtex | t(L) }}</summary>
 <div class="cite-item"><span class="cite-style">BibTeX</span><pre>@book{{ "{" }}{{ d.slug }}{{ d.year }},
@@ -104,8 +105,8 @@ eleventyComputed:
   publisher = {{ "{" }}{{ site.name }}},
   address   = {{ "{" }}{{ site.place }}},
   year      = {{ "{" }}{{ d.year }}}{% if isbn %},
-  isbn      = {{ "{" }}{{ isbn }}}{% endif %}{% if d.doi %},
-  doi       = {{ "{" }}{{ d.doi }}}{% endif %}
+  isbn      = {{ "{" }}{{ isbn }}}{% endif %}{% if doi %},
+  doi       = {{ "{" }}{{ doi }}}{% endif %}
 }</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
 </details>
 </details>
@@ -142,8 +143,8 @@ document.querySelectorAll('.cite [data-copy]').forEach(function (b) {
   {%- if d.pages %}
   "numberOfPages": {{ d.pages }},
   {%- endif %}
-  {%- if d.doi %}
-  "sameAs": "https://doi.org/{{ d.doi }}",
+  {%- if doi %}
+  "sameAs": "https://doi.org/{{ doi }}",
   {%- endif %}
   {%- if d.isbn and d.isbn[L] %}
   "isbn": "{{ d.isbn[L] }}",
