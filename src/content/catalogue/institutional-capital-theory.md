@@ -9,6 +9,7 @@ cover:
 doi:
   en: 10.5281/zenodo.22691972
   fr: 10.5281/zenodo.22692834
+  it: 10.5281/zenodo.22727634
 subjects:
   en: Public economics, State capacity, Institutional economics, Public finance,
     Development economics
