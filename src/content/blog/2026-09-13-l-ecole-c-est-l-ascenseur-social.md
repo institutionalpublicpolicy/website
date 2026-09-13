@@ -136,7 +136,9 @@ L'Asie de l'Est a montré qu'on pouvait constituer ce stock en une génération.
 
 Platon avait défini la cité juste comme celle où chacun occupe la place que ses capacités lui donnent, et non celle que sa naissance lui assigne. Il faut cesser de juger l'école sur ce qu'elle dépense, et la juger sur ce qu'elle forme.
 
+/ Fin
 
+===============================================================================
 
 ### Sigles
 
@@ -172,7 +174,7 @@ UNESCO : Organisation des Nations Unies pour l'éducation, la science et la cult
 
 UNICEF : Fonds des Nations Unies pour l'enfance.
 
-Sources
+### Sources
 
 Les chiffres cités dans ce texte proviennent des publications suivantes. Le périmètre statistique « Afrique subsaharienne » est celui des sources ; il est repris tel quel lorsque la donnée n'existe pas à l'échelle du continent.
 
