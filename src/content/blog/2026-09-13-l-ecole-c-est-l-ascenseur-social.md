@@ -135,3 +135,68 @@ L'ascenseur social est un contrat. L'État dit aux familles : envoyez vos enfant
 L'Asie de l'Est a montré qu'on pouvait constituer ce stock en une génération. L'Europe montre qu'on peut le laisser se déprécier à la frontière. L'Amérique latine montre ce qu'il coûte de scolariser sans apprendre. L'Asie du Sud montre qu'un système immense peut bouger quand il mesure. L'Afrique a le point de départ le plus bas, la démographie la plus exigeante et le capital le plus cher. Elle a aussi, pour la première fois, un instrument qui change le coût marginal de l'apprentissage, à condition qu'il s'insère dans un stock qui existe.
 
 Platon avait défini la cité juste comme celle où chacun occupe la place que ses capacités lui donnent, et non celle que sa naissance lui assigne. Il faut cesser de juger l'école sur ce qu'elle dépense, et la juger sur ce qu'elle forme.
+
+
+
+### Sigles
+
+ASER : Annual Status of Education Report, enquête citoyenne annuelle sur les fondamentaux dans l'Inde rurale, conduite par l'organisation Pratham depuis 2005.
+
+CONFEMEN : Conférence des ministres de l'Éducation des États et gouvernements de la Francophonie.
+
+ERCE : Estudio Regional Comparativo y Explicativo, évaluation régionale des apprentissages en Amérique latine et dans les Caraïbes, conduite par le bureau régional de l'UNESCO à Santiago.
+
+GPT-4 : modèle de langage de la société OpenAI utilisé dans l'essai d'Edo.
+
+IA : intelligence artificielle.
+
+NEET : Not in Employment, Education or Training, jeunes qui ne sont ni en emploi, ni en études, ni en formation.
+
+OCDE : Organisation de coopération et de développement économiques.
+
+OIT : Organisation internationale du Travail.
+
+PASEC : Programme d'analyse des systèmes éducatifs de la CONFEMEN, évaluation des acquis en fin de primaire dans les pays francophones d'Afrique.
+
+PIB : produit intérieur brut.
+
+PISA : Programme international pour le suivi des acquis des élèves, enquête triennale de l'OCDE auprès des élèves de quinze ans.
+
+SEA-PLM : Southeast Asia Primary Learning Metrics, évaluation régionale des apprentissages en fin de primaire en Asie du Sud-Est, conduite par le SEAMEO et l'UNICEF.
+
+SEAMEO : Southeast Asian Ministers of Education Organization.
+
+UIT : Union internationale des télécommunications.
+
+UNESCO : Organisation des Nations Unies pour l'éducation, la science et la culture.
+
+UNICEF : Fonds des Nations Unies pour l'enfance.
+
+Sources
+
+Les chiffres cités dans ce texte proviennent des publications suivantes. Le périmètre statistique « Afrique subsaharienne » est celui des sources ; il est repris tel quel lorsque la donnée n'existe pas à l'échelle du continent.
+
+- OCDE, PISA 2025 Results, volume I, Paris, 8 septembre 2026.
+- OCDE, PISA 2022 Results, volumes I et II, Paris, 2023.
+- Banque mondiale, UNESCO, UNICEF, FCDO, USAID et Fondation Bill et Melinda Gates, The State of Global Learning Poverty: 2022 Update, Washington, juin 2022.
+- UNESCO, Rapport mondial de suivi sur l'éducation, Paris, juillet 2026, section sur le financement de l'éducation et le service de la dette.
+- UNESCO et Institut de statistique de l'UNESCO, estimation du nombre d'enfants et de jeunes non scolarisés, Paris, 2025.
+- UNESCO et Équipe spéciale internationale sur les enseignants pour Éducation 2030, Rapport mondial sur les enseignants, Paris, 2024.
+- PASEC 2019. Qualité des systèmes éducatifs en Afrique subsaharienne francophone, Dakar, 2020.
+- UNESCO, bureau régional de Santiago, ERCE 2019. Rapport régional des résultats, Santiago, 2021.
+- Pratham, Annual Status of Education Report (Rural) 2024, New Delhi, janvier 2025.
+- SEAMEO et UNICEF, SEA-PLM 2024. Rapport régional, Bangkok, 2025, et rapport national du Viet Nam.
+- Eurostat, indicateur des sorties précoces du système d'éducation et de formation, données 2025, Luxembourg, 2026.
+- OIT, Tendances mondiales de l'emploi des jeunes 2024, Genève, 2024.
+- UNICEF, analyse du financement public de l'éducation en Afrique, New York, 2024.
+- UNICEF Innocenti, étude sur l'accès des élèves aux outils numériques et à internet en Afrique, Florence, 2024.
+- Giga, initiative conjointe de l'UNICEF et de l'UIT, cartographie de la connectivité des écoles et procédure d'achat pour 500 000 écoles africaines, 2025.
+- Banque mondiale, De Simone et al., From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria, Policy Research Working Paper, Washington, mai 2025.
+- Philippe Aghion, Ufuk Akcigit, Ari Hyytinen et Otto Toivanen, The Social Origins of Inventors, National Bureau of Economic Research, 2017.
+- James J. Heckman, « Skill Formation and the Economics of Investing in Disadvantaged Children », Science, vol. 312, 2006.
+- Union africaine, Stratégie continentale sur l'intelligence artificielle, Addis-Abeba, 2024.
+
+
+
+Institutional Public Policy Press, Théorie du Capital Institutionnel, New York, à paraître ; page du catalogue et document de travail [https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory](https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory)
+
