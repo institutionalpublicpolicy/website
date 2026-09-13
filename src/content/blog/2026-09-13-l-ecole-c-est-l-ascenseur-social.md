@@ -1,8 +1,12 @@
 ---
-title: "L'École, c'est l'ascenseur social. Elle ne vaut pas seulement par ce qu'elle coûte. Elle vaut par ce qu'elle forme."
+title: L'École, c'est l'ascenseur social. Elle ne vaut pas seulement par ce
+  qu'elle coûte. Elle vaut par ce qu'elle forme.
 date: 2026-09-13
 draft: false
-summary: PISA 2025, la pauvreté d'apprentissage, 44 millions d'enseignants manquants et une dette qui pèse 3,6 fois plus que l'école. Lire l'éducation comme un capital institutionnel, et ce que l'IA peut ou ne peut pas accélérer en Afrique.
+summary: PISA 2025, la pauvreté d'apprentissage, 44 millions d'enseignants
+  manquants et une dette qui pèse 3,6 fois plus que l'école. Lire l'éducation
+  comme un capital institutionnel, et ce que l'IA peut ou ne peut pas accélérer
+  en Afrique.
 ---
 ![Salle de lecture de la bibliothèque de Mines Paris PSL](/media/ecole-banniere.png)
 
@@ -16,7 +20,7 @@ L'ascenseur social n'est pas l'école. C'est le capital institutionnel de l'éco
 
 Platon voulait que la cité repère les talents quelle que soit leur naissance. Condorcet voulait que l'instruction publique soit la condition de l'égalité réelle. Cheikh Anta Diop voulait que l'enfant africain apprenne à penser dans sa langue. Mandela savait qu'un régime qui veut figer l'ordre social commence par contrôler l'école. Aucun d'eux ne raisonnait d'abord en budgets. Tous parlaient de ce que l'école forme. C'est le bon point de départ.
 
-### 1. Le problème mesuré : deux courbes qui divergent
+## 1. Le problème mesuré : deux courbes qui divergent
 
 Depuis 2000, le monde a gagné la bataille de l'accès bien plus vite que celle de l'apprentissage. Les deux courbes ne se sont pas suivies, et l'écart entre elles est la meilleure définition du problème.
 
@@ -44,7 +48,7 @@ Au Nord, le problème est inverse et pourtant symétrique. Les systèmes europé
 
 ![](/media/ecole-fig3.png)
 
-### 2. Lire ce problème comme un problème de capital
+## 2. Lire ce problème comme un problème de capital
 
 Voici la thèse. Ces courbes ne mesurent pas une insuffisance de dépense, ou pas seulement. Elles mesurent un défaut de conversion. Entre l'argent voté et la compétence acquise, il y a un stock, et c'est le rendement de ce stock qui fait la différence.
 
@@ -66,7 +70,7 @@ Il y a une conséquence à cette contrainte que les chiffres de dépense ne mont
 
 C'est là que se loge l'énigme que Philippe Aghion, colauréat du prix Nobel d'économie 2025, a étudiée avec Ufuk Akcigit, Ari Hyytinen et Otto Toivanen sur données finlandaises : même dans un pays à école gratuite, égalitaire et à forte mobilité, la probabilité de devenir inventeur reste fortement liée au milieu des parents, et ce qui pèse, une fois les aptitudes de l'enfant prises en compte, c'est l'éducation des parents plus que leur revenu. Autrement dit, même le meilleur stock institutionnel ne neutralise pas ce qui se transmet à la maison. Et chaque enfant doué que le système perd est une innovation qui n'aura pas lieu. La reproduction sociale n'est pas seulement une injustice ; c'est un coût de croissance.
 
-### 3. Quatre trajectoires, pas deux
+## 3. Quatre trajectoires, pas deux
 
 L'erreur habituelle est de comparer l'Afrique à l'Europe, un continent à un autre, comme s'ils partageaient un point de départ. Il est plus utile de positionner l'Afrique parmi quatre trajectoires qui se sont écrites sous nos yeux.
 
@@ -80,7 +84,7 @@ L'erreur habituelle est de comparer l'Afrique à l'Europe, un continent à un au
 
 L'Afrique n'est pas un cinquième cas. Elle est dispersée entre ces quatre trajectoires. Le Gabon et le Burundi ne sont pas sur la même courbe. Le Rwanda, le Kenya, le Sénégal et le Nigeria n'ont ni le même point de départ ni le même rythme. Ce qui les rapproche, c'est la contrainte commune : un stock enseignant sous les normes, un stock de mesure incomplet, une infrastructure inégale, et un coût du capital qui rend l'accumulation plus chère qu'ailleurs.
 
-### 4. À la sortie : ce que l'ascenseur livre
+## 4. À la sortie : ce que l'ascenseur livre
 
 L'ascenseur ne s'arrête pas au diplôme. Il faut regarder ce que le système livre au marché du travail.
 
@@ -92,7 +96,7 @@ Mais le taux NEET sous-estime le problème africain, parce qu'en Afrique subsaha
 
 Ce que ces chiffres disent, c'est que le rendement du stock éducatif se mesure aussi à sa connexion avec l'économie réelle, y compris l'économie informelle qui reste le premier employeur du continent. Un système qui produit des diplômés sans compétences dans une économie qui n'a pas d'emplois formels pour eux fabrique du ressentiment, pas de la mobilité.
 
-### 5. L'intelligence artificielle : accélérateur d'accumulation ou nouvelle dépendance
+## 5. L'intelligence artificielle : accélérateur d'accumulation ou nouvelle dépendance
 
 C'est la question stratégique, et il faut la poser sans enthousiasme ni réflexe.
 
@@ -104,9 +108,9 @@ Ces deux résultats ne se contredisent pas. Ils décrivent la même variable : l
 
 Pour l'Afrique, cela conduit à trois conclusions. La première est que l'IA peut effectivement accélérer l'accumulation : un tutorat structuré à bas coût, dans la langue de l'enfant, avec un enseignant dans la boucle, a produit un effet mesuré exceptionnellement élevé au regard de nombreuses interventions éducatives conventionnelles. Le protocole d'Edo paraît suffisamment structuré pour pouvoir être répliqué et testé dans d'autres contextes, et la nouveauté n'est pas le modèle de langage mais la manière de l'encadrer. La deuxième est que cette accélération suppose un stock minimal qui n'existe pas encore dans la majorité des écoles : de l'électricité, une connexion, des enseignants formés à ce rôle, un système d'évaluation pour vérifier que le gain est réel. Sans cela, l'IA restera ce qu'elle est dans les statistiques de PISA, un substitut à l'apprentissage. La troisième est que la contrainte de financement s'applique ici comme ailleurs : à 3,6 fois plus de service de la dette que d'éducation, la question n'est pas de savoir si l'IA marche, c'est de savoir qui paie le stock qui la fait marcher, et à quel taux.
 
-Il y a aussi un risque que le continent ne doit pas sous-estimer. Diop l'aurait vu tout de suite. Un tutorat d'IA qui parle anglais ou français à un enfant qui pense en wolof, en haoussa ou en kinyarwanda reproduit le premier tri de l'école coloniale à une échelle industrielle. La stratégie continentale de l'Union africaine sur l'IA évoque plus de deux mille langues. Aucun modèle commercial ne les couvre correctement. La souveraineté linguistique de l'apprentissage est une condition de l'accélération, pas un supplément.
+Il y a aussi un risque que le continent ne doit pas sous-estimer. Cheikh Anta Diop l'aurait vu tout de suite. Un tutorat d'IA qui parle anglais ou français à un enfant qui pense en wolof, en haoussa ou en kinyarwanda reproduit le premier tri de l'école coloniale à une échelle industrielle. La stratégie continentale de l'Union africaine sur l'IA évoque plus de deux mille langues. Aucun modèle commercial ne les couvre correctement. La souveraineté linguistique de l'apprentissage est une condition de l'accélération, pas un supplément.
 
-### 6. Une stratégie d'accumulation en cinq mouvements
+## 6. Une stratégie d'accumulation en cinq mouvements
 
 Ces trajectoires permettent de reformuler le problème éducatif dans les termes d'Institutional Capital Theory. L'accès scolaire mesure l'extension du système. L'apprentissage mesure son rendement. La qualité des enseignants, des dispositifs de mesure, des infrastructures, des routines et des mécanismes de gouvernance décrit son stock de capital institutionnel. L'attrition et l'obsolescence en mesurent la dépréciation. La dette et le coût du financement déterminent la vitesse à laquelle ce stock peut être accumulé ou renouvelé. Chacune des cinq recommandations qui suivent agit sur l'un de ces termes, dans cet ordre : la mesure, le stock humain, la composition de l'investissement, le multiplicateur technologique, les conditions de financement.
 
@@ -120,11 +124,11 @@ Si l'ascenseur est un stock, la stratégie consiste à accumuler ce stock plus v
 
 **Quatrième mouvement : déployer l'IA comme tutorat structuré, avec l'enseignant dans la boucle.** Le protocole d'Edo est un modèle : séances encadrées, consignes qui font raisonner, mesure avant et après, adossé à la connectivité que Giga déploie sur 500 000 écoles. Le mécanisme est un programme continental de tutorat fondé sur des modèles ouverts, adaptés aux langues nationales, avec une évaluation indépendante obligatoire avant tout passage à l'échelle. Le point de repère est un gain d'apprentissage mesuré, reproduit dans au moins trois pays, avant tout déploiement national. Sans mesure, on ne déploie pas.
 
-**Cinquième mouvement : traiter le stock éducatif comme un actif souverain dans les négociations de dette.** C'est le mouvement qui rend les quatre autres possibles, et c'est aussi celui qui va le plus loin au-delà des données. Ce que les chiffres établissent, c'est que le service de la dette évince la dépense d'éducation dans 113 pays. Ce qui suit est une implication de politique économique d'Institutional Capital Theory, pas un résultat démontré : si le capital éducatif est un actif, alors il doit être traité comme tel là où se décide le coût du capital. Le mécanisme comprend trois instruments : des échanges de dette contre éducation qui convertissent du service de la dette en dépense de formation vérifiable, sur le modèle des échanges dette contre climat ; la protection explicite de la dépense d'éducation dans les programmes de restructuration, en la sortant de la catégorie des dépenses ajustables ; et des instruments à décaissement lié aux résultats d'apprentissage plutôt qu'aux intrants. Le point de repère est de ramener le rapport entre service de la dette et dépense d'éducation en Afrique subsaharienne de 3,6 vers la parité en dix ans, et, proposition normative, de faire reconnaître par les agences de notation et les institutions financières que le capital institutionnel éducatif d'un pays est une composante de sa solvabilité future, pas une dépense sociale.
+**Cinquième mouvement : traiter le stock éducatif comme un actif souverain dans les négociations de dette.** C'est le mouvement qui rend les quatre autres possibles, et c'est aussi celui qui va le plus loin au-delà des données. Ce que les chiffres établissent, c'est que le service de la dette évince la dépense d'éducation dans 113 pays. Ce qui suit est une implication de politique économique de la Théorie du Capital Institutionnel, pas un résultat démontré : si le capital éducatif est un actif, alors il doit être traité comme tel là où se décide le coût du capital. Le mécanisme comprend trois instruments : des échanges de dette contre éducation qui convertissent du service de la dette en dépense de formation vérifiable, sur le modèle des échanges dette contre climat ; la protection explicite de la dépense d'éducation dans les programmes de restructuration, en la sortant de la catégorie des dépenses ajustables ; et des instruments à décaissement lié aux résultats d'apprentissage plutôt qu'aux intrants. Le point de repère est de ramener le rapport entre service de la dette et dépense d'éducation en Afrique subsaharienne de 3,6 vers la parité en dix ans, et, proposition normative, de faire reconnaître par les agences de notation et les institutions financières que le capital institutionnel éducatif d'un pays est une composante de sa solvabilité future, pas une dépense sociale.
 
 Ce dernier point est le plus important. Un pays qui forme ses enfants améliore sa capacité à lever l'impôt, à innover, à rembourser. Un pays qui sacrifie l'école au service de la dette dégrade cette capacité et finira par emprunter plus cher. C'est une boucle, et elle tourne aujourd'hui dans le mauvais sens pour la moitié de l'humanité.
 
-### Retrouver le sens de la promesse
+## Retrouver le sens de la promesse
 
 L'ascenseur social est un contrat. L'État dit aux familles : envoyez vos enfants, faites-leur confiance, et l'institution fera le reste. Le rapport sur la pauvreté d'apprentissage, l'OIT, PISA et le Rapport mondial de suivi disent tous la même chose avec des données différentes : dans une grande partie du monde, ce contrat n'est pas honoré, et l'insuffisance de financement n'en fournit qu'une partie de l'explication. Le problème tient aussi au stock qui transforme l'argent en compétence : il n'a pas été constitué, pas été entretenu, ou a été orienté vers ce qui rapporte vite plutôt que vers ce qui rapporte durablement.
 
