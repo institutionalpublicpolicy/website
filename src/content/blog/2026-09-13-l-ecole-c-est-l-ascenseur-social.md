@@ -16,7 +16,7 @@ Le 8 septembre 2026, l'OCDE a publié les résultats de PISA 2025. Ils sont les 
 
 Ces deux chiffres décrivent deux mondes. Dans l'un, la frontière recule. Dans l'autre, la majorité des enfants ne l'a jamais atteinte. Mais ils décrivent le même problème, et c'est ce problème que ce texte veut poser autrement.
 
-L'ascenseur social n'est pas l'école. C'est le capital institutionnel de l'école : le stock accumulé d'enseignants formés, de méthodes, de systèmes d'évaluation, de registres, de routines et de confiance qui transforme une dépense publique en apprentissage réel. Deux pays peuvent dépenser des montants comparables par élève et obtenir des résultats très différents. Institutional Capital Theory invite à chercher une partie de cet écart dans leur capacité différente à convertir les ressources en compétences. Appelons cette capacité l'efficacité de formation. La pauvreté d'apprentissage constitue l'un des indicateurs les plus directs du rendement de ce capital : elle mesure l'écart entre scolarisation et apprentissage effectif. Elle n'en est pas la mesure pure, car l'apprentissage dépend aussi du capital familial, de la langue parlée à la maison, de la nutrition, de la géographie et des conflits. Mais c'est l'écart que le système est censé combler, et c'est sur cet écart qu'on peut le juger.
+L'ascenseur social n'est pas l'école. C'est le capital institutionnel de l'école : le stock accumulé d'enseignants formés, de méthodes, de systèmes d'évaluation, de registres, de routines et de confiance qui transforme une dépense publique en apprentissage réel. Deux pays peuvent dépenser des montants comparables par élève et obtenir des résultats très différents. La Théorie du capital institutionnel invite à chercher une partie de cet écart dans leur capacité différente à convertir les ressources en compétences. Appelons cette capacité l'efficacité de formation. La pauvreté d'apprentissage constitue l'un des indicateurs les plus directs du rendement de ce capital : elle mesure l'écart entre scolarisation et apprentissage effectif. Elle n'en est pas la mesure pure, car l'apprentissage dépend aussi du capital familial, de la langue parlée à la maison, de la nutrition, de la géographie et des conflits. Mais c'est l'écart que le système est censé combler, et c'est sur cet écart qu'on peut le juger.
 
 Platon voulait que la cité repère les talents quelle que soit leur naissance. Condorcet voulait que l'instruction publique soit la condition de l'égalité réelle. Cheikh Anta Diop voulait que l'enfant africain apprenne à penser dans sa langue. Mandela savait qu'un régime qui veut figer l'ordre social commence par contrôler l'école. Aucun d'eux ne raisonnait d'abord en budgets. Tous parlaient de ce que l'école forme. C'est le bon point de départ.
 
@@ -112,7 +112,7 @@ Il y a aussi un risque que le continent ne doit pas sous-estimer. Cheikh Anta Di
 
 ## 6. Une stratégie d'accumulation en cinq mouvements
 
-Ces trajectoires permettent de reformuler le problème éducatif dans les termes d'Institutional Capital Theory. L'accès scolaire mesure l'extension du système. L'apprentissage mesure son rendement. La qualité des enseignants, des dispositifs de mesure, des infrastructures, des routines et des mécanismes de gouvernance décrit son stock de capital institutionnel. L'attrition et l'obsolescence en mesurent la dépréciation. La dette et le coût du financement déterminent la vitesse à laquelle ce stock peut être accumulé ou renouvelé. Chacune des cinq recommandations qui suivent agit sur l'un de ces termes, dans cet ordre : la mesure, le stock humain, la composition de l'investissement, le multiplicateur technologique, les conditions de financement.
+Ces trajectoires permettent de reformuler le problème éducatif dans les termes de la Théorie du capital institutionnel. L'accès scolaire mesure l'extension du système. L'apprentissage mesure son rendement. La qualité des enseignants, des dispositifs de mesure, des infrastructures, des routines et des mécanismes de gouvernance décrit son stock de capital institutionnel. L'attrition et l'obsolescence en mesurent la dépréciation. La dette et le coût du financement déterminent la vitesse à laquelle ce stock peut être accumulé ou renouvelé. Chacune des cinq recommandations qui suivent agit sur l'un de ces termes, dans cet ordre : la mesure, le stock humain, la composition de l'investissement, le multiplicateur technologique, les conditions de financement.
 
 Si l'ascenseur est un stock, la stratégie consiste à accumuler ce stock plus vite que quiconque ne l'a fait, avec un coût du capital plus élevé que quiconque. Cinq mouvements, chacun avec un point de repère chiffré tiré des données ci-dessus et un mécanisme.
 
@@ -124,7 +124,7 @@ Si l'ascenseur est un stock, la stratégie consiste à accumuler ce stock plus v
 
 **Quatrième mouvement : déployer l'IA comme tutorat structuré, avec l'enseignant dans la boucle.** Le protocole d'Edo est un modèle : séances encadrées, consignes qui font raisonner, mesure avant et après, adossé à la connectivité que Giga déploie sur 500 000 écoles. Le mécanisme est un programme continental de tutorat fondé sur des modèles ouverts, adaptés aux langues nationales, avec une évaluation indépendante obligatoire avant tout passage à l'échelle. Le point de repère est un gain d'apprentissage mesuré, reproduit dans au moins trois pays, avant tout déploiement national. Sans mesure, on ne déploie pas.
 
-**Cinquième mouvement : traiter le stock éducatif comme un actif souverain dans les négociations de dette.** C'est le mouvement qui rend les quatre autres possibles, et c'est aussi celui qui va le plus loin au-delà des données. Ce que les chiffres établissent, c'est que le service de la dette évince la dépense d'éducation dans 113 pays. Ce qui suit est une implication de politique économique de la Théorie du Capital Institutionnel, pas un résultat démontré : si le capital éducatif est un actif, alors il doit être traité comme tel là où se décide le coût du capital. Le mécanisme comprend trois instruments : des échanges de dette contre éducation qui convertissent du service de la dette en dépense de formation vérifiable, sur le modèle des échanges dette contre climat ; la protection explicite de la dépense d'éducation dans les programmes de restructuration, en la sortant de la catégorie des dépenses ajustables ; et des instruments à décaissement lié aux résultats d'apprentissage plutôt qu'aux intrants. Le point de repère est de ramener le rapport entre service de la dette et dépense d'éducation en Afrique subsaharienne de 3,6 vers la parité en dix ans, et, proposition normative, de faire reconnaître par les agences de notation et les institutions financières que le capital institutionnel éducatif d'un pays est une composante de sa solvabilité future, pas une dépense sociale.
+**Cinquième mouvement : traiter le stock éducatif comme un actif souverain dans les négociations de dette.** C'est le mouvement qui rend les quatre autres possibles, et c'est aussi celui qui va le plus loin au-delà des données. Ce que les chiffres établissent, c'est que le service de la dette évince la dépense d'éducation dans 113 pays. Ce qui suit est une implication de politique économique de la Théorie du capital institutionnel, pas un résultat démontré : si le capital éducatif est un actif, alors il doit être traité comme tel là où se décide le coût du capital. Le mécanisme comprend trois instruments : des échanges de dette contre éducation qui convertissent du service de la dette en dépense de formation vérifiable, sur le modèle des échanges dette contre climat ; la protection explicite de la dépense d'éducation dans les programmes de restructuration, en la sortant de la catégorie des dépenses ajustables ; et des instruments à décaissement lié aux résultats d'apprentissage plutôt qu'aux intrants. Le point de repère est de ramener le rapport entre service de la dette et dépense d'éducation en Afrique subsaharienne de 3,6 vers la parité en dix ans, et, proposition normative, de faire reconnaître par les agences de notation et les institutions financières que le capital institutionnel éducatif d'un pays est une composante de sa solvabilité future, pas une dépense sociale.
 
 Ce dernier point est le plus important. Un pays qui forme ses enfants améliore sa capacité à lever l'impôt, à innover, à rembourser. Un pays qui sacrifie l'école au service de la dette dégrade cette capacité et finira par emprunter plus cher. C'est une boucle, et elle tourne aujourd'hui dans le mauvais sens pour la moitié de l'humanité.
 
@@ -136,47 +136,43 @@ L'Asie de l'Est a montré qu'on pouvait constituer ce stock en une génération.
 
 Platon avait défini la cité juste comme celle où chacun occupe la place que ses capacités lui donnent, et non celle que sa naissance lui assigne. Il faut cesser de juger l'école sur ce qu'elle dépense, et la juger sur ce qu'elle forme.
 
-/ Fin
+***
 
-/
+## Sigles
 
-====================================================
+**ASER** : Annual Status of Education Report, enquête citoyenne annuelle sur les fondamentaux dans l'Inde rurale, conduite par l'organisation Pratham depuis 2005.
 
-### Sigles
+**CONFEMEN** : Conférence des ministres de l'Éducation des États et gouvernements de la Francophonie.
 
-ASER : Annual Status of Education Report, enquête citoyenne annuelle sur les fondamentaux dans l'Inde rurale, conduite par l'organisation Pratham depuis 2005.
+**ERCE** : Estudio Regional Comparativo y Explicativo, évaluation régionale des apprentissages en Amérique latine et dans les Caraïbes, conduite par le bureau régional de l'UNESCO à Santiago.
 
-CONFEMEN : Conférence des ministres de l'Éducation des États et gouvernements de la Francophonie.
+**GPT-4** : modèle de langage de la société OpenAI utilisé dans l'essai d'Edo.
 
-ERCE : Estudio Regional Comparativo y Explicativo, évaluation régionale des apprentissages en Amérique latine et dans les Caraïbes, conduite par le bureau régional de l'UNESCO à Santiago.
+**IA** : intelligence artificielle.
 
-GPT-4 : modèle de langage de la société OpenAI utilisé dans l'essai d'Edo.
+**NEET** : Not in Employment, Education or Training, jeunes qui ne sont ni en emploi, ni en études, ni en formation.
 
-IA : intelligence artificielle.
+**OCDE** : Organisation de coopération et de développement économiques.
 
-NEET : Not in Employment, Education or Training, jeunes qui ne sont ni en emploi, ni en études, ni en formation.
+**OIT** : Organisation internationale du Travail.
 
-OCDE : Organisation de coopération et de développement économiques.
+**PASEC** : Programme d'analyse des systèmes éducatifs de la CONFEMEN, évaluation des acquis en fin de primaire dans les pays francophones d'Afrique.
 
-OIT : Organisation internationale du Travail.
+**PIB** : produit intérieur brut.
 
-PASEC : Programme d'analyse des systèmes éducatifs de la CONFEMEN, évaluation des acquis en fin de primaire dans les pays francophones d'Afrique.
+**PISA** : Programme international pour le suivi des acquis des élèves, enquête triennale de l'OCDE auprès des élèves de quinze ans.
 
-PIB : produit intérieur brut.
+**SEA-PLM** : Southeast Asia Primary Learning Metrics, évaluation régionale des apprentissages en fin de primaire en Asie du Sud-Est, conduite par le SEAMEO et l'UNICEF.
 
-PISA : Programme international pour le suivi des acquis des élèves, enquête triennale de l'OCDE auprès des élèves de quinze ans.
+**SEAMEO** : Southeast Asian Ministers of Education Organization.
 
-SEA-PLM : Southeast Asia Primary Learning Metrics, évaluation régionale des apprentissages en fin de primaire en Asie du Sud-Est, conduite par le SEAMEO et l'UNICEF.
+**UIT** : Union internationale des télécommunications.
 
-SEAMEO : Southeast Asian Ministers of Education Organization.
+**UNESCO** : Organisation des Nations Unies pour l'éducation, la science et la culture.
 
-UIT : Union internationale des télécommunications.
+**UNICEF** : Fonds des Nations Unies pour l'enfance.
 
-UNESCO : Organisation des Nations Unies pour l'éducation, la science et la culture.
-
-UNICEF : Fonds des Nations Unies pour l'enfance.
-
-### Sources
+## Sources
 
 Les chiffres cités dans ce texte proviennent des publications suivantes. Le périmètre statistique « Afrique subsaharienne » est celui des sources ; il est repris tel quel lorsque la donnée n'existe pas à l'échelle du continent.
 
@@ -186,7 +182,7 @@ Les chiffres cités dans ce texte proviennent des publications suivantes. Le pé
 - UNESCO, Rapport mondial de suivi sur l'éducation, Paris, juillet 2026, section sur le financement de l'éducation et le service de la dette.
 - UNESCO et Institut de statistique de l'UNESCO, estimation du nombre d'enfants et de jeunes non scolarisés, Paris, 2025.
 - UNESCO et Équipe spéciale internationale sur les enseignants pour Éducation 2030, Rapport mondial sur les enseignants, Paris, 2024.
-- PASEC 2019. Qualité des systèmes éducatifs en Afrique subsaharienne francophone, Dakar, 2020.
+- CONFEMEN, PASEC 2019. Qualité des systèmes éducatifs en Afrique subsaharienne francophone, Dakar, 2020.
 - UNESCO, bureau régional de Santiago, ERCE 2019. Rapport régional des résultats, Santiago, 2021.
 - Pratham, Annual Status of Education Report (Rural) 2024, New Delhi, janvier 2025.
 - SEAMEO et UNICEF, SEA-PLM 2024. Rapport régional, Bangkok, 2025, et rapport national du Viet Nam.
@@ -202,5 +198,5 @@ Les chiffres cités dans ce texte proviennent des publications suivantes. Le pé
 
 
 
-Institutional Public Policy Press, Théorie du Capital Institutionnel, New York, à paraître ; page du catalogue et document de travail [https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory](https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory)
+Institutional Public Policy Press, Théorie du capital institutionnel, New York, à paraître ; page du catalogue et document de travail [https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory](https://institutionalpublicpolicy.org/fr/catalogue/institutional-capital-theory)
 
