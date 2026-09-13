@@ -138,7 +138,9 @@ Platon avait défini la cité juste comme celle où chacun occupe la place que s
 
 / Fin
 
-===============================================================================
+/
+
+====================================================
 
 ### Sigles
 
