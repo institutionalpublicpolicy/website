@@ -222,6 +222,11 @@ nav.langs a[aria-current="true"] { color: var(--pale); border-bottom-color: var(
 .entry-title { font-size: 1.25rem; margin: 0 0 0.4em; color: var(--cream); }
 .entry-title a { text-decoration: none; }
 .entry-title a:hover { text-decoration: underline; }
+.entry-with-image { display: flex; gap: 1.3em; align-items: flex-start; }
+.entry-thumb { flex: 0 0 150px; display: block; }
+.entry-thumb img { display: block; width: 100%; height: auto; border-radius: 3px; }
+.entry-body { flex: 1 1 auto; min-width: 0; }
+@media (max-width: 560px) { .entry-with-image { flex-direction: column; } .entry-thumb { flex: none; width: 100%; } }
 audio { width: 100%; margin: 0.6em 0 0.4em; }
 
 .book-subtitle.lead-sub { font-size: 1.08rem; line-height: 1.5; margin: -0.5em 0 1.6em; }
