@@ -16,4 +16,5 @@ eleventyComputed:
 <p class="entry-date">{{ p.date | dateLong("en") }}</p>
 <h1>{{ p.data.title }}</h1>
 {{ p.templateContent | safe }}
+{% include "subscribe.njk" %}
 <p class="quiet"><a href="/blog/">&larr; Blog</a></p>
