@@ -3,6 +3,7 @@ title: L'École, c'est l'ascenseur social. Elle ne vaut pas seulement par ce
   qu'elle coûte. Elle vaut par ce qu'elle forme.
 date: 2026-09-13
 draft: false
+image: /media/ecole-og.png
 summary: PISA 2025, la pauvreté d'apprentissage, 44 millions d'enseignants
   manquants et une dette qui pèse 3,6 fois plus que l'école. Lire l'éducation
   comme un capital institutionnel, et ce que l'IA peut ou ne peut pas accélérer
