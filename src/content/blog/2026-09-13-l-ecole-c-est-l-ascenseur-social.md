@@ -10,8 +10,6 @@ summary: PISA 2025, la pauvreté d'apprentissage, 44 millions d'enseignants
 ---
 ![Salle de lecture de la bibliothèque de Mines Paris PSL](/media/ecole-banniere.png)
 
-*Salle de lecture de la bibliothèque de Mines Paris PSL, hôtel de Vendôme, Paris (1926). Photo : Mines Paris PSL. Reproduite avec l'aimable autorisation de l'École.*
-
 Le 8 septembre 2026, l'OCDE a publié les résultats de PISA 2025. Ils sont les plus bas jamais enregistrés. Entre 2015 et 2025, la moyenne des pays de l'OCDE a perdu 28 points en lecture, soit environ un an et demi d'apprentissage, et 22 points en mathématiques, soit un peu plus d'une année scolaire. Un élève de quinze ans sur cinq est désormais en difficulté dans les trois matières, contre un sur six en 2022. Quatre ans plus tôt, la Banque mondiale et l'UNESCO avaient estimé que sept enfants de dix ans sur dix, dans les pays à revenu faible et intermédiaire, ne comprenaient pas un texte simple. En Afrique subsaharienne, neuf sur dix.
 
 Ces deux chiffres décrivent deux mondes. Dans l'un, la frontière recule. Dans l'autre, la majorité des enfants ne l'a jamais atteinte. Mais ils décrivent le même problème, et c'est ce problème que ce texte veut poser autrement.
@@ -136,7 +134,7 @@ L'Asie de l'Est a montré qu'on pouvait constituer ce stock en une génération.
 
 Platon avait défini la cité juste comme celle où chacun occupe la place que ses capacités lui donnent, et non celle que sa naissance lui assigne. Il faut cesser de juger l'école sur ce qu'elle dépense, et la juger sur ce qu'elle forme.
 
-***
+---
 
 ## Sigles
 
