@@ -13,10 +13,15 @@ description: "Notes from Institutional Public Policy Press."
 <p class="quiet">Nothing published yet.</p>
 {%- endif %}
 {%- for p in collections.posts %}
-<article class="entry">
+<article class="entry{% if p.data.image %} entry-with-image{% endif %}">
+  {%- if p.data.image %}
+  <a class="entry-thumb" href="/blog/{{ p.fileSlug }}.html"><img src="{{ p.data.image }}" alt=""></a>
+  {%- endif %}
+  <div class="entry-body">
   <p class="entry-date">{{ p.date | dateLong("en") }}</p>
   <h2 class="entry-title"><a href="/blog/{{ p.fileSlug }}.html">{{ p.data.title }}</a></h2>
   {%- if p.data.summary %}<p>{{ p.data.summary }}</p>{% endif %}
+  </div>
 </article>
 {%- endfor %}
 
