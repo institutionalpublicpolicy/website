@@ -222,11 +222,6 @@ nav.langs a[aria-current="true"] { color: var(--pale); border-bottom-color: var(
 .entry-title { font-size: 1.25rem; margin: 0 0 0.4em; color: var(--cream); }
 .entry-title a { text-decoration: none; }
 .entry-title a:hover { text-decoration: underline; }
-.entry-with-image { display: flex; gap: 1.3em; align-items: flex-start; }
-.entry-thumb { flex: 0 0 150px; display: block; }
-.entry-thumb img { display: block; width: 100%; height: auto; border-radius: 3px; }
-.entry-body { flex: 1 1 auto; min-width: 0; }
-@media (max-width: 560px) { .entry-with-image { flex-direction: column; } .entry-thumb { flex: none; width: 100%; } }
 audio { width: 100%; margin: 0.6em 0 0.4em; }
 
 .book-subtitle.lead-sub { font-size: 1.08rem; line-height: 1.5; margin: -0.5em 0 1.6em; }
@@ -272,3 +267,14 @@ main img {
 .cite-bibtex summary { font-size: .85em; opacity: .7; cursor: pointer; }
 .cta { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 2rem; }
 .cta a { display: inline-block; padding: .4rem .9rem; border: 1px solid currentColor; border-radius: 3px; text-decoration: none; font-size: .95em; }
+
+.subscribe { margin: 2.6em 0 1.4em; padding: 1.4em 0 0; border-top: 1px solid rgba(92,122,158,0.28); }
+.subscribe-title { font-size: 1.15rem; color: var(--cream); margin: 0 0 0.2em; }
+.subscribe p { margin: 0 0 0.6em; }
+.subscribe-form { display: flex; gap: 0.6em; margin: 0.8em 0 0.6em; }
+.subscribe-form input[type="email"] { flex: 1 1 auto; min-width: 0; font: inherit; padding: 0.55em 0.8em; border: 1px solid rgba(175,195,216,0.45); border-radius: 3px; background: rgba(255,255,255,0.06); color: var(--cream); }
+.subscribe-form input[type="email"]::placeholder { color: rgba(175,195,216,0.6); }
+.subscribe-form button { font: inherit; padding: 0.55em 1.1em; border: 1px solid var(--gold); border-radius: 3px; background: none; color: var(--gold); cursor: pointer; }
+.subscribe-form button:hover { background: var(--gold); color: #1F3A5F; }
+.subscribe-alt { font-size: 0.9rem; }
+@media (max-width: 480px) { .subscribe-form { flex-direction: column; } }
