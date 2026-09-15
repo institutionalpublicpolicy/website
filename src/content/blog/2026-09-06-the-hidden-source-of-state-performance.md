@@ -2,7 +2,7 @@
 title: The hidden source of state performance
 date: 2026-09-06
 draft: false
-image: /media/hidden-source-og.png
+image: /media/hidden-source-og.jpg
 summary: Institutions are not only rules. They are also capital. Why two states
   can spend alike, legislate alike, score alike on governance, and still
   diverge.
