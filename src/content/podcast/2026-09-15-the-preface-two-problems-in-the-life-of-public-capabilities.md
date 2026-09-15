@@ -9,4 +9,4 @@ audio: /media/podcast/episode-01-preface.mp3
 duration: 5:46
 bytes: 5535617
 ---
-**Read from the English edition of Institutional Capital Theory, published by Institutional Public Policy Press, New York. Sample chapters are available on the catalogue page.**
+Read from the English edition of Institutional Capital Theory, published by Institutional Public Policy Press, New York. Sample chapters are available on the catalogue page.
