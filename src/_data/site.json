@@ -4,6 +4,8 @@
   "url": "https://institutionalpublicpolicy.org",
   "email": "info@institutionalpublicpolicy.org",
   "og_image": "/media/og-default.png",
+  "whatsapp": "",
+  "podcast_image": "/media/podcast-cover.png",
   "address": {
     "en": "100 United Nations Plaza<br>New York, NY 10017, USA",
     "fr": "100 United Nations Plaza<br>New York, NY 10017, États-Unis",
@@ -69,6 +71,8 @@
     "in_preparation": { "en": "In preparation", "fr": "En préparation", "it": "In preparazione" },
     "lang_names":  { "en": "English, French, Italian", "fr": "anglais, français, italien", "it": "inglese, francese, italiano" },
     "blog_intro":  { "en": "Notes from the press.", "fr": "Notes de la maison.", "it": "Note dalla casa editrice." },
+    "podcast_summary": { "en": "Conversations on the economics of state capacity, public value and institutions, from Institutional Public Policy Press, New York. For economists, policy makers, multilateral development banks and international financial institutions, academics and students.", "fr": "Conversations sur l'économie de la capacité de l'État, de la valeur publique et des institutions, par Institutional Public Policy Press, New York. Pour les économistes, les décideurs publics, les banques multilatérales de développement et les institutions financières internationales, les universitaires et les étudiants.", "it": "Conversazioni sull'economia della capacità dello Stato, del valore pubblico e delle istituzioni, da Institutional Public Policy Press, New York. Per economisti, decisori pubblici, banche multilaterali di sviluppo e istituzioni finanziarie internazionali, accademici e studenti." },
+    "whatsapp_follow": { "en": "Follow on WhatsApp", "fr": "Suivre sur WhatsApp", "it": "Segui su WhatsApp" },
     "podcast_intro": { "en": "Conversations on the economics of state capacity.", "fr": "Conversations sur l'économie de la capacité de l'État.", "it": "Conversazioni sull'economia della capacità dello Stato." },
     "listen":      { "en": "Listen", "fr": "Écouter", "it": "Ascolta" },
     "read_more":   { "en": "Read", "fr": "Lire", "it": "Leggi" },
