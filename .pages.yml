@@ -185,11 +185,11 @@ content:
           - { name: fr, label: Français, type: rich-text }
           - { name: it, label: Italiano, type: rich-text }
 
-- name: settings
-  label: Links
-  type: file
-  path: src/_data/links.json
-  fields:
-    - { name: whatsapp, label: WhatsApp Channel link, type: string }
-    - { name: podcast_apple, label: Apple Podcasts show link, type: string }
-    - { name: podcast_spotify, label: Spotify show link, type: string }
+  - name: settings
+    label: Links
+    type: file
+    path: src/_data/links.json
+    fields:
+      - { name: whatsapp, label: WhatsApp Channel link, type: string }
+      - { name: podcast_apple, label: Apple Podcasts show link, type: string }
+      - { name: podcast_spotify, label: Spotify show link, type: string }
