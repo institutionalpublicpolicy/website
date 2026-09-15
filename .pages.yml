@@ -150,6 +150,7 @@ content:
       - { name: audio, label: Audio file address, type: string, description: "Public URL of the MP3" }
       - { name: duration, label: Duration, type: string, description: "e.g. 32:10" }
       - { name: bytes, label: File size in bytes, type: number }
+      - { name: bytes, label: File size in bytes, type: number }
       - { name: body, label: Show notes, type: rich-text }
 
   - name: pages
@@ -193,3 +194,8 @@ content:
       - { name: place, label: City, type: string }
       - { name: url, label: Site address, type: string }
       - { name: email, label: Contact email, type: string }
+      - { name: email, label: Contact email, type: string }
+      - { name: whatsapp, label: WhatsApp Channel link, type: string }
+      - { name: podcast_apple, label: Apple Podcasts show link, type: string }
+      - { name: podcast_spotify, label: Spotify show link, type: string }
+
