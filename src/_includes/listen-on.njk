@@ -1,6 +1,6 @@
 <p class="listen-on"><span class="listen-label">{{ site.labels.listen_on.en }}</span>
-  {%- if site.podcast_apple %} <a class="listen-btn" href="{{ site.podcast_apple }}" rel="noopener">Apple Podcasts</a>{% endif %}
-  {%- if site.podcast_spotify %} <a class="listen-btn" href="{{ site.podcast_spotify }}" rel="noopener">Spotify</a>{% endif %}
+  {%- if links.podcast_apple %} <a class="listen-btn" href="{{ links.podcast_apple }}" rel="noopener">Apple Podcasts</a>{% endif %}
+  {%- if links.podcast_spotify %} <a class="listen-btn" href="{{ links.podcast_spotify }}" rel="noopener">Spotify</a>{% endif %}
   <a class="listen-btn" href="/podcast/feed.xml">RSS</a>
-  {%- if not site.podcast_apple and not site.podcast_spotify %} <span class="quiet listen-coming">{{ site.labels.podcast_coming.en }}</span>{% endif %}
+  {%- if not links.podcast_apple and not links.podcast_spotify %} <span class="quiet listen-coming">{{ site.labels.podcast_coming.en }}</span>{% endif %}
 </p>
