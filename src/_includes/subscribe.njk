@@ -1,5 +1,5 @@
 <aside class="subscribe">
-  <p class="subscribe-title">New posts by email</p>
+  <p class="subscribe-title">{{ subscribe_title or "New posts by email" }}</p>
   <p class="quiet">One message per post, nothing else. Unsubscribe in one click.</p>
   <form action="https://buttondown.com/api/emails/embed-subscribe/ipppress" method="post" class="subscribe-form">
     <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
@@ -7,4 +7,5 @@
     <button type="submit">Subscribe</button>
   </form>
   <p class="quiet subscribe-alt">Or follow the <a href="/blog/feed.xml">RSS feed</a>{% if site.whatsapp %} or <a href="{{ site.whatsapp }}" rel="noopener">follow on WhatsApp</a>{% endif %}.</p>
+  {%- if section == "podcast/" %}{% include "listen-on.njk" %}{% endif %}
 </aside>
