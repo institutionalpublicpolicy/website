@@ -283,3 +283,18 @@ main img {
 .subscribe-form button:hover { background: var(--gold); color: #1F3A5F; }
 .subscribe-alt { font-size: 0.9rem; }
 @media (max-width: 480px) { .subscribe-form { flex-direction: column; } }
+
+/* Podcast */
+.show-header { display: flex; gap: 1.6em; align-items: flex-start; margin: 0 0 1.8em; }
+.show-cover { flex: 0 0 180px; width: 180px; height: 180px; border-radius: 4px; box-shadow: 0 6px 22px rgba(0,0,0,0.35); }
+.show-body { flex: 1 1 auto; min-width: 0; }
+.show-body h1 { margin-top: 0; }
+.episode-header .show-cover { flex-basis: 150px; width: 150px; height: 150px; }
+.entry-thumb-square { flex-basis: 120px; }
+.entry-thumb-square img { aspect-ratio: 1 / 1; object-fit: cover; }
+.listen-on { margin: 1em 0 0.4em; display: flex; flex-wrap: wrap; gap: 0.5em; align-items: center; }
+.listen-label { color: var(--pale); font-size: 0.86rem; letter-spacing: 0.08em; text-transform: uppercase; margin-right: 0.3em; }
+.listen-btn { display: inline-block; padding: 0.4em 0.9em; border: 1px solid var(--gold); border-radius: 3px; color: var(--gold); text-decoration: none; font-size: 0.92rem; }
+.listen-btn:hover { background: var(--gold); color: #1F3A5F; text-decoration: none; }
+.listen-coming { flex-basis: 100%; font-size: 0.9rem; }
+@media (max-width: 560px) { .show-header { flex-direction: column; } .show-cover, .episode-header .show-cover { width: 140px; height: 140px; flex-basis: auto; } }
