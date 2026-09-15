@@ -21,7 +21,7 @@
 {%- set ogimg = image or site.og_image -%}
 {%- set locales = { "en": "en_US", "fr": "fr_FR", "it": "it_IT" } -%}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-<meta property="og:type" content="{{ 'book' if image else 'website' }}">
+<meta property="og:type" content="{{ ogtype or ('book' if image else 'website') }}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:locale" content="{{ locales[lang] }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
