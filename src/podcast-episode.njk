@@ -8,12 +8,23 @@ permalink: "podcast/{{ e.fileSlug }}.html"
 layout: base.njk
 lang: en
 section: "podcast/"
+subscribe_title: "New posts and episodes by email"
 eleventyComputed:
    title: "{{ e.data.title | safe }} — Institutional Public Policy Press"
    description: "{{ e.data.summary | safe }}"
+   image: "{{ e.data.image or site.podcast_image }}"
+   ogtype: "website"
 ---
-<p class="entry-date">{{ e.date | dateLong("en") }}{% if e.data.duration %} · {{ e.data.duration }}{% endif %}</p>
-<h1>{{ e.data.title }}</h1>
+<div class="show-header episode-header">
+  <img class="show-cover" src="{{ e.data.image or site.podcast_image }}" alt="">
+  <div class="show-body">
+    <p class="entry-date">{{ e.date | dateLong("en") }}{% if e.data.duration %} · {{ e.data.duration }}{% endif %}</p>
+    <h1>{{ e.data.title }}</h1>
+    {%- if e.data.summary %}<p class="lede">{{ e.data.summary }}</p>{% endif %}
+  </div>
+</div>
 {%- if e.data.audio %}<audio controls preload="none" src="{{ e.data.audio }}"></audio>{% endif %}
 {{ e.templateContent | safe }}
+{% include "listen-on.njk" %}
+{% include "subscribe.njk" %}
 <p class="quiet"><a href="/podcast/">&larr; Podcast</a></p>
