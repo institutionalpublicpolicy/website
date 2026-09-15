@@ -6,6 +6,6 @@
     <input type="hidden" name="embed" value="1">
     <button type="submit">Subscribe</button>
   </form>
-  <p class="quiet subscribe-alt">Or follow the <a href="/blog/feed.xml">RSS feed</a>{% if site.whatsapp %} or <a href="{{ site.whatsapp }}" rel="noopener">follow on WhatsApp</a>{% endif %}.</p>
+  <p class="quiet subscribe-alt">Or follow the <a href="/blog/feed.xml">RSS feed</a>{% if links.whatsapp %} or <a href="{{ links.whatsapp }}" rel="noopener">follow on WhatsApp</a>{% endif %}.</p>
   {%- if section == "podcast/" %}{% include "listen-on.njk" %}{% endif %}
 </aside>
