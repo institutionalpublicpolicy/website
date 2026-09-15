@@ -5,19 +5,30 @@ lang: en
 section: "podcast/"
 title: "Podcast — Institutional Public Policy Press"
 description: "Conversations on the economics of state capacity."
+subscribe_title: "New posts and episodes by email"
 ---
-<h1>Podcast</h1>
-<p class="lede">{{ site.labels.podcast_intro.en }}</p>
-<p class="quiet"><a href="/podcast/feed.xml">RSS feed</a></p>
+<div class="show-header">
+  <img class="show-cover" src="{{ site.podcast_image }}" alt="{{ site.name }} podcast">
+  <div class="show-body">
+    <h1>Podcast</h1>
+    <p class="lede">{{ site.labels.podcast_intro.en }}</p>
+    {% include "listen-on.njk" %}
+  </div>
+</div>
 
 {%- if collections.episodes | length == 0 %}
 <p class="quiet">No episodes yet.</p>
 {%- endif %}
 {%- for e in collections.episodes %}
-<article class="entry">
+<article class="entry entry-with-image">
+  <a class="entry-thumb entry-thumb-square" href="/podcast/{{ e.fileSlug }}.html"><img src="{{ e.data.image or site.podcast_image }}" alt=""></a>
+  <div class="entry-body">
   <p class="entry-date">{{ e.date | dateLong("en") }}{% if e.data.duration %} · {{ e.data.duration }}{% endif %}</p>
   <h2 class="entry-title"><a href="/podcast/{{ e.fileSlug }}.html">{{ e.data.title }}</a></h2>
   {%- if e.data.summary %}<p>{{ e.data.summary }}</p>{% endif %}
   {%- if e.data.audio %}<audio controls preload="none" src="{{ e.data.audio }}"></audio>{% endif %}
+  </div>
 </article>
 {%- endfor %}
+
+{% include "subscribe.njk" %}
