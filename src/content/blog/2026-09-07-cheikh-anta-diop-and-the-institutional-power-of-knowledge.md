@@ -2,7 +2,7 @@
 title: Cheikh Anta Diop and the Institutional Power of Knowledge
 date: 2026-09-07
 draft: false
-image: /media/diop-og.png
+image: /media/diop-og.jpg
 summary: Cheikh Anta Diop's injunction to arm oneself with science, reads as a
   theory of institutional capital
 ---
