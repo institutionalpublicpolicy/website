@@ -3,14 +3,32 @@ permalink: "podcast/feed.xml"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>{{ site.name }}</title>
   <link>{{ site.url }}/podcast/</link>
   <atom:link href="{{ site.url }}/podcast/feed.xml" rel="self" type="application/rss+xml"/>
   <language>en</language>
-  <description>{{ site.labels.podcast_intro.en }}</description>
+  <copyright>© {{ site.name }}</copyright>
+  <description>{{ site.labels.podcast_summary.en }}</description>
+  <itunes:summary>{{ site.labels.podcast_summary.en }}</itunes:summary>
+  <itunes:subtitle>{{ site.labels.podcast_intro.en }}</itunes:subtitle>
   <itunes:author>{{ site.name }}</itunes:author>
+  <itunes:owner>
+    <itunes:name>{{ site.name }}</itunes:name>
+    <itunes:email>{{ site.email }}</itunes:email>
+  </itunes:owner>
+  <itunes:image href="{{ site.url }}{{ site.podcast_image }}"/>
+  <image>
+    <url>{{ site.url }}{{ site.podcast_image }}</url>
+    <title>{{ site.name }}</title>
+    <link>{{ site.url }}/podcast/</link>
+  </image>
+  <itunes:category text="Government"/>
+  <itunes:category text="Business"/>
+  <itunes:category text="Education"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
   {%- for e in collections.episodes %}
   <item>
     <title>{{ e.data.title }}</title>
@@ -18,8 +36,12 @@ eleventyExcludeFromCollections: true
     <guid isPermaLink="true">{{ site.url }}/podcast/{{ e.fileSlug }}.html</guid>
     <pubDate>{{ e.date | dateToRfc822 }}</pubDate>
     <description>{{ e.data.summary }}</description>
-    {%- if e.data.audio %}<enclosure url="{{ e.data.audio }}" type="audio/mpeg"{% if e.data.bytes %} length="{{ e.data.bytes }}"{% endif %}/>{% endif %}
+    <itunes:summary>{{ e.data.summary }}</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:episodeType>full</itunes:episodeType>
+    {%- if e.data.audio %}<enclosure url="{% if e.data.audio[0] == "/" %}{{ site.url }}{% endif %}{{ e.data.audio }}" type="audio/mpeg"{% if e.data.bytes %} length="{{ e.data.bytes }}"{% endif %}/>{% endif %}
     {%- if e.data.duration %}<itunes:duration>{{ e.data.duration }}</itunes:duration>{% endif %}
+    {%- if e.data.image %}<itunes:image href="{{ site.url }}{{ e.data.image }}"/>{% endif %}
   </item>
   {%- endfor %}
 </channel>
