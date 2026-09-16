@@ -45,7 +45,15 @@ eleventyConfig.addGlobalData("buildStamp", () => Date.now().toString(36));
     const titles = api.getFilteredByGlob("src/content/catalogue/*.md");
     return LANGS.flatMap((lang) => titles.map((title) => ({ lang, title })));
   });
-
+eleventyConfig.addCollection("papers", (api) =>
+    api.getFilteredByGlob("src/content/papers/*.md")
+       .filter((p) => !p.data.draft)
+       .sort((a, b) => (b.data.number || 0) - (a.data.number || 0))
+  );
+  eleventyConfig.addCollection("paperLangs", (api) => {
+    const papers = api.getFilteredByGlob("src/content/papers/*.md").filter((p) => !p.data.draft);
+    return LANGS.flatMap((lang) => papers.map((paper) => ({ lang, paper })));
+  });
   // ---- filters ------------------------------------------------------------
 
   // pick the field for the current language, falling back to English
