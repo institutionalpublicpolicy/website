@@ -10,8 +10,8 @@ doi: 10.5281/zenodo.22794567
 post: /blog/the-hidden-source-of-state-performance
 post_title:
   en: The hidden source of state performance
-  fr: The hidden source of state performance
-  it: The hidden source of state performance
+  fr: La source cachée de la performance de l'État
+  it: La fonte nascosta della performance dello Stato
 pubdate:
   en: July 2026
   fr: Juillet 2026
