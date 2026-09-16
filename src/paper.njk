@@ -10,6 +10,7 @@ width: wide
 eleventyComputed:
   lang: "{{ pl.lang }}"
   ogtype: article
+  image: "{{ pl.paper.data.image }}"
   file: "papers/{{ pl.paper.data.slug }}.html"
   title: "{{ pl.paper.data.title[pl.lang] | safe }} — Institutional Public Policy Press"
   description: "{{ (pl.paper.data.summary[pl.lang] | safe) if pl.paper.data.summary and pl.paper.data.summary[pl.lang] else (pl.paper.data.abstract[pl.lang] | md | striptags | truncate(220)) }}"
@@ -19,6 +20,9 @@ eleventyComputed:
 {%- set doi = d.doi or "" -%}
 {%- set year = d.year -%}
 <article class="book paper">
+{%- if d.image %}
+<figure class="paper-banner"><img src="{{ d.image }}" alt=""></figure>
+{%- endif %}
 
 <p class="shelf-status">{{ site.labels.paper_series | t(L) }} {{ d.number }}</p>
 <h1>{{ d.title | t(L) }}</h1>
