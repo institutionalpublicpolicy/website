@@ -249,6 +249,8 @@ main img {
 @keyframes ring-turn { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .ring svg { animation: none; } }
 /* book page */
+.paper-banner { margin: 0 0 1.6rem; }
+.paper-banner img { display: block; width: 100%; height: auto; border: 1px solid rgba(92, 122, 158, 0.55); }
 .book-cover { margin: 0 0 1.5rem; max-width: 260px; }
 .book-cover img { display: block; width: 100%; height: auto; border: 1px solid rgba(92, 122, 158, 0.55); }
 .book-cover figcaption { margin-top: 0.5rem; font-size: 0.8rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
