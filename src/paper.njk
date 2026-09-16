@@ -1,0 +1,133 @@
+---
+pagination:
+  data: collections.paperLangs
+  size: 1
+  alias: pl
+  addAllPagesToCollections: true
+permalink: "{{ pl.lang | langRoot }}papers/{{ pl.paper.data.slug }}.html"
+layout: base.njk
+width: wide
+eleventyComputed:
+  lang: "{{ pl.lang }}"
+  ogtype: article
+  file: "papers/{{ pl.paper.data.slug }}.html"
+  title: "{{ pl.paper.data.title[pl.lang] | safe }} — Institutional Public Policy Press"
+  description: "{{ (pl.paper.data.summary[pl.lang] | safe) if pl.paper.data.summary and pl.paper.data.summary[pl.lang] else (pl.paper.data.abstract[pl.lang] | md | striptags | truncate(220)) }}"
+---
+{%- set L = pl.lang -%}
+{%- set d = pl.paper.data -%}
+{%- set doi = d.doi or "" -%}
+{%- set year = d.year -%}
+<article class="book paper">
+
+<p class="shelf-status">{{ site.labels.paper_series | t(L) }} {{ d.number }}</p>
+<h1>{{ d.title | t(L) }}</h1>
+{%- if d.subtitle and d.subtitle[L] %}<p class="book-subtitle lead-sub">{{ d.subtitle | t(L) }}</p>{% endif %}
+{%- if d.author %}<p class="book-author">{{ d.author }}</p>{% endif %}
+
+<dl class="meta">
+  {%- if d.author %}
+  <div><dt>{{ site.labels.author | t(L) }}</dt><dd>{{ d.author }}</dd></div>
+  {%- endif %}
+  <div><dt>{{ site.labels.publisher | t(L) }}</dt><dd>{{ site.name }}, {{ site.place }}</dd></div>
+  <div><dt>{{ site.labels.pubdate | t(L) }}</dt><dd>{{ d.pubdate | t(L) }}</dd></div>
+  {%- if d.pages %}
+  <div><dt>{{ site.labels.pages | t(L) }}</dt><dd>{{ d.pages }} {{ site.labels.pp | t(L) }}</dd></div>
+  {%- endif %}
+  <div><dt>{{ site.labels.paper_lang | t(L) }}</dt><dd>{{ site.labels["lang_" + d.language] | t(L) }}</dd></div>
+  {%- if doi %}
+  <div><dt>{{ site.labels.doi | t(L) }}</dt><dd><a href="https://doi.org/{{ doi }}">{{ doi }}</a></dd></div>
+  {%- endif %}
+  {%- if d.subjects and d.subjects[L] %}
+  <div><dt>{{ site.labels.keywords | t(L) }}</dt><dd>{{ d.subjects[L] }}</dd></div>
+  {%- endif %}
+</dl>
+
+{%- if d.pdf %}
+<p class="sample"><a href="{{ d.pdf }}" download>{{ site.labels.read_paper | t(L) }} (PDF)</a></p>
+{%- endif %}
+
+{%- if d.abstract and d.abstract[L] %}
+<h2>{{ site.labels.abstract | t(L) }}</h2>
+{{ d.abstract[L] | md | safe }}
+{%- endif %}
+
+{%- if d.post %}
+<p>{{ site.labels.see_post | t(L) }} <a href="{{ d.post }}">{{ d.post_title | t(L) or d.post }}</a></p>
+{%- endif %}
+
+{%- set fulltitle %}{{ d.title | t(L) }}{% if d.subtitle and d.subtitle[L] %}: {{ d.subtitle | t(L) }}{% endif %}{% endset -%}
+{%- set auth = (d.author.split(" ") | last) + ", " + (d.author.split(" ") | first) if d.author else site.name -%}
+{%- set series = (site.labels.paper_series | t(L)) + " " + d.number -%}
+<details class="cite">
+<summary>{{ site.labels.cite_paper | t(L) }}</summary>
+<div class="cite-item"><span class="cite-style">APA</span><pre>{{ auth }} ({{ year }}). <em>{{ fulltitle }}</em> ({{ series }}). {{ site.name }}.{% if doi %} https://doi.org/{{ doi }}{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<div class="cite-item"><span class="cite-style">Chicago</span><pre>{{ auth }}. <em>{{ fulltitle }}</em>. {{ series }}. {{ site.place }}: {{ site.name }}, {{ year }}.{% if doi %} https://doi.org/{{ doi }}.{% endif %}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+<details class="cite-bibtex">
+<summary>{{ site.labels.bibtex | t(L) }}</summary>
+<div class="cite-item"><span class="cite-style">BibTeX</span><pre>@techreport{{ "{" }}{{ d.slug }}{{ year }},
+  author      = {{ "{" }}{{ auth }}},
+  title       = {{ "{" }}{{ fulltitle }}},
+  institution = {{ "{" }}{{ site.name }}},
+  type        = {{ "{" }}{{ site.labels.paper_series | t(L) }}},
+  number      = {{ "{" }}{{ d.number }}},
+  address     = {{ "{" }}{{ site.place }}},
+  year        = {{ "{" }}{{ year }}}{% if doi %},
+  doi         = {{ "{" }}{{ doi }}}{% endif %}
+}</pre><button type="button" data-copy>{{ site.labels.copy | t(L) }}</button></div>
+</details>
+</details>
+<script>
+document.querySelectorAll('.cite [data-copy]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    navigator.clipboard.writeText(b.previousElementSibling.innerText).then(function () {
+      b.textContent = '{{ site.labels.copied | t(L) }}';
+      setTimeout(function () { b.textContent = '{{ site.labels.copy | t(L) }}'; }, 1500);
+    });
+  });
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "{{ site.url }}/{{ L | langRoot }}papers/{{ d.slug }}.html",
+  "url": "{{ site.url }}/{{ L | langRoot }}papers/{{ d.slug }}.html",
+  "headline": {{ (d.title | t(L)) | dump | safe }},
+  {%- if d.subtitle and d.subtitle[L] %}
+  "alternativeHeadline": {{ (d.subtitle | t(L)) | dump | safe }},
+  {%- endif %}
+  "inLanguage": "{{ d.language }}",
+  "datePublished": "{{ year }}",
+  "isPartOf": { "@type": "Periodical", "name": {{ (site.labels.paper_series | t(L)) | dump | safe }} },
+  "issueNumber": "{{ d.number }}",
+  {%- if d.pages %}
+  "pagination": "{{ d.pages }}",
+  {%- endif %}
+  {%- if d.pdf %}
+  "encoding": { "@type": "MediaObject", "encodingFormat": "application/pdf", "contentUrl": "{{ site.url }}{{ d.pdf }}" },
+  {%- endif %}
+  {%- if doi %}
+  "sameAs": "https://doi.org/{{ doi }}",
+  {%- endif %}
+  {%- if d.subjects and d.subjects.en %}
+  "keywords": {{ d.subjects.en | dump | safe }},
+  {%- endif %}
+  "author": {
+    {%- if d.author %}
+    "@type": "Person",
+    "name": {{ d.author | dump | safe }}
+    {%- else %}
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }}
+    {%- endif %}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }},
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+
+</article>
