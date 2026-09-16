@@ -17,6 +17,8 @@
       { "href": "catalogue.html",   "label": "Catalogue" },
       { "href": "blog/",            "label": "Blog",    "root": true },
       { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "publishing-standards.html",    "label": "Standards" },
+      { "href": "publishing-with-ipp-press.html", "label": "Publishing with us" },
       { "href": "contact.html",     "label": "Contact" }
     ],
     "fr": [
@@ -25,6 +27,8 @@
       { "href": "catalogue.html",   "label": "Catalogue" },
       { "href": "blog/",            "label": "Blog",    "root": true },
       { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "publishing-standards.html",    "label": "Normes" },
+      { "href": "publishing-with-ipp-press.html", "label": "Publier avec nous" },
       { "href": "contact.html",     "label": "Contact" }
     ],
     "it": [
@@ -33,6 +37,8 @@
       { "href": "catalogue.html",   "label": "Catalogo" },
       { "href": "blog/",            "label": "Blog",    "root": true },
       { "href": "podcast/",         "label": "Podcast", "root": true },
+      { "href": "publishing-standards.html",    "label": "Standard" },
+      { "href": "publishing-with-ipp-press.html", "label": "Pubblicare con noi" },
       { "href": "contact.html",     "label": "Contatti" }
     ]
   },
