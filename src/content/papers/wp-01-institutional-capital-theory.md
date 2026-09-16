@@ -10,8 +10,8 @@ doi: 10.5281/zenodo.22794567
 post: /blog/the-hidden-source-of-state-performance
 post_title:
   en: The hidden source of state performance
-  fr: La source cachée de la performance de l'État
-  it: La fonte nascosta della performance dello Stato
+  fr: The hidden source of state performance
+  it: The hidden source of state performance
 pubdate:
   en: July 2026
   fr: Juillet 2026
@@ -22,7 +22,7 @@ title:
   it: La fonte nascosta della performance dello Stato
 subtitle:
   en: Institutional Capital Theory
-  fr: "Théorie du capital institutionnel "
+  fr: Théorie du capital institutionnel
   it: Teoria del capitale istituzionale
 summary:
   en: A framework that treats durable institutional capabilities as productive
