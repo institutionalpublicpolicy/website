@@ -119,6 +119,75 @@ content:
           - { name: fr, label: Français, type: rich-text }
           - { name: it, label: Italiano, type: rich-text }
 
+  - name: papers
+    label: Working papers
+    type: collection
+    path: src/content/papers
+    filename: "{fields.slug}.md"
+    view:
+      primary: title.en
+      fields: [title.en, number, year, draft]
+    fields:
+      - { name: slug, label: Address slug, type: string, required: true, description: "e.g. wp-02-short-title" }
+      - { name: number, label: Paper number, type: string, required: true }
+      - { name: draft, label: Draft, type: boolean, default: true, description: "Drafts are not published" }
+      - { name: year, label: Year, type: number }
+      - { name: language, label: Language of the paper, type: select, options: { values: [en, fr, it] }, default: en }
+      - { name: pages, label: Extent (pages), type: number }
+      - { name: author, label: Author, type: string, description: "Leave empty to withhold" }
+      - { name: pdf, label: Paper (PDF), type: file }
+      - { name: doi, label: DOI, type: string, description: "e.g. 10.5281/zenodo.xxxxxxxx, once registered" }
+      - { name: post, label: Blog post address, type: string, description: "e.g. /blog/the-hidden-source-of-state-performance" }
+      - name: post_title
+        label: Blog post title
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: pubdate
+        label: Date as shown
+        type: object
+        fields:
+          - { name: en, label: English, type: string, description: "e.g. July 2026" }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string, required: true }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: subtitle
+        label: Subtitle
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: summary
+        label: One-line summary
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: subjects
+        label: Keywords
+        type: object
+        fields:
+          - { name: en, label: English, type: string, description: "Comma separated" }
+          - { name: fr, label: Français, type: string }
+          - { name: it, label: Italiano, type: string }
+      - name: abstract
+        label: Abstract
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text }
+          - { name: fr, label: Français, type: rich-text }
+          - { name: it, label: Italiano, type: rich-text }
+
   - name: blog
     label: Blog
     type: collection
