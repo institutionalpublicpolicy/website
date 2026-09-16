@@ -17,8 +17,12 @@ pubdate:
   fr: Juillet 2026
   it: Luglio 2026
 title:
+  en: The hidden source of state performance
+  fr: La source cachée de la performance de l'État
+  it: La fonte nascosta della performance dello Stato
+subtitle:
   en: Institutional Capital Theory
-  fr: Théorie du capital institutionnel
+  fr: "Théorie du capital institutionnel "
   it: Teoria del capitale istituzionale
 summary:
   en: A framework that treats durable institutional capabilities as productive
