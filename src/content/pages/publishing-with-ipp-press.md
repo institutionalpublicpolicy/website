@@ -23,7 +23,7 @@ text:
 
     ## How a proposal is considered
 
-    The press does not yet receive unsolicited manuscripts. Authors who believe their work belongs here may send a short description of it, of no more than a page, with a table of contents and an indication of length, to info@institutionalpublicpolicy.org. The press replies to every proposal. Where there is interest, it asks for two sample chapters and, if those hold up, for the full manuscript, which then goes to external review under the process described on the peer review page.
+    The press does not yet receive unsolicited manuscripts. Authors who believe their work belongs here may send a short description of it, of no more than a page, with a table of contents and an indication of length, to [info@institutionalpublicpolicy.org](mailto:info@institutionalpublicpolicy.org?subject=Book%20proposal&body=Title%3A%0A%0AAuthor%20and%20affiliation%3A%0A%0ALanguage%20of%20the%20manuscript%3A%0A%0ADescription%20%28no%20more%20than%20a%20page%29%3A%0A%0A%0ATable%20of%20contents%3A%0A%0A%0AApproximate%20length%3A%0A). The press replies to every proposal. Where there is interest, it asks for two sample chapters and, if those hold up, for the full manuscript, which then goes to external review under the process described on the peer review page.
 
     ## What authors can expect
 
@@ -45,7 +45,7 @@ text:
 
     ## Comment une proposition est examinée
 
-    La maison ne reçoit pas encore de manuscrits non sollicités. Les auteurs qui estiment que leur travail a sa place ici peuvent en adresser une brève présentation, d'une page au plus, accompagnée d'une table des matières et d'une indication de longueur, à info@institutionalpublicpolicy.org. La maison répond à chaque proposition. Lorsqu'elle est intéressée, elle demande deux chapitres d'extrait puis, s'ils tiennent, le manuscrit complet, qui est alors soumis à une évaluation extérieure selon le processus décrit sur la page consacrée à l'évaluation par les pairs.
+    La maison ne reçoit pas encore de manuscrits non sollicités. Les auteurs qui estiment que leur travail a sa place ici peuvent en adresser une brève présentation, d'une page au plus, accompagnée d'une table des matières et d'une indication de longueur, à [info@institutionalpublicpolicy.org](mailto:info@institutionalpublicpolicy.org?subject=Proposition%20de%20livre&body=Titre%20%3A%0A%0AAuteur%20et%20affiliation%20%3A%0A%0ALangue%20du%20manuscrit%20%3A%0A%0APr%C3%A9sentation%20%28une%20page%20au%20plus%29%20%3A%0A%0A%0ATable%20des%20mati%C3%A8res%20%3A%0A%0A%0ALongueur%20approximative%20%3A%0A). La maison répond à chaque proposition. Lorsqu'elle est intéressée, elle demande deux chapitres d'extrait puis, s'ils tiennent, le manuscrit complet, qui est alors soumis à une évaluation extérieure selon le processus décrit sur la page consacrée à l'évaluation par les pairs.
 
     ## Ce que les auteurs peuvent attendre
 
@@ -67,7 +67,7 @@ text:
 
     ## Come viene esaminata una proposta
 
-    La casa editrice non riceve ancora manoscritti non richiesti. Gli autori che ritengono che il proprio lavoro trovi posto qui possono inviarne una breve descrizione, non più di una pagina, con un indice e un'indicazione della lunghezza, a info@institutionalpublicpolicy.org. La casa editrice risponde a ogni proposta. In caso di interesse, chiede due capitoli di saggio e, se reggono, il manoscritto completo, che passa quindi alla revisione esterna secondo il processo descritto nella pagina dedicata alla revisione paritaria.
+    La casa editrice non riceve ancora manoscritti non richiesti. Gli autori che ritengono che il proprio lavoro trovi posto qui possono inviarne una breve descrizione, non più di una pagina, con un indice e un'indicazione della lunghezza, a [info@institutionalpublicpolicy.org](mailto:info@institutionalpublicpolicy.org?subject=Proposta%20di%20libro&body=Titolo%3A%0A%0AAutore%20e%20affiliazione%3A%0A%0ALingua%20del%20manoscritto%3A%0A%0ADescrizione%20%28non%20pi%C3%B9%20di%20una%20pagina%29%3A%0A%0A%0AIndice%3A%0A%0A%0ALunghezza%20approssimativa%3A%0A). La casa editrice risponde a ogni proposta. In caso di interesse, chiede due capitoli di saggio e, se reggono, il manoscritto completo, che passa quindi alla revisione esterna secondo il processo descritto nella pagina dedicata alla revisione paritaria.
 
     ## Che cosa possono aspettarsi gli autori
 
