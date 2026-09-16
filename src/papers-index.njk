@@ -1,0 +1,27 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: L
+  addAllPagesToCollections: true
+permalink: "{{ L | langRoot }}papers.html"
+layout: base.njk
+eleventyComputed:
+  lang: "{{ L }}"
+  file: "papers.html"
+  title: "{{ site.labels.papers[L] }} — Institutional Public Policy Press"
+  description: "{{ site.labels.papers_intro[L] | safe }}"
+---
+<h1>{{ site.labels.papers | t(L) }}</h1>
+
+<p>{{ site.labels.papers_intro | t(L) }}</p>
+
+{%- for p in collections.papers %}
+<div class="entry">
+  <p class="entry-date">{{ site.labels.paper_series | t(L) }} {{ p.data.number }} · {{ p.data.pubdate | t(L) }}</p>
+  <h2 class="entry-title"><a href="/{{ L | langRoot }}papers/{{ p.data.slug }}.html">{{ p.data.title | t(L) }}</a></h2>
+  {%- if p.data.subtitle and p.data.subtitle[L] %}<p class="book-subtitle">{{ p.data.subtitle | t(L) }}</p>{% endif %}
+  {%- if p.data.author %}<p class="book-author">{{ p.data.author }}</p>{% endif %}
+  {%- if p.data.summary and p.data.summary[L] %}<p>{{ p.data.summary | t(L) }}</p>{% endif %}
+</div>
+{%- endfor %}
