@@ -136,6 +136,7 @@ content:
       - { name: pages, label: Extent (pages), type: number }
       - { name: author, label: Author, type: string, description: "Leave empty to withhold" }
       - { name: pdf, label: Paper (PDF), type: file }
+      - { name: image, label: Banner image, type: image, description: "Landscape, 3:2 or 16:9; shown on the list and at the top of the paper page" }
       - { name: doi, label: DOI, type: string, description: "e.g. 10.5281/zenodo.xxxxxxxx, once registered" }
       - { name: post, label: Blog post address, type: string, description: "e.g. /blog/the-hidden-source-of-state-performance" }
       - name: post_title
