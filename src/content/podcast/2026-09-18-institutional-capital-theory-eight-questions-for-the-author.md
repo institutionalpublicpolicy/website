@@ -1,7 +1,7 @@
 ---
 title: "Institutional Capital Theory: eight questions for the author"
 date: 2026-09-18
-draft: true
+draft: false
 summary: The author answers eight questions on what the book claims, what it
   refuses to claim, and what a finance ministry should do with it.
 audio: /media/podcast/episode-02-interview.mp3
